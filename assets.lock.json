@@ -1,0 +1,868 @@
+{
+  "version": 2,
+  "groups": {
+    "template": {
+      "name": "Template",
+      "order": 0
+    }
+  },
+  "bundles": {},
+  "assets": {
+    "assets/template/cardgame/banquet_tyrant.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c.webp",
+      "sha256": "sha256:14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c",
+      "size": 90700,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/battle_board.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/5b17c5976b44955a423c7d517651a0f0b436095f358c34ad9d06073ddca85d8d.webp",
+      "sha256": "sha256:5b17c5976b44955a423c7d517651a0f0b436095f358c34ad9d06073ddca85d8d",
+      "size": 131846,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/bell_of_the_last_service.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/2588cf2fb68a74bde7f2e6ed25f3282547079f8fa8dbe83c7e801065a706ee35/assets/cardgame/bell_of_the_last_service.png",
+      "sha256": "sha256:2588cf2fb68a74bde7f2e6ed25f3282547079f8fa8dbe83c7e801065a706ee35",
+      "size": 397943,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/braised_bulwark.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/f03a0ae7ab740706dc0fd9356e41fa681942f97a6fbaaf71fa380b853ed977c7.webp",
+      "sha256": "sha256:f03a0ae7ab740706dc0fd9356e41fa681942f97a6fbaaf71fa380b853ed977c7",
+      "size": 56402,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/broth_elemental.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/e7f5be42ea26eecb1f0ca42f950ed5513ef06a6eaffcab49dafef6cbca9bea91.webp",
+      "sha256": "sha256:e7f5be42ea26eecb1f0ca42f950ed5513ef06a6eaffcab49dafef6cbca9bea91",
+      "size": 76826,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/card_back.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/ac1afa4f342628dce22d75e4df3311c0688dfbb746e79a3c5e48393930cac9e6.webp",
+      "sha256": "sha256:ac1afa4f342628dce22d75e4df3311c0688dfbb746e79a3c5e48393930cac9e6",
+      "size": 81288,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cellar_rat.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/9953bed8029e4e79a88b56efe99931e29bf7301806383c5fd96db831ac8a5f51.webp",
+      "sha256": "sha256:9953bed8029e4e79a88b56efe99931e29bf7301806383c5fd96db831ac8a5f51",
+      "size": 54882,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/chef_sama.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/29911ebfe48f500e38666d2cd63d3b2e88492b0c6eec83ce57298668fdc4c283.webp",
+      "sha256": "sha256:29911ebfe48f500e38666d2cd63d3b2e88492b0c6eec83ce57298668fdc4c283",
+      "size": 127478,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/coal_squire.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/20a7692f5a55e3763710cbbaf303f9af4956937ce3efa5c5ef943d48366a91c0.webp",
+      "sha256": "sha256:20a7692f5a55e3763710cbbaf303f9af4956937ce3efa5c5ef943d48366a91c0",
+      "size": 42702,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursed_onion.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/a36696ceda92d670715595aec362579532ae7b68c34fb7aff2062f62d4112805.webp",
+      "sha256": "sha256:a36696ceda92d670715595aec362579532ae7b68c34fb7aff2062f62d4112805",
+      "size": 94842,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/attack.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/720cf252c6903636e7c7debf1805c00b11f78868b526b892654ae03ad9d3c267/assets/cardgame/cursors/attack.png",
+      "sha256": "sha256:720cf252c6903636e7c7debf1805c00b11f78868b526b892654ae03ad9d3c267",
+      "size": 9440,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/blocked.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/9707d71c2308328f091e9ad24a47d783db61fa344a2d00bdd7cbfe3b3a10665e/assets/cardgame/cursors/blocked.png",
+      "sha256": "sha256:9707d71c2308328f091e9ad24a47d783db61fa344a2d00bdd7cbfe3b3a10665e",
+      "size": 11372,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/cook.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/620d174703229bd6641a7f969a67def657eab446015b0c752c22081e0f21afa1/assets/cardgame/cursors/cook.png",
+      "sha256": "sha256:620d174703229bd6641a7f969a67def657eab446015b0c752c22081e0f21afa1",
+      "size": 9585,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/default.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/ddf6ba1acb55f56db53aa7517e57d71235639dfc801f6939361550d437707b9d/assets/cardgame/cursors/default.png",
+      "sha256": "sha256:ddf6ba1acb55f56db53aa7517e57d71235639dfc801f6939361550d437707b9d",
+      "size": 7042,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/grab.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/32c22aaf49b98db50d79353927847b41b263ade910bda59ade6318aa016cdf9e/assets/cardgame/cursors/grab.png",
+      "sha256": "sha256:32c22aaf49b98db50d79353927847b41b263ade910bda59ade6318aa016cdf9e",
+      "size": 7992,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/grabbing.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/4bd44c243c2d44322cef1151b5bc0c37598efe5f042c1c10ba08e70da7e41157/assets/cardgame/cursors/grabbing.png",
+      "sha256": "sha256:4bd44c243c2d44322cef1151b5bc0c37598efe5f042c1c10ba08e70da7e41157",
+      "size": 6013,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/inspect.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/a6f07f7c1c230dd947cce7afcce889f787d3dcc0753a241157509eb35dfa62b1/assets/cardgame/cursors/inspect.png",
+      "sha256": "sha256:a6f07f7c1c230dd947cce7afcce889f787d3dcc0753a241157509eb35dfa62b1",
+      "size": 10653,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/interact.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/8a181e48f9d14cee08c0b58d9577c3f142b610521f36ed1f723083a37f266ad6/assets/cardgame/cursors/interact.png",
+      "sha256": "sha256:8a181e48f9d14cee08c0b58d9577c3f142b610521f36ed1f723083a37f266ad6",
+      "size": 11582,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/route.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/48da88ca8a8967602af5afd9adbd4c0d65ee3a3892eacfecf70fbcd32850133e/assets/cardgame/cursors/route.png",
+      "sha256": "sha256:48da88ca8a8967602af5afd9adbd4c0d65ee3a3892eacfecf70fbcd32850133e",
+      "size": 15225,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/serve.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/48a1c90f7ccab5143f01782b812b2d35b68406b9a56bbdeca72b1efc4dbccba7/assets/cardgame/cursors/serve.png",
+      "sha256": "sha256:48a1c90f7ccab5143f01782b812b2d35b68406b9a56bbdeca72b1efc4dbccba7",
+      "size": 10165,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/support.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/25001a7f0d5f5acd948a5c3ec54cd57a7c3be57341f0eb10ebecd19051d0e28f/assets/cardgame/cursors/support.png",
+      "sha256": "sha256:25001a7f0d5f5acd948a5c3ec54cd57a7c3be57341f0eb10ebecd19051d0e28f",
+      "size": 8552,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/cursors/wait.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/1e1cddc2e16228175f08d0e80f707fc168c7426efe0b1e966478f4d72769cc9a/assets/cardgame/cursors/wait.png",
+      "sha256": "sha256:1e1cddc2e16228175f08d0e80f707fc168c7426efe0b1e966478f4d72769cc9a",
+      "size": 14127,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/dough_golem.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/d190f2278ef84406103dba842623511dc1dcf85384ef43d57750980a5dd753a8.webp",
+      "sha256": "sha256:d190f2278ef84406103dba842623511dc1dcf85384ef43d57750980a5dd753a8",
+      "size": 71676,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/dragonpepper_roast.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/77527c7c99502e560966f9e17b8ea7983d7a0716034f965c80d05deba686c9a9.webp",
+      "sha256": "sha256:77527c7c99502e560966f9e17b8ea7983d7a0716034f965c80d05deba686c9a9",
+      "size": 81270,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/ember_butcher.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/200c713811f2afe6aafe04acb31bba5b5eb5276422d54d48946c34909e8df834.webp",
+      "sha256": "sha256:200c713811f2afe6aafe04acb31bba5b5eb5276422d54d48946c34909e8df834",
+      "size": 70494,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/gravy_specter.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/e8334f5b4de47b47ad483041053199d8f9f316642720ef189809cbf9356714c9.webp",
+      "sha256": "sha256:e8334f5b4de47b47ad483041053199d8f9f316642720ef189809cbf9356714c9",
+      "size": 69494,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/icon_shield.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/f5e1d3bad31750b10fdd311845f82d766943b96b51367e4f94f150ad98f9d61f.webp",
+      "sha256": "sha256:f5e1d3bad31750b10fdd311845f82d766943b96b51367e4f94f150ad98f9d61f",
+      "size": 4346,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/icon_sword.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/795b4c7938eef2939cc17e29cd4861ff96ba11bef857ce1713e95a2dd9c273c1.webp",
+      "sha256": "sha256:795b4c7938eef2939cc17e29cd4861ff96ba11bef857ce1713e95a2dd9c273c1",
+      "size": 3138,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/ingredient_ember.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/994a7e38d27ce7a80081f785898823afb5c0bb3716584b711c04c58a7c3422f4/assets/cardgame/ingredient_ember.png",
+      "sha256": "sha256:994a7e38d27ce7a80081f785898823afb5c0bb3716584b711c04c58a7c3422f4",
+      "size": 122301,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/ingredient_fungus.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/563aae8d9fc01f3124d8bdab6d06e7cbcfff7b7f4955d8e147a5f390471749b0/assets/cardgame/ingredient_fungus.png",
+      "sha256": "sha256:563aae8d9fc01f3124d8bdab6d06e7cbcfff7b7f4955d8e147a5f390471749b0",
+      "size": 132650,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/ingredient_herb.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/9ea07769a0da2600227e2c54c723717d043f6ed86c23dcba1ceeb5806e4206ee/assets/cardgame/ingredient_herb.png",
+      "sha256": "sha256:9ea07769a0da2600227e2c54c723717d043f6ed86c23dcba1ceeb5806e4206ee",
+      "size": 145321,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/ingredient_meat.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/6301b32b2c467e0976efb74106de58add28a77b25a61afaa28800a3b0c0d18b4/assets/cardgame/ingredient_meat.png",
+      "sha256": "sha256:6301b32b2c467e0976efb74106de58add28a77b25a61afaa28800a3b0c0d18b4",
+      "size": 134530,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/armor_pan.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/6ae72f69d753f9fd6924d123eff57a6a7dfca655334d5489cc343700b0eab315/assets/cardgame/juice/armor_pan.png",
+      "sha256": "sha256:6ae72f69d753f9fd6924d123eff57a6a7dfca655334d5489cc343700b0eab315",
+      "size": 88039,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/card_back.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/eabf083643162029c239b89478577446a03a11b128a57ff0a34d110a459308d3/assets/cardgame/juice/card_back.png",
+      "sha256": "sha256:eabf083643162029c239b89478577446a03a11b128a57ff0a34d110a459308d3",
+      "size": 337449,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/cooking_cauldron.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/3f65e6b8f82b3206daf2ecfc183c4c9ba7657295e08c0dd88f2239585713feae/assets/cardgame/juice/cooking_cauldron.png",
+      "sha256": "sha256:3f65e6b8f82b3206daf2ecfc183c4c9ba7657295e08c0dd88f2239585713feae",
+      "size": 397357,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/encounter_seal.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/bd8bf5eabe37837213aaa159eaeffd710d9b356189204cede83013ebd23311ca/assets/cardgame/juice/encounter_seal.png",
+      "sha256": "sha256:bd8bf5eabe37837213aaa159eaeffd710d9b356189204cede83013ebd23311ca",
+      "size": 97765,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/mana_burner.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/0756eb646ea2690a472c8e9f668b80922ae3a90b410ec3ddc069aed1dc6a6a89/assets/cardgame/juice/mana_burner.png",
+      "sha256": "sha256:0756eb646ea2690a472c8e9f668b80922ae3a90b410ec3ddc069aed1dc6a6a89",
+      "size": 100620,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/pantry_jar.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/eac77192a62bdbc3ce2af3b64fefc8fdad13b00461841b26d746862d3b653d63/assets/cardgame/juice/pantry_jar.png",
+      "sha256": "sha256:eac77192a62bdbc3ce2af3b64fefc8fdad13b00461841b26d746862d3b653d63",
+      "size": 91107,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/juice/selection_knife.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/63379b954a313692e04b2c3dd7361e5bfcbcc4712a6e2c4c56754a2d812a2996/assets/cardgame/juice/selection_knife.png",
+      "sha256": "sha256:63379b954a313692e04b2c3dd7361e5bfcbcc4712a6e2c4c56754a2d812a2996",
+      "size": 34113,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/kitchen_break.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/075f9cd66933e07fe7b335044e8a140bee6d30c03f7346d1d2b0be726111dd9e.webp",
+      "sha256": "sha256:075f9cd66933e07fe7b335044e8a140bee6d30c03f7346d1d2b0be726111dd9e",
+      "size": 100710,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/kitchen_guard.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/9b665fb4ddcc1c13f287e8d34107ea9a0c57707d1e5c481aa9f02d2739ad3596.webp",
+      "sha256": "sha256:9b665fb4ddcc1c13f287e8d34107ea9a0c57707d1e5c481aa9f02d2739ad3596",
+      "size": 55020,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/deck_cradle.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/3cf715b35a677592fdd0c2d76b5eb3dc76d9aa12bbe2cf3f57462241f156041b/assets/cardgame/layout/deck_cradle.png",
+      "sha256": "sha256:3cf715b35a677592fdd0c2d76b5eb3dc76d9aa12bbe2cf3f57462241f156041b",
+      "size": 43371,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/end_turn_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/4649dbc033236bd6d0cf1ee60c968d751540b6cfefa26e6bcdef752cc8e154b2/assets/cardgame/layout/end_turn_frame.png",
+      "sha256": "sha256:4649dbc033236bd6d0cf1ee60c968d751540b6cfefa26e6bcdef752cc8e154b2",
+      "size": 38860,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/hero_station_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/20ab050f793570caba3581913346171ccd74aa241b6a6efd7d1fa48b651307c0/assets/cardgame/layout/hero_station_frame.png",
+      "sha256": "sha256:20ab050f793570caba3581913346171ccd74aa241b6a6efd7d1fa48b651307c0",
+      "size": 82716,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/history_ticket_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/f6d67c1aab8976e82cd026f841c255c9652e778953a3e24fea8f627efbd64bff/assets/cardgame/layout/history_ticket_frame.png",
+      "sha256": "sha256:f6d67c1aab8976e82cd026f841c255c9652e778953a3e24fea8f627efbd64bff",
+      "size": 8453,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/mana_rack_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/f8650234e0f71d6ec21ece6a7132708eabe51b4a368beafa2160f1066f79977b/assets/cardgame/layout/mana_rack_frame.png",
+      "sha256": "sha256:f8650234e0f71d6ec21ece6a7132708eabe51b4a368beafa2160f1066f79977b",
+      "size": 33639,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/pantry_tray_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/52dc980a9050c3e7f409cae297750147827f1ae8c0809a6e90346faa15d9836c/assets/cardgame/layout/pantry_tray_frame.png",
+      "sha256": "sha256:52dc980a9050c3e7f409cae297750147827f1ae8c0809a6e90346faa15d9836c",
+      "size": 55692,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/passive_medallion_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/906235d710adbc40daba483ad483830c2fd953d3487b9980053968fb7208dba2/assets/cardgame/layout/passive_medallion_frame.png",
+      "sha256": "sha256:906235d710adbc40daba483ad483830c2fd953d3487b9980053968fb7208dba2",
+      "size": 15527,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/turn_marker.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/a16543d1ead450aeed7f61fb8cf2399bf58d51b2694660b92ecd1530b2f453a3/assets/cardgame/layout/turn_marker.png",
+      "sha256": "sha256:a16543d1ead450aeed7f61fb8cf2399bf58d51b2694660b92ecd1530b2f453a3",
+      "size": 23830,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/layout/unit_plate_frame.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/13fb26defcfc9d875c8567630e4db5a1c2e1c4e427610061fa366005b47da989/assets/cardgame/layout/unit_plate_frame.png",
+      "sha256": "sha256:13fb26defcfc9d875c8567630e4db5a1c2e1c4e427610061fa366005b47da989",
+      "size": 73469,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/leaderboard_crest.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/297957bf3811608cd4cfbb69524ce5056cc5c6a75698c0bb606dc64d86d8cacd/assets/cardgame/leaderboard_crest.png",
+      "sha256": "sha256:297957bf3811608cd4cfbb69524ce5056cc5c6a75698c0bb606dc64d86d8cacd",
+      "size": 269869,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/leftover_stew.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/0ac62ef3d494481cda06a2360c4a2b2809846f12f31061a4517528398bcbd0fa.webp",
+      "sha256": "sha256:0ac62ef3d494481cda06a2360c4a2b2809846f12f31061a4517528398bcbd0fa",
+      "size": 47912,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/loading/emberpan-loading.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/07/game-template/game-trading-card/20260907-loading-v1/134eb0af1d1765ac7e686e213185ec90cbc099e44dba972b57d74788f7dc8236/assets/cardgame/loading/emberpan-loading.png",
+      "sha256": "sha256:134eb0af1d1765ac7e686e213185ec90cbc099e44dba972b57d74788f7dc8236",
+      "size": 1850907,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/meat_mimic.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/44465932c36b3eb438a70077a9e06d8dbacc268bf43b11248c770760e74ca261.webp",
+      "sha256": "sha256:44465932c36b3eb438a70077a9e06d8dbacc268bf43b11248c770760e74ca261",
+      "size": 53304,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/mise_en_place.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/ec1888ab8bfc76bb8057cdee6c8cb15a5738af0ab2cb77662b54f30ec0a6dfae.webp",
+      "sha256": "sha256:ec1888ab8bfc76bb8057cdee6c8cb15a5738af0ab2cb77662b54f30ec0a6dfae",
+      "size": 103798,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/mise_the_thousand_handed.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/24856311bd0973c2e076e9e013e75a1d5389638d99ee774383fdc273fa2b73e0/assets/cardgame/mise_the_thousand_handed.png",
+      "sha256": "sha256:24856311bd0973c2e076e9e013e75a1d5389638d99ee774383fdc273fa2b73e0",
+      "size": 267438,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/mold_monarch.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/4cfd22b7bb98e0a8746b0b6a40c8d5c63af3a7e66558940ad6364a4827ef7de7.webp",
+      "sha256": "sha256:4cfd22b7bb98e0a8746b0b6a40c8d5c63af3a7e66558940ad6364a4827ef7de7",
+      "size": 81510,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/moldling.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/c2ed59cd124d9aec556a428a7056fd2b8bae44ffc77f1385bbcd3a9c280233d5.webp",
+      "sha256": "sha256:c2ed59cd124d9aec556a428a7056fd2b8bae44ffc77f1385bbcd3a9c280233d5",
+      "size": 57182,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/mooncap_broth.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/f43a1d3b35f63fd43cc5f406417629bd8ce111be969c60b5164e7fc365ce8bce.webp",
+      "sha256": "sha256:f43a1d3b35f63fd43cc5f406417629bd8ce111be969c60b5164e7fc365ce8bce",
+      "size": 65326,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/music/emberpan_midnight_service.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/7e571f301ebd1265da8508d7592c8d1b8babb76df788be5e457e8277046ad19e/assets/cardgame/music/emberpan_midnight_service.wav",
+      "sha256": "sha256:7e571f301ebd1265da8508d7592c8d1b8babb76df788be5e457e8277046ad19e",
+      "size": 15840044,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/pan_paladin.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/b1d8623d87c5e64dc75b9a936f5160b718148e88654d2f0436c0923dc45046c1.webp",
+      "sha256": "sha256:b1d8623d87c5e64dc75b9a936f5160b718148e88654d2f0436c0923dc45046c1",
+      "size": 56686,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/pepper_mage.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/faab505e0495f51ac2e44bc6fc811096639665d26437665e3520a6f9312ce7f3.webp",
+      "sha256": "sha256:faab505e0495f51ac2e44bc6fc811096639665d26437665e3520a6f9312ce7f3",
+      "size": 57858,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/pickle_imp.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/59c5d795fa1b99ce82250a98e4690631056452b5d5fb7c3205a788b26bbe6ef3.webp",
+      "sha256": "sha256:59c5d795fa1b99ce82250a98e4690631056452b5d5fb7c3205a788b26bbe6ef3",
+      "size": 57150,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/picklemancer.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/6b73328f1e02e39e8508e13ed99d6800aa3d11e1701bcf5fc2320d9825cd31b6.webp",
+      "sha256": "sha256:6b73328f1e02e39e8508e13ed99d6800aa3d11e1701bcf5fc2320d9825cd31b6",
+      "size": 89564,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/precise_chop.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/cecef41519d1d033093f4fbb962d76cf19d5d81ccf80c9232e82b2f5c8ecc265.webp",
+      "sha256": "sha256:cecef41519d1d033093f4fbb962d76cf19d5d81ccf80c9232e82b2f5c8ecc265",
+      "size": 59844,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/searing_arc.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/4416b1863407d77a3b016afe0f186d4e0573cbf9f0a9e0844e70aedd21d6732f.webp",
+      "sha256": "sha256:4416b1863407d77a3b016afe0f186d4e0573cbf9f0a9e0844e70aedd21d6732f",
+      "size": 104916,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/seasoned_strike.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/13f3986fd664eaaad7f7140cdf433c7abf3f5cfa7c882d273c4f43632d5a9afd.webp",
+      "sha256": "sha256:13f3986fd664eaaad7f7140cdf433c7abf3f5cfa7c882d273c4f43632d5a9afd",
+      "size": 75742,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/armor.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/8b6b093d4c100829914f23daafa6c3469fdf00dbec413b46b879b71d61be5eeb/assets/cardgame/sfx/armor.wav",
+      "sha256": "sha256:8b6b093d4c100829914f23daafa6c3469fdf00dbec413b46b879b71d61be5eeb",
+      "size": 84078,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/blade.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/a9ff12a905ed013f6aa2b62a345b3ac8d9f4cb506bd31c74af8545d119dc36dc/assets/cardgame/sfx/blade.wav",
+      "sha256": "sha256:a9ff12a905ed013f6aa2b62a345b3ac8d9f4cb506bd31c74af8545d119dc36dc",
+      "size": 84078,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/boss.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/c209ec977ef85d44274af348618728afea117a91e5897ebc160ab9184e5a2635/assets/cardgame/sfx/boss.wav",
+      "sha256": "sha256:c209ec977ef85d44274af348618728afea117a91e5897ebc160ab9184e5a2635",
+      "size": 130124,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/broth.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/b7e9cba5975c82408b4184c1ca027e875268b43fb17da4d82a78ef025fffd756/assets/cardgame/sfx/broth.wav",
+      "sha256": "sha256:b7e9cba5975c82408b4184c1ca027e875268b43fb17da4d82a78ef025fffd756",
+      "size": 103278,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/buff.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/3ef9801731275d542f3cff5e4d788a76ff8d3c0c0ab893956862c621eb862d52/assets/cardgame/sfx/buff.wav",
+      "sha256": "sha256:3ef9801731275d542f3cff5e4d788a76ff8d3c0c0ab893956862c621eb862d52",
+      "size": 95564,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/character_attack.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/d7efa7458f5057dda8db4807213f79594aa922f49837dec21097d375de94cc09/assets/cardgame/sfx/character_attack.wav",
+      "sha256": "sha256:d7efa7458f5057dda8db4807213f79594aa922f49837dec21097d375de94cc09",
+      "size": 37970,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/click.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/0d3b732c13c36ccb46c47b9fb37d50a80eae3acdef7fedf4e217ccf7ad04f188/assets/cardgame/sfx/click.wav",
+      "sha256": "sha256:0d3b732c13c36ccb46c47b9fb37d50a80eae3acdef7fedf4e217ccf7ad04f188",
+      "size": 75688,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/cook.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/6a012d0e7d737fa314748223490bffbcb7cb1db74829dedb19b19ad556c7922c/assets/cardgame/sfx/cook.wav",
+      "sha256": "sha256:6a012d0e7d737fa314748223490bffbcb7cb1db74829dedb19b19ad556c7922c",
+      "size": 114798,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/defeat.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/becd08a047501a018946a92b8caeda52b75919c4bcc20b2dd257bf293993b091/assets/cardgame/sfx/defeat.wav",
+      "sha256": "sha256:becd08a047501a018946a92b8caeda52b75919c4bcc20b2dd257bf293993b091",
+      "size": 122478,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/draw.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/47e1f5b3a02ba4a87ac5606b48acdcfefd2849b41ce38c2d1993439beef09ae1/assets/cardgame/sfx/draw.wav",
+      "sha256": "sha256:47e1f5b3a02ba4a87ac5606b48acdcfefd2849b41ce38c2d1993439beef09ae1",
+      "size": 80148,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/fire.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/cab8fa1ce9e6f7d7fe931e454d7ab966310bcace32aa5f257b1b4356718873e8/assets/cardgame/sfx/fire.wav",
+      "sha256": "sha256:cab8fa1ce9e6f7d7fe931e454d7ab966310bcace32aa5f257b1b4356718873e8",
+      "size": 95598,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/fungus.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/b131f7109b193ba6a831b61a4a445bdf3d2df68ee85f2a18e28e4a0499dd9204/assets/cardgame/sfx/fungus.wav",
+      "sha256": "sha256:b131f7109b193ba6a831b61a4a445bdf3d2df68ee85f2a18e28e4a0499dd9204",
+      "size": 95598,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/heal.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/b9723a9c6c86a6534f045eca2ae8522baf0ee8bc8c31f98c4eff32316dca49ab/assets/cardgame/sfx/heal.wav",
+      "sha256": "sha256:b9723a9c6c86a6534f045eca2ae8522baf0ee8bc8c31f98c4eff32316dca49ab",
+      "size": 103278,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/heavy.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/81ff18d5f7cf0bf9efd0712d49a8466044d82dd332a2b9f67e33e6b4485067f7/assets/cardgame/sfx/heavy.wav",
+      "sha256": "sha256:81ff18d5f7cf0bf9efd0712d49a8466044d82dd332a2b9f67e33e6b4485067f7",
+      "size": 95598,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/hit.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/0283d813db7de7709c390255d49a0e3b54e955f5447e184f8ef84a476ddc6021/assets/cardgame/sfx/hit.wav",
+      "sha256": "sha256:0283d813db7de7709c390255d49a0e3b54e955f5447e184f8ef84a476ddc6021",
+      "size": 76398,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/hover.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/2ad7a3788b2eafd090bea417d1814d80560c46cb99774f9e2b36fad7f4fa590f/assets/cardgame/sfx/hover.wav",
+      "sha256": "sha256:2ad7a3788b2eafd090bea417d1814d80560c46cb99774f9e2b36fad7f4fa590f",
+      "size": 37822,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/invalid.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/a899bdcb85355bd9b27396a8aa5308bb519ce858b6b72d86bb0e7e41d135b67c/assets/cardgame/sfx/invalid.wav",
+      "sha256": "sha256:a899bdcb85355bd9b27396a8aa5308bb519ce858b6b72d86bb0e7e41d135b67c",
+      "size": 84078,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/material.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/99f4516ac9216537b27c14214cdebff9320f7fdfae4640d83cf984984507e855/assets/cardgame/sfx/material.wav",
+      "sha256": "sha256:99f4516ac9216537b27c14214cdebff9320f7fdfae4640d83cf984984507e855",
+      "size": 76390,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/meat.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/02a4f4ddbe3895de15902bb54e64a2df25771400700d39bd02508a83fa80edef/assets/cardgame/sfx/meat.wav",
+      "sha256": "sha256:02a4f4ddbe3895de15902bb54e64a2df25771400700d39bd02508a83fa80edef",
+      "size": 84014,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/overkill.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/91b4d40772d8f4b253c26a63363cc9f0c59941a0a86507e4fcfa5ba3b23e4120/assets/cardgame/sfx/overkill.wav",
+      "sha256": "sha256:91b4d40772d8f4b253c26a63363cc9f0c59941a0a86507e4fcfa5ba3b23e4120",
+      "size": 103244,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/play.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/bf0a8be033dd0b65eaee4408f6d59287a59cea7a8ebb956867b2d178b55fa3a6/assets/cardgame/sfx/play.wav",
+      "sha256": "sha256:bf0a8be033dd0b65eaee4408f6d59287a59cea7a8ebb956867b2d178b55fa3a6",
+      "size": 84078,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/precise.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/855230ed2c2a8943d63ef9b11d04b65fa99b654ba58889a742ffa7d0df8816c6/assets/cardgame/sfx/precise.wav",
+      "sha256": "sha256:855230ed2c2a8943d63ef9b11d04b65fa99b654ba58889a742ffa7d0df8816c6",
+      "size": 95598,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/summon.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/ee40ebcbf95090673e8d672b18aa3a1e5183365bf6db0ea78caddeb73d496298/assets/cardgame/sfx/summon.wav",
+      "sha256": "sha256:ee40ebcbf95090673e8d672b18aa3a1e5183365bf6db0ea78caddeb73d496298",
+      "size": 95598,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/technique_attack.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/54c3dcb56d72a8a7d769bd374f2194334e146b20e646e77785f1c94f1c2ef3b1/assets/cardgame/sfx/technique_attack.wav",
+      "sha256": "sha256:54c3dcb56d72a8a7d769bd374f2194334e146b20e646e77785f1c94f1c2ef3b1",
+      "size": 49726,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/technique_buff.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/38e1dc497baa87089ef8fe596813345f8c5df5884a6f1223a384bb9be40ddd37/assets/cardgame/sfx/technique_buff.wav",
+      "sha256": "sha256:38e1dc497baa87089ef8fe596813345f8c5df5884a6f1223a384bb9be40ddd37",
+      "size": 77682,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/turn.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/a39c854eaff0e16c33f074cb9a44c258fc8c21d86b9e703bb7fca4b21e09990f/assets/cardgame/sfx/turn.wav",
+      "sha256": "sha256:a39c854eaff0e16c33f074cb9a44c258fc8c21d86b9e703bb7fca4b21e09990f",
+      "size": 101550,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/victory.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/800af3e596d27f7fcf8e4d8620a2f5cfda1f703018ffa04663bbb476ce555b0d/assets/cardgame/sfx/victory.wav",
+      "sha256": "sha256:800af3e596d27f7fcf8e4d8620a2f5cfda1f703018ffa04663bbb476ce555b0d",
+      "size": 130158,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/sfx/voice.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/19f2c7a393fbb7f6d7f369b23046aa3e61daecd55ab6ec67bb38807b64b21d7d/assets/cardgame/sfx/voice.wav",
+      "sha256": "sha256:19f2c7a393fbb7f6d7f369b23046aa3e61daecd55ab6ec67bb38807b64b21d7d",
+      "size": 76398,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/the_sovereign_cleaver.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/cf7a26132db2c989ea4053f008e7f0f88fa1d4a0ab1c352952aef8743a6932c5/assets/cardgame/the_sovereign_cleaver.png",
+      "sha256": "sha256:cf7a26132db2c989ea4053f008e7f0f88fa1d4a0ab1c352952aef8743a6932c5",
+      "size": 372948,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/title_kitchen.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/a4c12758d0786b498f2eea60728098c995b0b69d6939a264d8e0f5d8c0df756f.webp",
+      "sha256": "sha256:a4c12758d0786b498f2eea60728098c995b0b69d6939a264d8e0f5d8c0df756f",
+      "size": 98108,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/truffle_knight.webp": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/ec8ff06d4b3cf3622b0186f9d826dffcaf1f0703ad7b98e2939a63396c7c5566.webp",
+      "sha256": "sha256:ec8ff06d4b3cf3622b0186f9d826dffcaf1f0703ad7b98e2939a63396c7c5566",
+      "size": 52176,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/tutorial/mise_guide.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/fbe16df8ed10bd6a27a64ce1be17fe905d34d8c2ac50756f5ea1e7ba3c2803b4/assets/cardgame/tutorial/mise_guide.png",
+      "sha256": "sha256:fbe16df8ed10bd6a27a64ce1be17fe905d34d8c2ac50756f5ea1e7ba3c2803b4",
+      "size": 269483,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/tutorial/spoon_pointer.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/5b93aae67fc01b4f01e14facfab33761e5345738ae34011630f87a2eafe7eeb2/assets/cardgame/tutorial/spoon_pointer.png",
+      "sha256": "sha256:5b93aae67fc01b4f01e14facfab33761e5345738ae34011630f87a2eafe7eeb2",
+      "size": 91111,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/cardgame/voiceovers/legendary_summon.wav": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/04/game-template/game-trading-card/2026.09.04-assets-v2/530587d6e3eab0f52b375339ef05da81764de113d271ad1a698105374bad9ec7/assets/cardgame/voiceovers/legendary_summon.wav",
+      "sha256": "sha256:530587d6e3eab0f52b375339ef05da81764de113d271ad1a698105374bad9ec7",
+      "size": 356810,
+      "assetType": "audio",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/Figtree-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-trading-card/2026.09.25-typography-v1/b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf/assets/template/fonts/Figtree-VF.subset.woff2",
+      "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf",
+      "size": 23660,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic/2026.09.25-typography-v1/38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412/assets/template/fonts/NotoSansSC-VF.subset.woff2",
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "size": 1869368,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/display/Cinzel-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-trading-card/2026.09.25-typography-v1/c989ab1bff3729946b0e62abb30b9726406e3b9058ba2896782de6617bbdb892/assets/template/fonts/display/Cinzel-VF.subset.woff2",
+      "sha256": "sha256:c989ab1bff3729946b0e62abb30b9726406e3b9058ba2896782de6617bbdb892",
+      "size": 42292,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/display/NotoSerifSC-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-trading-card/2026.09.25-typography-v1/c45ad04935d679c504926ca19420c2625cbd5f33f586559923979092fedc46ff/assets/template/fonts/display/NotoSerifSC-VF.subset.woff2",
+      "sha256": "sha256:c45ad04935d679c504926ca19420c2625cbd5f33f586559923979092fedc46ff",
+      "size": 2504168,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/ui/loading-background.png": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-trading-card/2026.09.25-typography-v1/b1cdf51b30251bb656540ed63098d45e9063325ead7585ed5afbbc78db2c7a11/assets/template/ui/loading-background.png",
+      "sha256": "sha256:b1cdf51b30251bb656540ed63098d45e9063325ead7585ed5afbbc78db2c7a11",
+      "size": 618199,
+      "assetType": "image",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "assetType": "font",
+      "groupId": "template",
+      "used": true,
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "size": 10308
+    }
+  }
+}

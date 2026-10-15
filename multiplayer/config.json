@@ -1,0 +1,6 @@
+{
+  "build": "game-trading-card-server-v4",
+  "signalingUrl": "",
+  "iceTransportPolicy": "all",
+  "bootstrapUrl": "multiplayer/bootstrap.json"
+}

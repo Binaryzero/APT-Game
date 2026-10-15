@@ -1,0 +1,15 @@
+{
+  "choice": "trading-card",
+  "prompt": "Use case: stylized-concept\nAsset type: original game loading-screen background, fully opaque landscape image, 1536x1024.\nPrimary request: premium illustrated loading background for the existing fantasy cooking card battler Emberpan: Midnight Service. Preserve its playful dark-fantasy midnight-kitchen identity and cooking/ingredient combat theme.\nScene/backdrop: a mysterious cozy stone kitchen at midnight, big copper pots and a warm ember-fired stove in the back, blue moonlight through a tall window, wooden pantry shelves with herbs, mushrooms and pickling jars.\nSubject: an original confident chef with rolled sleeves and apron prepares a pan at the left-middle; on the upper-right side, a mischievous small pickle imp, mushroom creature and dough golem peek from ingredients and cookware. A subtle fan of completely blank-backed illustrated playing cards sits near the far left edge, showing only simple ingredient motifs without writing, demonstrating the card-battler theme. The chef and creatures are friendly-macabre rather than scary.\nStyle/medium: polished painterly 2D game key art, bold readable shapes, tactile copper/wood/stone, rich but controlled detail, original stylized character design.\nComposition/framing: wide kitchen vista with chef, creatures, pots and stove in upper two-thirds and outer sides; the lower central third is an uncluttered dark wooden preparation counter with soft even shadow, reserved for live localized title/status/progress. Clear central negative space; no interface.\nLighting/mood: midnight indigo and plum shadows contrasted with warm amber hearth light and restrained ingredient greens.\nConstraints: no text, no letters, no numerals, no logo, no watermark, no UI or status bar, no card frames covering the image, no Godot branding, no baked particle overlays, no copyrighted franchise characters. Opaque edge-to-edge image, not a screenshot.",
+  "tool": "builtin image_gen.imagegen",
+  "model": "unknown",
+  "generatedMasterSha256": "b6e5078830b8266ca549548f63f1cb590852cfd54b33ca5054ce1986c69ec053",
+  "asset": "assets/template/ui/loading-background.png",
+  "assetSha256": "b1cdf51b30251bb656540ed63098d45e9063325ead7585ed5afbbc78db2c7a11",
+  "embeddedWebpSha256": "000354a5a691eaa07f43b246e0fceb575f6779400f04dcf6571831e1cab1bccc",
+  "processing": "Aspect-preserving downscale to 1280px width; 256-color PNG boot image and quality-82 WebP embedded before PCK; no text baked into either image.",
+  "bytes": {
+    "png": 618199,
+    "webp": 171942
+  }
+}

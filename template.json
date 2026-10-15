@@ -1,0 +1,11 @@
+{
+  "id": "game-trading-card",
+  "kind": "game",
+  "game_genre": "trading-card",
+  "status": "ready",
+  "name": "Trading Card Game",
+  "description": "A Godot 4.7 card-game foundation with a solo culinary campaign and exactly two-player, invite-only browser PvP. A dedicated WSS server owns gameplay, private hands, selectable starter decks, cosmetic heroes, one legendary per deck, readiness, reconnects and mutual rematches. Public multiplayer requires a running authoritative server endpoint.",
+  "capabilities": [
+    "static"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "mise_the_thousand_handed": {
+    "cost": 6,
+    "attack": 4,
+    "health": 7,
+    "aura": "low_cost_engine"
+  },
+  "the_sovereign_cleaver": {
+    "cost": 7,
+    "effect": "cleave",
+    "value": 5,
+    "target": "hero"
+  },
+  "bell_of_the_last_service": {
+    "cost": 8,
+    "effect": "bell",
+    "value": 3,
+    "heal": 8
+  },
+  "coal_squire": {
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "effect": "armor",
+    "value": 1
+  },
+  "pan_paladin": {
+    "cost": 2,
+    "attack": 2,
+    "health": 4,
+    "guard": true
+  },
+  "pepper_mage": {
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "effect": "damage",
+    "value": 2,
+    "target": "hero"
+  },
+  "broth_elemental": {
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "effect": "heal",
+    "value": 3
+  },
+  "truffle_knight": {
+    "cost": 5,
+    "attack": 5,
+    "health": 6,
+    "guard": true
+  },
+  "precise_chop": {
+    "cost": 1,
+    "effect": "damage",
+    "value": 2,
+    "target": "enemy"
+  },
+  "searing_arc": {
+    "cost": 3,
+    "effect": "area",
+    "value": 2,
+    "target": "hero"
+  },
+  "mise_en_place": {
+    "cost": 2,
+    "effect": "draw",
+    "value": 2
+  },
+  "kitchen_guard": {
+    "cost": 2,
+    "effect": "armor",
+    "value": 5
+  },
+  "seasoned_strike": {
+    "cost": 2,
+    "effect": "buff",
+    "value": 2,
+    "target": "friend"
+  }
+}

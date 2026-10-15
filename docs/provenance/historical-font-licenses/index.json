@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sourceStarterId": "game-trading-card-v54",
+  "scope": "Historical font metadata and license notices retained as evidence only. These replaced font binaries are absent from the current assets lock; this record does not describe active bundled fonts.",
+  "supersededFontProvenance": {
+    "family": "Template OFL faces + Noto Sans SC",
+    "files": [
+      "Cinzel-VF.subset.woff2",
+      "CinzelDecorative-Black.subset.woff2",
+      "Figtree-VF.subset.woff2",
+      "LilitaOne-Regular.subset.woff2",
+      "NotoSansSC-VF.subset.woff2",
+      "NotoSerifSC-VF.subset.woff2"
+    ],
+    "license": "OFL-1.1 (adjacent <Family>-OFL.txt)",
+    "retired": "ManusCC0 / ManusCC0 Sans CJK SC (earlier revisions only)"
+  },
+  "supersededTypographyMaintenance": {
+    "primaryFamily": "Template display + body OFL faces (assets/template/fonts)",
+    "languageFallbacks": "Noto Sans SC subset at matching weight; system fallback disabled.",
+    "bodyComposites": "assets/template/fonts/ui_{regular,medium,bold}.tres"
+  },
+  "supersededStatements": [
+    {
+      "field": "adaptations",
+      "text": "2026-09-25 typography polish: ManusCC0 retired from this revision; template-specific OFL display/body faces plus the Noto Sans SC subset (6,547-codepoint runtime CJK repertoire) ship as subset WOFF2 with adjacent OFL texts, restored from assets.lock.json (asset version 2026.09.25-typography-v1); first launch follows the browser/system language (zh* -> Simplified Chinese) unless a saved choice exists; loaders embed a Noto Sans SC subset."
+    },
+    {
+      "field": "maintenanceChanges",
+      "text": "2026-09-25 typography polish: ManusCC0 retired from this revision; template-specific OFL display/body faces plus the Noto Sans SC subset (6,547-codepoint runtime CJK repertoire) ship as subset WOFF2 with adjacent OFL texts, restored from assets.lock.json (asset version 2026.09.25-typography-v1); first launch follows the browser/system language (zh* -> Simplified Chinese) unless a saved choice exists; loaders embed a Noto Sans SC subset."
+    }
+  ],
+  "notices": [
+    {
+      "originalPath": "assets/template/fonts/display/CinzelDecorative-OFL.txt",
+      "archivedPath": "docs/provenance/historical-font-licenses/CinzelDecorative-OFL.txt",
+      "sha256": "1e5d6660366ddcfca4f2fc10e2acfba9fa4d97d40aec80d7dbfd41d730a420ae",
+      "size": 4393
+    },
+    {
+      "originalPath": "assets/template/fonts/display/LilitaOne-OFL.txt",
+      "archivedPath": "docs/provenance/historical-font-licenses/LilitaOne-OFL.txt",
+      "sha256": "255d5debbb80eb2ea762644311f266a279e8778f00156655a516e2b7781a63e1",
+      "size": 4392
+    }
+  ]
+}

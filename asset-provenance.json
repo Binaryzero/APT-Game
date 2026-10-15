@@ -1,0 +1,2488 @@
+{
+  "assets": {
+    "assets/template/cardgame/banquet_tyrant.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c",
+      "shipped": null,
+      "size": 90700,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/battle_board.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5b17c5976b44955a423c7d517651a0f0b436095f358c34ad9d06073ddca85d8d",
+      "shipped": null,
+      "size": 131846,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/bell_of_the_last_service.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:2588cf2fb68a74bde7f2e6ed25f3282547079f8fa8dbe83c7e801065a706ee35",
+      "shipped": null,
+      "size": 397943,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/braised_bulwark.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f03a0ae7ab740706dc0fd9356e41fa681942f97a6fbaaf71fa380b853ed977c7",
+      "shipped": null,
+      "size": 56402,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/broth_elemental.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:e7f5be42ea26eecb1f0ca42f950ed5513ef06a6eaffcab49dafef6cbca9bea91",
+      "shipped": null,
+      "size": 76826,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/card_back.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ac1afa4f342628dce22d75e4df3311c0688dfbb746e79a3c5e48393930cac9e6",
+      "shipped": null,
+      "size": 81288,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cellar_rat.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9953bed8029e4e79a88b56efe99931e29bf7301806383c5fd96db831ac8a5f51",
+      "shipped": null,
+      "size": 54882,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/chef_sama.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:29911ebfe48f500e38666d2cd63d3b2e88492b0c6eec83ce57298668fdc4c283",
+      "shipped": null,
+      "size": 127478,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/coal_squire.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:20a7692f5a55e3763710cbbaf303f9af4956937ce3efa5c5ef943d48366a91c0",
+      "shipped": null,
+      "size": 42702,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursed_onion.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a36696ceda92d670715595aec362579532ae7b68c34fb7aff2062f62d4112805",
+      "shipped": null,
+      "size": 94842,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/attack.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:720cf252c6903636e7c7debf1805c00b11f78868b526b892654ae03ad9d3c267",
+      "shipped": null,
+      "size": 9440,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/blocked.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9707d71c2308328f091e9ad24a47d783db61fa344a2d00bdd7cbfe3b3a10665e",
+      "shipped": null,
+      "size": 11372,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/cook.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:620d174703229bd6641a7f969a67def657eab446015b0c752c22081e0f21afa1",
+      "shipped": null,
+      "size": 9585,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/default.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ddf6ba1acb55f56db53aa7517e57d71235639dfc801f6939361550d437707b9d",
+      "shipped": null,
+      "size": 7042,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/grab.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:32c22aaf49b98db50d79353927847b41b263ade910bda59ade6318aa016cdf9e",
+      "shipped": null,
+      "size": 7992,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/grabbing.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4bd44c243c2d44322cef1151b5bc0c37598efe5f042c1c10ba08e70da7e41157",
+      "shipped": null,
+      "size": 6013,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/inspect.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a6f07f7c1c230dd947cce7afcce889f787d3dcc0753a241157509eb35dfa62b1",
+      "shipped": null,
+      "size": 10653,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/interact.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:8a181e48f9d14cee08c0b58d9577c3f142b610521f36ed1f723083a37f266ad6",
+      "shipped": null,
+      "size": 11582,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/route.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:48da88ca8a8967602af5afd9adbd4c0d65ee3a3892eacfecf70fbcd32850133e",
+      "shipped": null,
+      "size": 15225,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/serve.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:48a1c90f7ccab5143f01782b812b2d35b68406b9a56bbdeca72b1efc4dbccba7",
+      "shipped": null,
+      "size": 10165,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/support.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:25001a7f0d5f5acd948a5c3ec54cd57a7c3be57341f0eb10ebecd19051d0e28f",
+      "shipped": null,
+      "size": 8552,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/cursors/wait.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:1e1cddc2e16228175f08d0e80f707fc168c7426efe0b1e966478f4d72769cc9a",
+      "shipped": null,
+      "size": 14127,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/cursor_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/dough_golem.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d190f2278ef84406103dba842623511dc1dcf85384ef43d57750980a5dd753a8",
+      "shipped": null,
+      "size": 71676,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/dragonpepper_roast.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:77527c7c99502e560966f9e17b8ea7983d7a0716034f965c80d05deba686c9a9",
+      "shipped": null,
+      "size": 81270,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/ember_butcher.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:200c713811f2afe6aafe04acb31bba5b5eb5276422d54d48946c34909e8df834",
+      "shipped": null,
+      "size": 70494,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/gravy_specter.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:e8334f5b4de47b47ad483041053199d8f9f316642720ef189809cbf9356714c9",
+      "shipped": null,
+      "size": 69494,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/icon_shield.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f5e1d3bad31750b10fdd311845f82d766943b96b51367e4f94f150ad98f9d61f",
+      "shipped": null,
+      "size": 4346,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/icon_sword.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:795b4c7938eef2939cc17e29cd4861ff96ba11bef857ce1713e95a2dd9c273c1",
+      "shipped": null,
+      "size": 3138,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/ingredient_ember.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:994a7e38d27ce7a80081f785898823afb5c0bb3716584b711c04c58a7c3422f4",
+      "shipped": null,
+      "size": 122301,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/ingredient_fungus.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:563aae8d9fc01f3124d8bdab6d06e7cbcfff7b7f4955d8e147a5f390471749b0",
+      "shipped": null,
+      "size": 132650,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/ingredient_herb.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9ea07769a0da2600227e2c54c723717d043f6ed86c23dcba1ceeb5806e4206ee",
+      "shipped": null,
+      "size": 145321,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/ingredient_meat.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6301b32b2c467e0976efb74106de58add28a77b25a61afaa28800a3b0c0d18b4",
+      "shipped": null,
+      "size": 134530,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/armor_pan.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6ae72f69d753f9fd6924d123eff57a6a7dfca655334d5489cc343700b0eab315",
+      "shipped": null,
+      "size": 88039,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/card_back.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:eabf083643162029c239b89478577446a03a11b128a57ff0a34d110a459308d3",
+      "shipped": null,
+      "size": 337449,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/cooking_cauldron.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3f65e6b8f82b3206daf2ecfc183c4c9ba7657295e08c0dd88f2239585713feae",
+      "shipped": null,
+      "size": 397357,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/encounter_seal.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:bd8bf5eabe37837213aaa159eaeffd710d9b356189204cede83013ebd23311ca",
+      "shipped": null,
+      "size": 97765,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/mana_burner.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0756eb646ea2690a472c8e9f668b80922ae3a90b410ec3ddc069aed1dc6a6a89",
+      "shipped": null,
+      "size": 100620,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/pantry_jar.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:eac77192a62bdbc3ce2af3b64fefc8fdad13b00461841b26d746862d3b653d63",
+      "shipped": null,
+      "size": 91107,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/juice/selection_knife.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:63379b954a313692e04b2c3dd7361e5bfcbcc4712a6e2c4c56754a2d812a2996",
+      "shipped": null,
+      "size": 34113,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/kitchen_break.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:075f9cd66933e07fe7b335044e8a140bee6d30c03f7346d1d2b0be726111dd9e",
+      "shipped": null,
+      "size": 100710,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/kitchen_guard.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9b665fb4ddcc1c13f287e8d34107ea9a0c57707d1e5c481aa9f02d2739ad3596",
+      "shipped": null,
+      "size": 55020,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/deck_cradle.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3cf715b35a677592fdd0c2d76b5eb3dc76d9aa12bbe2cf3f57462241f156041b",
+      "shipped": null,
+      "size": 43371,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/end_turn_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4649dbc033236bd6d0cf1ee60c968d751540b6cfefa26e6bcdef752cc8e154b2",
+      "shipped": null,
+      "size": 38860,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/hero_station_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:20ab050f793570caba3581913346171ccd74aa241b6a6efd7d1fa48b651307c0",
+      "shipped": null,
+      "size": 82716,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/history_ticket_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f6d67c1aab8976e82cd026f841c255c9652e778953a3e24fea8f627efbd64bff",
+      "shipped": null,
+      "size": 8453,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/mana_rack_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f8650234e0f71d6ec21ece6a7132708eabe51b4a368beafa2160f1066f79977b",
+      "shipped": null,
+      "size": 33639,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/pantry_tray_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:52dc980a9050c3e7f409cae297750147827f1ae8c0809a6e90346faa15d9836c",
+      "shipped": null,
+      "size": 55692,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/passive_medallion_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:906235d710adbc40daba483ad483830c2fd953d3487b9980053968fb7208dba2",
+      "shipped": null,
+      "size": 15527,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/turn_marker.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a16543d1ead450aeed7f61fb8cf2399bf58d51b2694660b92ecd1530b2f453a3",
+      "shipped": null,
+      "size": 23830,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/layout/unit_plate_frame.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:13fb26defcfc9d875c8567630e4db5a1c2e1c4e427610061fa366005b47da989",
+      "shipped": null,
+      "size": 73469,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/leaderboard_crest.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:297957bf3811608cd4cfbb69524ce5056cc5c6a75698c0bb606dc64d86d8cacd",
+      "shipped": null,
+      "size": 269869,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/leftover_stew.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0ac62ef3d494481cda06a2360c4a2b2809846f12f31061a4517528398bcbd0fa",
+      "shipped": null,
+      "size": 47912,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/loading/emberpan-loading.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/boot.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:134eb0af1d1765ac7e686e213185ec90cbc099e44dba972b57d74788f7dc8236",
+      "shipped": null,
+      "size": 1850907,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/boot.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/meat_mimic.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:44465932c36b3eb438a70077a9e06d8dbacc268bf43b11248c770760e74ca261",
+      "shipped": null,
+      "size": 53304,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/mise_en_place.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ec1888ab8bfc76bb8057cdee6c8cb15a5738af0ab2cb77662b54f30ec0a6dfae",
+      "shipped": null,
+      "size": 103798,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/mise_the_thousand_handed.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:24856311bd0973c2e076e9e013e75a1d5389638d99ee774383fdc273fa2b73e0",
+      "shipped": null,
+      "size": 267438,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/mold_monarch.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4cfd22b7bb98e0a8746b0b6a40c8d5c63af3a7e66558940ad6364a4827ef7de7",
+      "shipped": null,
+      "size": 81510,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/moldling.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c2ed59cd124d9aec556a428a7056fd2b8bae44ffc77f1385bbcd3a9c280233d5",
+      "shipped": null,
+      "size": 57182,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/mooncap_broth.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f43a1d3b35f63fd43cc5f406417629bd8ce111be969c60b5164e7fc365ce8bce",
+      "shipped": null,
+      "size": 65326,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/music/emberpan_midnight_service.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:7e571f301ebd1265da8508d7592c8d1b8babb76df788be5e457e8277046ad19e",
+      "shipped": null,
+      "size": 15840044,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/pan_paladin.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b1d8623d87c5e64dc75b9a936f5160b718148e88654d2f0436c0923dc45046c1",
+      "shipped": null,
+      "size": 56686,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/pepper_mage.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:faab505e0495f51ac2e44bc6fc811096639665d26437665e3520a6f9312ce7f3",
+      "shipped": null,
+      "size": 57858,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/pickle_imp.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:59c5d795fa1b99ce82250a98e4690631056452b5d5fb7c3205a788b26bbe6ef3",
+      "shipped": null,
+      "size": 57150,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/picklemancer.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6b73328f1e02e39e8508e13ed99d6800aa3d11e1701bcf5fc2320d9825cd31b6",
+      "shipped": null,
+      "size": 89564,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/precise_chop.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:cecef41519d1d033093f4fbb962d76cf19d5d81ccf80c9232e82b2f5c8ecc265",
+      "shipped": null,
+      "size": 59844,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/searing_arc.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4416b1863407d77a3b016afe0f186d4e0573cbf9f0a9e0844e70aedd21d6732f",
+      "shipped": null,
+      "size": 104916,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/seasoned_strike.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:13f3986fd664eaaad7f7140cdf433c7abf3f5cfa7c882d273c4f43632d5a9afd",
+      "shipped": null,
+      "size": 75742,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/armor.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:8b6b093d4c100829914f23daafa6c3469fdf00dbec413b46b879b71d61be5eeb",
+      "shipped": null,
+      "size": 84078,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/blade.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a9ff12a905ed013f6aa2b62a345b3ac8d9f4cb506bd31c74af8545d119dc36dc",
+      "shipped": null,
+      "size": 84078,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/boss.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c209ec977ef85d44274af348618728afea117a91e5897ebc160ab9184e5a2635",
+      "shipped": null,
+      "size": 130124,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/broth.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b7e9cba5975c82408b4184c1ca027e875268b43fb17da4d82a78ef025fffd756",
+      "shipped": null,
+      "size": 103278,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/buff.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3ef9801731275d542f3cff5e4d788a76ff8d3c0c0ab893956862c621eb862d52",
+      "shipped": null,
+      "size": 95564,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/character_attack.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d7efa7458f5057dda8db4807213f79594aa922f49837dec21097d375de94cc09",
+      "shipped": null,
+      "size": 37970,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/click.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0d3b732c13c36ccb46c47b9fb37d50a80eae3acdef7fedf4e217ccf7ad04f188",
+      "shipped": null,
+      "size": 75688,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/cook.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6a012d0e7d737fa314748223490bffbcb7cb1db74829dedb19b19ad556c7922c",
+      "shipped": null,
+      "size": 114798,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/defeat.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:becd08a047501a018946a92b8caeda52b75919c4bcc20b2dd257bf293993b091",
+      "shipped": null,
+      "size": 122478,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/draw.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:47e1f5b3a02ba4a87ac5606b48acdcfefd2849b41ce38c2d1993439beef09ae1",
+      "shipped": null,
+      "size": 80148,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/fire.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:cab8fa1ce9e6f7d7fe931e454d7ab966310bcace32aa5f257b1b4356718873e8",
+      "shipped": null,
+      "size": 95598,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/fungus.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b131f7109b193ba6a831b61a4a445bdf3d2df68ee85f2a18e28e4a0499dd9204",
+      "shipped": null,
+      "size": 95598,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/heal.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b9723a9c6c86a6534f045eca2ae8522baf0ee8bc8c31f98c4eff32316dca49ab",
+      "shipped": null,
+      "size": 103278,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/heavy.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:81ff18d5f7cf0bf9efd0712d49a8466044d82dd332a2b9f67e33e6b4485067f7",
+      "shipped": null,
+      "size": 95598,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/hit.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0283d813db7de7709c390255d49a0e3b54e955f5447e184f8ef84a476ddc6021",
+      "shipped": null,
+      "size": 76398,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/hover.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:2ad7a3788b2eafd090bea417d1814d80560c46cb99774f9e2b36fad7f4fa590f",
+      "shipped": null,
+      "size": 37822,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/invalid.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a899bdcb85355bd9b27396a8aa5308bb519ce858b6b72d86bb0e7e41d135b67c",
+      "shipped": null,
+      "size": 84078,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/material.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:99f4516ac9216537b27c14214cdebff9320f7fdfae4640d83cf984984507e855",
+      "shipped": null,
+      "size": 76390,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/meat.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:02a4f4ddbe3895de15902bb54e64a2df25771400700d39bd02508a83fa80edef",
+      "shipped": null,
+      "size": 84014,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/overkill.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:91b4d40772d8f4b253c26a63363cc9f0c59941a0a86507e4fcfa5ba3b23e4120",
+      "shipped": null,
+      "size": 103244,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/play.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:bf0a8be033dd0b65eaee4408f6d59287a59cea7a8ebb956867b2d178b55fa3a6",
+      "shipped": null,
+      "size": 84078,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/precise.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:855230ed2c2a8943d63ef9b11d04b65fa99b654ba58889a742ffa7d0df8816c6",
+      "shipped": null,
+      "size": 95598,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/summon.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd",
+        "scripts/multiplayer.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ee40ebcbf95090673e8d672b18aa3a1e5183365bf6db0ea78caddeb73d496298",
+      "shipped": null,
+      "size": 95598,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd",
+        "scripts/multiplayer.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/technique_attack.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:54c3dcb56d72a8a7d769bd374f2194334e146b20e646e77785f1c94f1c2ef3b1",
+      "shipped": null,
+      "size": 49726,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/technique_buff.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:38e1dc497baa87089ef8fe596813345f8c5df5884a6f1223a384bb9be40ddd37",
+      "shipped": null,
+      "size": 77682,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/turn.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a39c854eaff0e16c33f074cb9a44c258fc8c21d86b9e703bb7fca4b21e09990f",
+      "shipped": null,
+      "size": 101550,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/victory.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:800af3e596d27f7fcf8e4d8620a2f5cfda1f703018ffa04663bbb476ce555b0d",
+      "shipped": null,
+      "size": 130158,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/sfx/voice.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:19f2c7a393fbb7f6d7f369b23046aa3e61daecd55ab6ec67bb38807b64b21d7d",
+      "shipped": null,
+      "size": 76398,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/the_sovereign_cleaver.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:cf7a26132db2c989ea4053f008e7f0f88fa1d4a0ab1c352952aef8743a6932c5",
+      "shipped": null,
+      "size": 372948,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/title_kitchen.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a4c12758d0786b498f2eea60728098c995b0b69d6939a264d8e0f5d8c0df756f",
+      "shipped": null,
+      "size": 98108,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/truffle_knight.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ec8ff06d4b3cf3622b0186f9d826dffcaf1f0703ad7b98e2939a63396c7c5566",
+      "shipped": null,
+      "size": 52176,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/tutorial/mise_guide.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:fbe16df8ed10bd6a27a64ce1be17fe905d34d8c2ac50756f5ea1e7ba3c2803b4",
+      "shipped": null,
+      "size": 269483,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/tutorial/spoon_pointer.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5b93aae67fc01b4f01e14facfab33761e5345738ae34011630f87a2eafe7eeb2",
+      "shipped": null,
+      "size": 91111,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/card_database.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/cardgame/voiceovers/legendary_summon.wav": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:530587d6e3eab0f52b375339ef05da81764de113d271ad1a698105374bad9ec7",
+      "shipped": null,
+      "size": 356810,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/juice_director.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/Figtree-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/display/card_button.tres",
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf",
+      "shipped": null,
+      "size": 23660,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/card_button.tres",
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "attributionRequired": false,
+        "commercialUseAllowed": true,
+        "copyrightNoticeRequired": false,
+        "editableProjectDistributionAllowed": true,
+        "id": "CC0-1.0",
+        "licenseNoticeRequired": false,
+        "modificationAllowed": true,
+        "modificationNoticeRequired": false,
+        "notice": "assets/template/fonts/ManusCC0-CC0.txt",
+        "redistributionAllowed": true,
+        "reusableTemplateDistributionAllowed": true,
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "origin": "external",
+      "receipt": {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "sha256": "sha256:97373f615495a7ade50dc82d69578758fa5ffed3b551b45c275c711dc4f235b6"
+      },
+      "referenceEvidence": [
+        "assets/template/fonts/display/card_number.tres",
+        "assets/template/fonts/display/card_title.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "shipped": null,
+      "size": 10308,
+      "source": {
+        "memberPath": "fonts/ManusCC0-Bold.woff2",
+        "name": "ManusCC0-Bold"
+      },
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/card_number.tres",
+        "assets/template/fonts/display/card_title.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "id": "OFL-1.1",
+        "url": "https://openfontlicense.org/open-font-license-official-text/"
+      },
+      "origin": "template",
+      "referenceEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "shipped": null,
+      "size": 1869368,
+      "source": {
+        "name": "NotoSansSC-VF.subset.woff2"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/display/Cinzel-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/display/card_heading.tres",
+        "assets/template/fonts/display/card_name.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:c989ab1bff3729946b0e62abb30b9726406e3b9058ba2896782de6617bbdb892",
+      "shipped": null,
+      "size": 42292,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/card_heading.tres",
+        "assets/template/fonts/display/card_name.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/display/NotoSerifSC-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/display/noto_serif_sc_bold.tres",
+        "assets/template/fonts/display/noto_serif_sc_heavy.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:c45ad04935d679c504926ca19420c2625cbd5f33f586559923979092fedc46ff",
+      "shipped": null,
+      "size": 2504168,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/noto_serif_sc_bold.tres",
+        "assets/template/fonts/display/noto_serif_sc_heavy.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/ui/loading-background.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "project.godot"
+      ],
+      "regions": [],
+      "sha256": "sha256:b1cdf51b30251bb656540ed63098d45e9063325ead7585ed5afbbc78db2c7a11",
+      "shipped": null,
+      "size": 618199,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "project.godot"
+      ],
+      "used": true,
+      "usedBy": []
+    }
+  },
+  "discoveries": {},
+  "downloads": {},
+  "procedures": {},
+  "summary": {
+    "ancestry": {
+      "ai": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      }
+    },
+    "derivatives": {
+      "retained": 0,
+      "shipped": null,
+      "used": 0
+    },
+    "exportedHostMedia": null,
+    "files": {
+      "downloaded": 0,
+      "retained": 107,
+      "shipped": null,
+      "used": 107
+    },
+    "origins": {
+      "ai": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "derivative": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "external": {
+        "retained": 1,
+        "shipped": null,
+        "used": 1
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "template": {
+        "retained": 1,
+        "shipped": null,
+        "used": 1
+      },
+      "unknown": {
+        "retained": 105,
+        "shipped": null,
+        "used": 105
+      }
+    },
+    "packs": {
+      "discovered": 0,
+      "downloaded": 0,
+      "shipped": null,
+      "used": 0
+    },
+    "proceduralSystems": {
+      "retained": 0,
+      "used": 0
+    },
+    "spriteRegions": {
+      "retained": 0,
+      "shipped": null,
+      "used": 0
+    }
+  },
+  "version": 1
+}
