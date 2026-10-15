@@ -1,0 +1,2517 @@
+{
+  "schema": "manus.game.release/v1",
+  "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+  "inputs": {
+    "objectFormat": "sha1",
+    "tree": "04f578cd9238efe1a8b5651855b0cec6764e9198",
+    "entries": [
+      {
+        "path": ".gitignore",
+        "type": "file",
+        "mode": "100644",
+        "object": "7cc7521dfa01cb8a81758da56430241090585d7e"
+      },
+      {
+        "path": ".manus-game-template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "693a662690ea14a5dff181649324c2e438e6bfc6"
+      },
+      {
+        "path": ".manus-starter-init.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "2228d853f0acfe2d58ff7a01445a7c1bf2588e42"
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "f28794336e45084e37b37cb5906c788e3071056e"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "8ed615fd13d7932f523e3a17b5100607ab17444a"
+      },
+      {
+        "path": "assets.lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8d4da08502d90659db510bb4cb9637d342346a20"
+      },
+      {
+        "path": "assets/pt/art_exploit.webp",
+        "type": "managed",
+        "sha256": "sha256:760458a4da5dba789c30a9f0ddcf92f68b93b5dc691524af385dbb48f04488c0"
+      },
+      {
+        "path": "assets/pt/art_exploit.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "975be9cb08412805c02e4415b937bd5aed1d085d"
+      },
+      {
+        "path": "assets/pt/art_malware.webp",
+        "type": "managed",
+        "sha256": "sha256:f57e95b6c8d516a0ff15deb29f2b34eecde8a99d73174d4b027f8b5310cfc64f"
+      },
+      {
+        "path": "assets/pt/art_malware.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "df06cd02450e52f3bc79d27b8d247e6c3ff77c9a"
+      },
+      {
+        "path": "assets/pt/art_production.webp",
+        "type": "managed",
+        "sha256": "sha256:ee910fbff6f1c4872e69c801077cff21f8e245919940c677084818c17f17a82d"
+      },
+      {
+        "path": "assets/pt/art_production.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "351c0de2b766308a43c4ae27d55a29970bbc24bd"
+      },
+      {
+        "path": "assets/pt/art_software.webp",
+        "type": "managed",
+        "sha256": "sha256:c97413b2112fcc0aa95f4c25fc48cf3c80b496a0791ac751718a6568d30e94b1"
+      },
+      {
+        "path": "assets/pt/art_software.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "335f8a07cac058381a032270d41b29173a7632d2"
+      },
+      {
+        "path": "assets/pt/art_staging.webp",
+        "type": "managed",
+        "sha256": "sha256:ae97d8a40496d494ef15fd288293c1d0f8811deab5e2cd469d6e5e5949e3033b"
+      },
+      {
+        "path": "assets/pt/art_staging.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f8c26fbc24743dde6ff4831f43751bd1236b56f5"
+      },
+      {
+        "path": "assets/pt/art_zeroday.webp",
+        "type": "managed",
+        "sha256": "sha256:2008a89a4245b338c1214b15736655150a63bc04464c3c681556c7241a02aa9a"
+      },
+      {
+        "path": "assets/pt/art_zeroday.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7b157700efeeda06dc89626b36bf835f53205a83"
+      },
+      {
+        "path": "assets/pt/bg_circuit.webp",
+        "type": "managed",
+        "sha256": "sha256:8d6f2c193e3de673aea35b0afee28ae6d1e419e10c381a6ffc1438d89db7803a"
+      },
+      {
+        "path": "assets/pt/bg_circuit.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8cb09789a0867b099fc6c4c1fe6a8c8a5ec3160e"
+      },
+      {
+        "path": "assets/pt/splash.png",
+        "type": "managed",
+        "sha256": "sha256:0682fec602055fc854b2b0f58e608e8d074eb92c9bf7948e020173e3f7a7c01b"
+      },
+      {
+        "path": "assets/pt/splash.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1ab5d4c3ddb2748b544a8f0fbec12a1942e17a74"
+      },
+      {
+        "path": "assets/share/favicon.png",
+        "type": "managed",
+        "sha256": "sha256:146152dcbf997713425c3b7ae1f988319349f3551928605843bbd95df0c53f5d"
+      },
+      {
+        "path": "assets/share/favicon.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "15510f8f350f3ae2ca0888c9ba6805142b809956"
+      },
+      {
+        "path": "assets/share/og.png",
+        "type": "managed",
+        "sha256": "sha256:ff64a4e786e7db4c543d850f336544dc51ad0e8ab1a82fd86ca5529fd8627faf"
+      },
+      {
+        "path": "assets/share/og.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3765fc862d424483da55e6f0f3ea6aac765cf156"
+      },
+      {
+        "path": "assets/template/cardgame/banquet_tyrant.webp",
+        "type": "managed",
+        "sha256": "sha256:14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c"
+      },
+      {
+        "path": "assets/template/cardgame/banquet_tyrant.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3b5c6a3975437b030b5b0efacdcd239da0098e5b"
+      },
+      {
+        "path": "assets/template/cardgame/battle_board.webp",
+        "type": "managed",
+        "sha256": "sha256:5b17c5976b44955a423c7d517651a0f0b436095f358c34ad9d06073ddca85d8d"
+      },
+      {
+        "path": "assets/template/cardgame/battle_board.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7bc0627615729610da546495f3b538bfe75a18f0"
+      },
+      {
+        "path": "assets/template/cardgame/bell_of_the_last_service.png",
+        "type": "managed",
+        "sha256": "sha256:2588cf2fb68a74bde7f2e6ed25f3282547079f8fa8dbe83c7e801065a706ee35"
+      },
+      {
+        "path": "assets/template/cardgame/bell_of_the_last_service.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "70babccc6454c371835ee65bfc7c1a7585b4c06c"
+      },
+      {
+        "path": "assets/template/cardgame/braised_bulwark.webp",
+        "type": "managed",
+        "sha256": "sha256:f03a0ae7ab740706dc0fd9356e41fa681942f97a6fbaaf71fa380b853ed977c7"
+      },
+      {
+        "path": "assets/template/cardgame/braised_bulwark.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2f549fb3ca664f9f476045437491a04ddfcea09a"
+      },
+      {
+        "path": "assets/template/cardgame/broth_elemental.webp",
+        "type": "managed",
+        "sha256": "sha256:e7f5be42ea26eecb1f0ca42f950ed5513ef06a6eaffcab49dafef6cbca9bea91"
+      },
+      {
+        "path": "assets/template/cardgame/broth_elemental.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c08743b466971eaedca846efbfca35153e10526b"
+      },
+      {
+        "path": "assets/template/cardgame/card_back.webp",
+        "type": "managed",
+        "sha256": "sha256:ac1afa4f342628dce22d75e4df3311c0688dfbb746e79a3c5e48393930cac9e6"
+      },
+      {
+        "path": "assets/template/cardgame/card_back.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9f4d3975b689a20c9e0ba7006167c418e938fbc3"
+      },
+      {
+        "path": "assets/template/cardgame/cellar_rat.webp",
+        "type": "managed",
+        "sha256": "sha256:9953bed8029e4e79a88b56efe99931e29bf7301806383c5fd96db831ac8a5f51"
+      },
+      {
+        "path": "assets/template/cardgame/cellar_rat.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a5586b2ea0a77e5b7efbd61394ba77a9b4d1c585"
+      },
+      {
+        "path": "assets/template/cardgame/chef_sama.webp",
+        "type": "managed",
+        "sha256": "sha256:29911ebfe48f500e38666d2cd63d3b2e88492b0c6eec83ce57298668fdc4c283"
+      },
+      {
+        "path": "assets/template/cardgame/chef_sama.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0ade08a788cd66a88b363611c05e4d2f634c22ac"
+      },
+      {
+        "path": "assets/template/cardgame/coal_squire.webp",
+        "type": "managed",
+        "sha256": "sha256:20a7692f5a55e3763710cbbaf303f9af4956937ce3efa5c5ef943d48366a91c0"
+      },
+      {
+        "path": "assets/template/cardgame/coal_squire.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2b1fdd4d7b2e613cd810c34046534e386d41f945"
+      },
+      {
+        "path": "assets/template/cardgame/cursed_onion.webp",
+        "type": "managed",
+        "sha256": "sha256:a36696ceda92d670715595aec362579532ae7b68c34fb7aff2062f62d4112805"
+      },
+      {
+        "path": "assets/template/cardgame/cursed_onion.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "efd3ce59191a5f07aa6828820ce027cbcad32a0d"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/attack.png",
+        "type": "managed",
+        "sha256": "sha256:720cf252c6903636e7c7debf1805c00b11f78868b526b892654ae03ad9d3c267"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/attack.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d529a411838197a54c68caf6bf87a5c42924aad0"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/blocked.png",
+        "type": "managed",
+        "sha256": "sha256:9707d71c2308328f091e9ad24a47d783db61fa344a2d00bdd7cbfe3b3a10665e"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/blocked.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d10d88dc1a759d912a846bf713edc1e7921bb7a7"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/cook.png",
+        "type": "managed",
+        "sha256": "sha256:620d174703229bd6641a7f969a67def657eab446015b0c752c22081e0f21afa1"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/cook.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "20d586f99f090716807de6d89a9f918785001dbc"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/default.png",
+        "type": "managed",
+        "sha256": "sha256:ddf6ba1acb55f56db53aa7517e57d71235639dfc801f6939361550d437707b9d"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/default.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "227566b55bc4696204064fe194cfe45dcdc03a4f"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/grab.png",
+        "type": "managed",
+        "sha256": "sha256:32c22aaf49b98db50d79353927847b41b263ade910bda59ade6318aa016cdf9e"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/grab.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9ef6712226fe4acc798b874dddac4bff9bf7757f"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/grabbing.png",
+        "type": "managed",
+        "sha256": "sha256:4bd44c243c2d44322cef1151b5bc0c37598efe5f042c1c10ba08e70da7e41157"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/grabbing.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5a5f719104c00e42cb867b001a63ba64d5e2e736"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/inspect.png",
+        "type": "managed",
+        "sha256": "sha256:a6f07f7c1c230dd947cce7afcce889f787d3dcc0753a241157509eb35dfa62b1"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/inspect.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "49e302c72072186c9af64e25a0ffa19d8e540731"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/interact.png",
+        "type": "managed",
+        "sha256": "sha256:8a181e48f9d14cee08c0b58d9577c3f142b610521f36ed1f723083a37f266ad6"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/interact.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1e5d475b2dc315587107e99c17975e055da3f769"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/route.png",
+        "type": "managed",
+        "sha256": "sha256:48da88ca8a8967602af5afd9adbd4c0d65ee3a3892eacfecf70fbcd32850133e"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/route.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e92ce58b952d239b82094bfbf3e9d390d7f3b381"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/serve.png",
+        "type": "managed",
+        "sha256": "sha256:48a1c90f7ccab5143f01782b812b2d35b68406b9a56bbdeca72b1efc4dbccba7"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/serve.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "cb4883606db7ab767ab5203b213c42bfbcdae189"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/support.png",
+        "type": "managed",
+        "sha256": "sha256:25001a7f0d5f5acd948a5c3ec54cd57a7c3be57341f0eb10ebecd19051d0e28f"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/support.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7cc6caf7bd628734903efd3063c88abf4216555b"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/wait.png",
+        "type": "managed",
+        "sha256": "sha256:1e1cddc2e16228175f08d0e80f707fc168c7426efe0b1e966478f4d72769cc9a"
+      },
+      {
+        "path": "assets/template/cardgame/cursors/wait.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2b05364dd0e83887d3aca3003f13bdf77b0fb976"
+      },
+      {
+        "path": "assets/template/cardgame/dough_golem.webp",
+        "type": "managed",
+        "sha256": "sha256:d190f2278ef84406103dba842623511dc1dcf85384ef43d57750980a5dd753a8"
+      },
+      {
+        "path": "assets/template/cardgame/dough_golem.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b93e2027f2003b4a21f6ca57f84a44255e724849"
+      },
+      {
+        "path": "assets/template/cardgame/dragonpepper_roast.webp",
+        "type": "managed",
+        "sha256": "sha256:77527c7c99502e560966f9e17b8ea7983d7a0716034f965c80d05deba686c9a9"
+      },
+      {
+        "path": "assets/template/cardgame/dragonpepper_roast.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "beb9c38a53bb1c64a3d88a890d2adde0fd629c3f"
+      },
+      {
+        "path": "assets/template/cardgame/ember_butcher.webp",
+        "type": "managed",
+        "sha256": "sha256:200c713811f2afe6aafe04acb31bba5b5eb5276422d54d48946c34909e8df834"
+      },
+      {
+        "path": "assets/template/cardgame/ember_butcher.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9178a6b1a0b3ae8e2f353876adfb274b496f569b"
+      },
+      {
+        "path": "assets/template/cardgame/gravy_specter.webp",
+        "type": "managed",
+        "sha256": "sha256:e8334f5b4de47b47ad483041053199d8f9f316642720ef189809cbf9356714c9"
+      },
+      {
+        "path": "assets/template/cardgame/gravy_specter.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a99b506494ef6e8aa958afa19b4f8ba4e755608a"
+      },
+      {
+        "path": "assets/template/cardgame/icon_shield.webp",
+        "type": "managed",
+        "sha256": "sha256:f5e1d3bad31750b10fdd311845f82d766943b96b51367e4f94f150ad98f9d61f"
+      },
+      {
+        "path": "assets/template/cardgame/icon_shield.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e6fab8ceed7d8c5a6e0e175200b6a4e1ba8492ee"
+      },
+      {
+        "path": "assets/template/cardgame/icon_sword.webp",
+        "type": "managed",
+        "sha256": "sha256:795b4c7938eef2939cc17e29cd4861ff96ba11bef857ce1713e95a2dd9c273c1"
+      },
+      {
+        "path": "assets/template/cardgame/icon_sword.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "902f77b0c0e4d4cbe312194669a350d2b3df6847"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_ember.png",
+        "type": "managed",
+        "sha256": "sha256:994a7e38d27ce7a80081f785898823afb5c0bb3716584b711c04c58a7c3422f4"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_ember.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "229180c24d3aaac732fef26bcd89aa893fbbbfc8"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_fungus.png",
+        "type": "managed",
+        "sha256": "sha256:563aae8d9fc01f3124d8bdab6d06e7cbcfff7b7f4955d8e147a5f390471749b0"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_fungus.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9cfe5c14fe7ba071170cff8009f50d0efcb572d8"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_herb.png",
+        "type": "managed",
+        "sha256": "sha256:9ea07769a0da2600227e2c54c723717d043f6ed86c23dcba1ceeb5806e4206ee"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_herb.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8767b2ea5c8811cd13e58536ea1f1998b94b5c6b"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_meat.png",
+        "type": "managed",
+        "sha256": "sha256:6301b32b2c467e0976efb74106de58add28a77b25a61afaa28800a3b0c0d18b4"
+      },
+      {
+        "path": "assets/template/cardgame/ingredient_meat.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "70d1afda74ebd1bf2eaedba64126af032c218d20"
+      },
+      {
+        "path": "assets/template/cardgame/juice/armor_pan.png",
+        "type": "managed",
+        "sha256": "sha256:6ae72f69d753f9fd6924d123eff57a6a7dfca655334d5489cc343700b0eab315"
+      },
+      {
+        "path": "assets/template/cardgame/juice/armor_pan.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "82e980f6672d70b1ac0ab0cf5fb87984d915084e"
+      },
+      {
+        "path": "assets/template/cardgame/juice/card_back.png",
+        "type": "managed",
+        "sha256": "sha256:eabf083643162029c239b89478577446a03a11b128a57ff0a34d110a459308d3"
+      },
+      {
+        "path": "assets/template/cardgame/juice/card_back.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "52253ffae6963c6981d9f0de8a8c305399510542"
+      },
+      {
+        "path": "assets/template/cardgame/juice/cooking_cauldron.png",
+        "type": "managed",
+        "sha256": "sha256:3f65e6b8f82b3206daf2ecfc183c4c9ba7657295e08c0dd88f2239585713feae"
+      },
+      {
+        "path": "assets/template/cardgame/juice/cooking_cauldron.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "ac99309be3d73609272606a3a04a83b4b7295b40"
+      },
+      {
+        "path": "assets/template/cardgame/juice/encounter_seal.png",
+        "type": "managed",
+        "sha256": "sha256:bd8bf5eabe37837213aaa159eaeffd710d9b356189204cede83013ebd23311ca"
+      },
+      {
+        "path": "assets/template/cardgame/juice/encounter_seal.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a54b659cf083793a5f18b90441b3489aede087c9"
+      },
+      {
+        "path": "assets/template/cardgame/juice/mana_burner.png",
+        "type": "managed",
+        "sha256": "sha256:0756eb646ea2690a472c8e9f668b80922ae3a90b410ec3ddc069aed1dc6a6a89"
+      },
+      {
+        "path": "assets/template/cardgame/juice/mana_burner.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e0fcc57b0169b2c3299343a3c8c6d9ba96c59136"
+      },
+      {
+        "path": "assets/template/cardgame/juice/pantry_jar.png",
+        "type": "managed",
+        "sha256": "sha256:eac77192a62bdbc3ce2af3b64fefc8fdad13b00461841b26d746862d3b653d63"
+      },
+      {
+        "path": "assets/template/cardgame/juice/pantry_jar.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "325c148d747b1ea8072f40ffc7fa6bb918e08748"
+      },
+      {
+        "path": "assets/template/cardgame/juice/selection_knife.png",
+        "type": "managed",
+        "sha256": "sha256:63379b954a313692e04b2c3dd7361e5bfcbcc4712a6e2c4c56754a2d812a2996"
+      },
+      {
+        "path": "assets/template/cardgame/juice/selection_knife.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "154ddbc2f34693d4dc9e17c3ebd5a69eca9d6876"
+      },
+      {
+        "path": "assets/template/cardgame/kitchen_break.webp",
+        "type": "managed",
+        "sha256": "sha256:075f9cd66933e07fe7b335044e8a140bee6d30c03f7346d1d2b0be726111dd9e"
+      },
+      {
+        "path": "assets/template/cardgame/kitchen_break.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3cb90a1a738a93420c57ecc7c23355dc7c328589"
+      },
+      {
+        "path": "assets/template/cardgame/kitchen_guard.webp",
+        "type": "managed",
+        "sha256": "sha256:9b665fb4ddcc1c13f287e8d34107ea9a0c57707d1e5c481aa9f02d2739ad3596"
+      },
+      {
+        "path": "assets/template/cardgame/kitchen_guard.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e531c1fb4d25abf57ae23edb92c0ebf07900828a"
+      },
+      {
+        "path": "assets/template/cardgame/layout/deck_cradle.png",
+        "type": "managed",
+        "sha256": "sha256:3cf715b35a677592fdd0c2d76b5eb3dc76d9aa12bbe2cf3f57462241f156041b"
+      },
+      {
+        "path": "assets/template/cardgame/layout/deck_cradle.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "10b0c6a80014b14651ee2179248cbc033cc60250"
+      },
+      {
+        "path": "assets/template/cardgame/layout/end_turn_frame.png",
+        "type": "managed",
+        "sha256": "sha256:4649dbc033236bd6d0cf1ee60c968d751540b6cfefa26e6bcdef752cc8e154b2"
+      },
+      {
+        "path": "assets/template/cardgame/layout/end_turn_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "281ea5ab327a708c8ee48ffe9d32b8e058629daf"
+      },
+      {
+        "path": "assets/template/cardgame/layout/hero_station_frame.png",
+        "type": "managed",
+        "sha256": "sha256:20ab050f793570caba3581913346171ccd74aa241b6a6efd7d1fa48b651307c0"
+      },
+      {
+        "path": "assets/template/cardgame/layout/hero_station_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6030e1228153fdad2e555db68a3af73c910e8653"
+      },
+      {
+        "path": "assets/template/cardgame/layout/history_ticket_frame.png",
+        "type": "managed",
+        "sha256": "sha256:f6d67c1aab8976e82cd026f841c255c9652e778953a3e24fea8f627efbd64bff"
+      },
+      {
+        "path": "assets/template/cardgame/layout/history_ticket_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "138a0110906fe24534df4c50423549947ad60d32"
+      },
+      {
+        "path": "assets/template/cardgame/layout/mana_rack_frame.png",
+        "type": "managed",
+        "sha256": "sha256:f8650234e0f71d6ec21ece6a7132708eabe51b4a368beafa2160f1066f79977b"
+      },
+      {
+        "path": "assets/template/cardgame/layout/mana_rack_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d0a6429ffec630de4c37569452431bb402f63a21"
+      },
+      {
+        "path": "assets/template/cardgame/layout/pantry_tray_frame.png",
+        "type": "managed",
+        "sha256": "sha256:52dc980a9050c3e7f409cae297750147827f1ae8c0809a6e90346faa15d9836c"
+      },
+      {
+        "path": "assets/template/cardgame/layout/pantry_tray_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f63729311c616b9286f56968dd54058aa65e7f77"
+      },
+      {
+        "path": "assets/template/cardgame/layout/passive_medallion_frame.png",
+        "type": "managed",
+        "sha256": "sha256:906235d710adbc40daba483ad483830c2fd953d3487b9980053968fb7208dba2"
+      },
+      {
+        "path": "assets/template/cardgame/layout/passive_medallion_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e00ac403f20c829c243a846b6745a18fd537574f"
+      },
+      {
+        "path": "assets/template/cardgame/layout/turn_marker.png",
+        "type": "managed",
+        "sha256": "sha256:a16543d1ead450aeed7f61fb8cf2399bf58d51b2694660b92ecd1530b2f453a3"
+      },
+      {
+        "path": "assets/template/cardgame/layout/turn_marker.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4e6321296da65a5688c24636e8b51a8cc0b722da"
+      },
+      {
+        "path": "assets/template/cardgame/layout/unit_plate_frame.png",
+        "type": "managed",
+        "sha256": "sha256:13fb26defcfc9d875c8567630e4db5a1c2e1c4e427610061fa366005b47da989"
+      },
+      {
+        "path": "assets/template/cardgame/layout/unit_plate_frame.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "feae03804d726bebca427efca6057456ec3485a3"
+      },
+      {
+        "path": "assets/template/cardgame/leaderboard_crest.png",
+        "type": "managed",
+        "sha256": "sha256:297957bf3811608cd4cfbb69524ce5056cc5c6a75698c0bb606dc64d86d8cacd"
+      },
+      {
+        "path": "assets/template/cardgame/leaderboard_crest.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3a263a413af53c80b677bcd7839b80e19d14d6de"
+      },
+      {
+        "path": "assets/template/cardgame/leftover_stew.webp",
+        "type": "managed",
+        "sha256": "sha256:0ac62ef3d494481cda06a2360c4a2b2809846f12f31061a4517528398bcbd0fa"
+      },
+      {
+        "path": "assets/template/cardgame/leftover_stew.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fa5d9d308b553e15f140fa90c24f8b8e93ede8ce"
+      },
+      {
+        "path": "assets/template/cardgame/loading/emberpan-loading.png",
+        "type": "managed",
+        "sha256": "sha256:134eb0af1d1765ac7e686e213185ec90cbc099e44dba972b57d74788f7dc8236"
+      },
+      {
+        "path": "assets/template/cardgame/loading/emberpan-loading.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1f4d7768ae9499c01dc119510f4843a8e00b7f9b"
+      },
+      {
+        "path": "assets/template/cardgame/meat_mimic.webp",
+        "type": "managed",
+        "sha256": "sha256:44465932c36b3eb438a70077a9e06d8dbacc268bf43b11248c770760e74ca261"
+      },
+      {
+        "path": "assets/template/cardgame/meat_mimic.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4d14335cee4fdbd16936abee9500330c677d56c2"
+      },
+      {
+        "path": "assets/template/cardgame/mise_en_place.webp",
+        "type": "managed",
+        "sha256": "sha256:ec1888ab8bfc76bb8057cdee6c8cb15a5738af0ab2cb77662b54f30ec0a6dfae"
+      },
+      {
+        "path": "assets/template/cardgame/mise_en_place.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1b83c18346fb14b3e1aeff958792d0c64a61ee4e"
+      },
+      {
+        "path": "assets/template/cardgame/mise_the_thousand_handed.png",
+        "type": "managed",
+        "sha256": "sha256:24856311bd0973c2e076e9e013e75a1d5389638d99ee774383fdc273fa2b73e0"
+      },
+      {
+        "path": "assets/template/cardgame/mise_the_thousand_handed.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "806a2be8629b56b131c6e8c70cdca5d7fb7295b4"
+      },
+      {
+        "path": "assets/template/cardgame/mold_monarch.webp",
+        "type": "managed",
+        "sha256": "sha256:4cfd22b7bb98e0a8746b0b6a40c8d5c63af3a7e66558940ad6364a4827ef7de7"
+      },
+      {
+        "path": "assets/template/cardgame/mold_monarch.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a2c631b39b1f7aaeed1bddddb641b426241167b6"
+      },
+      {
+        "path": "assets/template/cardgame/moldling.webp",
+        "type": "managed",
+        "sha256": "sha256:c2ed59cd124d9aec556a428a7056fd2b8bae44ffc77f1385bbcd3a9c280233d5"
+      },
+      {
+        "path": "assets/template/cardgame/moldling.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f57979cd36c1ba29476666e61fad50b9d0ce5e03"
+      },
+      {
+        "path": "assets/template/cardgame/mooncap_broth.webp",
+        "type": "managed",
+        "sha256": "sha256:f43a1d3b35f63fd43cc5f406417629bd8ce111be969c60b5164e7fc365ce8bce"
+      },
+      {
+        "path": "assets/template/cardgame/mooncap_broth.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "109539bab12f37613884afa7373086aafc26e5de"
+      },
+      {
+        "path": "assets/template/cardgame/music/emberpan_midnight_service.wav",
+        "type": "managed",
+        "sha256": "sha256:7e571f301ebd1265da8508d7592c8d1b8babb76df788be5e457e8277046ad19e"
+      },
+      {
+        "path": "assets/template/cardgame/music/emberpan_midnight_service.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d207d6555e4c737b58a8627dc6c4a4e844db7a58"
+      },
+      {
+        "path": "assets/template/cardgame/pan_paladin.webp",
+        "type": "managed",
+        "sha256": "sha256:b1d8623d87c5e64dc75b9a936f5160b718148e88654d2f0436c0923dc45046c1"
+      },
+      {
+        "path": "assets/template/cardgame/pan_paladin.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2b4b3cd1d0e3e31654ce0b80e542f58c4750ea97"
+      },
+      {
+        "path": "assets/template/cardgame/pepper_mage.webp",
+        "type": "managed",
+        "sha256": "sha256:faab505e0495f51ac2e44bc6fc811096639665d26437665e3520a6f9312ce7f3"
+      },
+      {
+        "path": "assets/template/cardgame/pepper_mage.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6cac5b16c359b202977b08f6b2fc741d3d38fdcf"
+      },
+      {
+        "path": "assets/template/cardgame/pickle_imp.webp",
+        "type": "managed",
+        "sha256": "sha256:59c5d795fa1b99ce82250a98e4690631056452b5d5fb7c3205a788b26bbe6ef3"
+      },
+      {
+        "path": "assets/template/cardgame/pickle_imp.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d132937b099021161ef9080f9591e9f14683e518"
+      },
+      {
+        "path": "assets/template/cardgame/picklemancer.webp",
+        "type": "managed",
+        "sha256": "sha256:6b73328f1e02e39e8508e13ed99d6800aa3d11e1701bcf5fc2320d9825cd31b6"
+      },
+      {
+        "path": "assets/template/cardgame/picklemancer.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e95dcce65f56f45cd5dee83720c445fc09ee2020"
+      },
+      {
+        "path": "assets/template/cardgame/precise_chop.webp",
+        "type": "managed",
+        "sha256": "sha256:cecef41519d1d033093f4fbb962d76cf19d5d81ccf80c9232e82b2f5c8ecc265"
+      },
+      {
+        "path": "assets/template/cardgame/precise_chop.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "6976bcca03cb448bbad4a072a524f8ecae5bbe4b"
+      },
+      {
+        "path": "assets/template/cardgame/searing_arc.webp",
+        "type": "managed",
+        "sha256": "sha256:4416b1863407d77a3b016afe0f186d4e0573cbf9f0a9e0844e70aedd21d6732f"
+      },
+      {
+        "path": "assets/template/cardgame/searing_arc.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4cdd939d7ad5ca18eef7a1340f4cd3390c9c80eb"
+      },
+      {
+        "path": "assets/template/cardgame/seasoned_strike.webp",
+        "type": "managed",
+        "sha256": "sha256:13f3986fd664eaaad7f7140cdf433c7abf3f5cfa7c882d273c4f43632d5a9afd"
+      },
+      {
+        "path": "assets/template/cardgame/seasoned_strike.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b1f6e948945ed3c0343a8a6087c6b510eac844db"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/armor.wav",
+        "type": "managed",
+        "sha256": "sha256:8b6b093d4c100829914f23daafa6c3469fdf00dbec413b46b879b71d61be5eeb"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/armor.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3c9d3b7c705f2923119fab280d6da118f7101604"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/blade.wav",
+        "type": "managed",
+        "sha256": "sha256:a9ff12a905ed013f6aa2b62a345b3ac8d9f4cb506bd31c74af8545d119dc36dc"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/blade.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "799d2eefbe61bc36daa87a4636357d2e06683a77"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/boss.wav",
+        "type": "managed",
+        "sha256": "sha256:c209ec977ef85d44274af348618728afea117a91e5897ebc160ab9184e5a2635"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/boss.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1cb0c30d23e10bd3dd14c2c39f263002f93f13c0"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/broth.wav",
+        "type": "managed",
+        "sha256": "sha256:b7e9cba5975c82408b4184c1ca027e875268b43fb17da4d82a78ef025fffd756"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/broth.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5a9a59f05fab3813f85ec6895afd292298b9ac8e"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/buff.wav",
+        "type": "managed",
+        "sha256": "sha256:3ef9801731275d542f3cff5e4d788a76ff8d3c0c0ab893956862c621eb862d52"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/buff.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "bce86d6b66b5d1dfe5011dbb7fa71c03a4b5ce5c"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/character_attack.wav",
+        "type": "managed",
+        "sha256": "sha256:d7efa7458f5057dda8db4807213f79594aa922f49837dec21097d375de94cc09"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/character_attack.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e5608396b793c1258fcde29aa41cfa296bb2d9e"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/click.wav",
+        "type": "managed",
+        "sha256": "sha256:0d3b732c13c36ccb46c47b9fb37d50a80eae3acdef7fedf4e217ccf7ad04f188"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/click.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3700740df237d90551021c976cfea0428beb6268"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/cook.wav",
+        "type": "managed",
+        "sha256": "sha256:6a012d0e7d737fa314748223490bffbcb7cb1db74829dedb19b19ad556c7922c"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/cook.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5da491dfdc03f0e61ad77efbe4a32b9077473ae4"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/defeat.wav",
+        "type": "managed",
+        "sha256": "sha256:becd08a047501a018946a92b8caeda52b75919c4bcc20b2dd257bf293993b091"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/defeat.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "74721c6439649b983203162da5e37e455ba2eb1e"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/draw.wav",
+        "type": "managed",
+        "sha256": "sha256:47e1f5b3a02ba4a87ac5606b48acdcfefd2849b41ce38c2d1993439beef09ae1"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/draw.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d4f206b69148dff003ae80fdbc6c59cdbffc4a49"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/fire.wav",
+        "type": "managed",
+        "sha256": "sha256:cab8fa1ce9e6f7d7fe931e454d7ab966310bcace32aa5f257b1b4356718873e8"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/fire.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8bc7a0d750340bf10eb7c6cfe5108e117a8128b6"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/fungus.wav",
+        "type": "managed",
+        "sha256": "sha256:b131f7109b193ba6a831b61a4a445bdf3d2df68ee85f2a18e28e4a0499dd9204"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/fungus.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4011946b68e221bbe0db1b3d7b740a27657ab136"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/heal.wav",
+        "type": "managed",
+        "sha256": "sha256:b9723a9c6c86a6534f045eca2ae8522baf0ee8bc8c31f98c4eff32316dca49ab"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/heal.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "be9f86c16d451090a9003432e3e661927230c0c4"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/heavy.wav",
+        "type": "managed",
+        "sha256": "sha256:81ff18d5f7cf0bf9efd0712d49a8466044d82dd332a2b9f67e33e6b4485067f7"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/heavy.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "51ab2e34d14e179876480af7dbb3b8d092143bc8"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/hit.wav",
+        "type": "managed",
+        "sha256": "sha256:0283d813db7de7709c390255d49a0e3b54e955f5447e184f8ef84a476ddc6021"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/hit.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f488294c6521a0d24f121d64b5e4ae13d7fa0c2b"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/hover.wav",
+        "type": "managed",
+        "sha256": "sha256:2ad7a3788b2eafd090bea417d1814d80560c46cb99774f9e2b36fad7f4fa590f"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/hover.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c4bb3bfb5a7378f27fac26ff9e2b189ef29ce869"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/invalid.wav",
+        "type": "managed",
+        "sha256": "sha256:a899bdcb85355bd9b27396a8aa5308bb519ce858b6b72d86bb0e7e41d135b67c"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/invalid.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "72c30c7831937912ba877e234b322120040aa3c1"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/material.wav",
+        "type": "managed",
+        "sha256": "sha256:99f4516ac9216537b27c14214cdebff9320f7fdfae4640d83cf984984507e855"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/material.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2ba7afefc77bb14fac8577a41d8f5e3f7c78cd2e"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/meat.wav",
+        "type": "managed",
+        "sha256": "sha256:02a4f4ddbe3895de15902bb54e64a2df25771400700d39bd02508a83fa80edef"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/meat.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "25f08bc6e08f135139de87469298b2bddde4f6a9"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/overkill.wav",
+        "type": "managed",
+        "sha256": "sha256:91b4d40772d8f4b253c26a63363cc9f0c59941a0a86507e4fcfa5ba3b23e4120"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/overkill.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "07dc64bcfa2b1c7b9570dc2fa599f6623b8cffc7"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/play.wav",
+        "type": "managed",
+        "sha256": "sha256:bf0a8be033dd0b65eaee4408f6d59287a59cea7a8ebb956867b2d178b55fa3a6"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/play.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "a75535a97128fc7ef6e8ce1a70f66aa11fd7705b"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/precise.wav",
+        "type": "managed",
+        "sha256": "sha256:855230ed2c2a8943d63ef9b11d04b65fa99b654ba58889a742ffa7d0df8816c6"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/precise.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b76a0e2c24ea8e3c57bf44b41b47d18096361265"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/summon.wav",
+        "type": "managed",
+        "sha256": "sha256:ee40ebcbf95090673e8d672b18aa3a1e5183365bf6db0ea78caddeb73d496298"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/summon.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "db2d8c1b3b7e8ffac65c8fa31d1dbb760cdf8570"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/technique_attack.wav",
+        "type": "managed",
+        "sha256": "sha256:54c3dcb56d72a8a7d769bd374f2194334e146b20e646e77785f1c94f1c2ef3b1"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/technique_attack.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d444f9553ed98ed69f731cadb933179d54b6a3cd"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/technique_buff.wav",
+        "type": "managed",
+        "sha256": "sha256:38e1dc497baa87089ef8fe596813345f8c5df5884a6f1223a384bb9be40ddd37"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/technique_buff.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f289e058893656def55ff4e5cd422b9f282b87b2"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/turn.wav",
+        "type": "managed",
+        "sha256": "sha256:a39c854eaff0e16c33f074cb9a44c258fc8c21d86b9e703bb7fca4b21e09990f"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/turn.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "54ad851eb9b2ede52818f14cb504014e4f3c64b9"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/victory.wav",
+        "type": "managed",
+        "sha256": "sha256:800af3e596d27f7fcf8e4d8620a2f5cfda1f703018ffa04663bbb476ce555b0d"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/victory.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d6eb93948de300a146653501d606edd629abafc0"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/voice.wav",
+        "type": "managed",
+        "sha256": "sha256:19f2c7a393fbb7f6d7f369b23046aa3e61daecd55ab6ec67bb38807b64b21d7d"
+      },
+      {
+        "path": "assets/template/cardgame/sfx/voice.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "08f2e0b542ff1fc0d57e84fa544152fba1a48b80"
+      },
+      {
+        "path": "assets/template/cardgame/the_sovereign_cleaver.png",
+        "type": "managed",
+        "sha256": "sha256:cf7a26132db2c989ea4053f008e7f0f88fa1d4a0ab1c352952aef8743a6932c5"
+      },
+      {
+        "path": "assets/template/cardgame/the_sovereign_cleaver.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d8414b7576bdbc20f60969cc37a0a0bb3ea867f3"
+      },
+      {
+        "path": "assets/template/cardgame/title_kitchen.webp",
+        "type": "managed",
+        "sha256": "sha256:a4c12758d0786b498f2eea60728098c995b0b69d6939a264d8e0f5d8c0df756f"
+      },
+      {
+        "path": "assets/template/cardgame/title_kitchen.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d06807ab788efd43a145390b4c0d5c13dbf1555d"
+      },
+      {
+        "path": "assets/template/cardgame/truffle_knight.webp",
+        "type": "managed",
+        "sha256": "sha256:ec8ff06d4b3cf3622b0186f9d826dffcaf1f0703ad7b98e2939a63396c7c5566"
+      },
+      {
+        "path": "assets/template/cardgame/truffle_knight.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5d6e08f33cc76d7a81a59d73e1c51eb8490dbbf2"
+      },
+      {
+        "path": "assets/template/cardgame/tutorial/mise_guide.png",
+        "type": "managed",
+        "sha256": "sha256:fbe16df8ed10bd6a27a64ce1be17fe905d34d8c2ac50756f5ea1e7ba3c2803b4"
+      },
+      {
+        "path": "assets/template/cardgame/tutorial/mise_guide.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "698ccf5d074046257510294073e457dd73758a16"
+      },
+      {
+        "path": "assets/template/cardgame/tutorial/spoon_pointer.png",
+        "type": "managed",
+        "sha256": "sha256:5b93aae67fc01b4f01e14facfab33761e5345738ae34011630f87a2eafe7eeb2"
+      },
+      {
+        "path": "assets/template/cardgame/tutorial/spoon_pointer.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1cef3cd8bdb6f26dbc8888a6f1146d8005bb8554"
+      },
+      {
+        "path": "assets/template/cardgame/voiceovers/legendary_summon.wav",
+        "type": "managed",
+        "sha256": "sha256:530587d6e3eab0f52b375339ef05da81764de113d271ad1a698105374bad9ec7"
+      },
+      {
+        "path": "assets/template/cardgame/voiceovers/legendary_summon.wav.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f4d6d6082dac0184a5ddc0e513df6b9517d5016f"
+      },
+      {
+        "path": "assets/template/fonts/Figtree-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "80b12bb3d0c0942676657ef6d125daf4a1e1346d"
+      },
+      {
+        "path": "assets/template/fonts/Figtree-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf"
+      },
+      {
+        "path": "assets/template/fonts/Figtree-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "02634d295172e4522fea9e9b84b1427e327d31d6"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2",
+        "type": "managed",
+        "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "79051c141bb3b9d157526edc38f980c07f140c2a"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-CC0.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "bce4f3d1959e6f29c77a7bae4636f776b369b514"
+      },
+      {
+        "path": "assets/template/fonts/SOURCES.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c018363b3dd73b3e93186aa012555c7390768d96"
+      },
+      {
+        "path": "assets/template/fonts/display/Cinzel-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "afdfd1412be934fe7cc40a5a2c5e06e354c44dcf"
+      },
+      {
+        "path": "assets/template/fonts/display/Cinzel-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:c989ab1bff3729946b0e62abb30b9726406e3b9058ba2896782de6617bbdb892"
+      },
+      {
+        "path": "assets/template/fonts/display/Cinzel-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "0a19749ffa8a6759319195fefeba0f32c736c237"
+      },
+      {
+        "path": "assets/template/fonts/display/NotoSerifSC-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "94d1bf7b52481343e2983fb7751e8b7abe1ea07b"
+      },
+      {
+        "path": "assets/template/fonts/display/NotoSerifSC-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:c45ad04935d679c504926ca19420c2625cbd5f33f586559923979092fedc46ff"
+      },
+      {
+        "path": "assets/template/fonts/display/NotoSerifSC-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "aa728e2f5de5f2c0807de65f03a6a8038f99d54c"
+      },
+      {
+        "path": "assets/template/fonts/display/card_button.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "047e2bdcd79be3dd496ece0d7d92eac99a633d2f"
+      },
+      {
+        "path": "assets/template/fonts/display/card_heading.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "e0735303fdf94c7e8bf6c59502b3a3b07f2c6134"
+      },
+      {
+        "path": "assets/template/fonts/display/card_name.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "d6e42ecdd99cb130b4be89b1798b931e6331e3b0"
+      },
+      {
+        "path": "assets/template/fonts/display/card_number.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "b176203dfe1ad21ea0106e8b2eded221edfd88c3"
+      },
+      {
+        "path": "assets/template/fonts/display/card_title.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "3b51d3d957e63d85450509bac62e1a0a7af38397"
+      },
+      {
+        "path": "assets/template/fonts/display/noto_serif_sc_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "1cb1a46e051bfd9ab06cb73886c917b123f24a00"
+      },
+      {
+        "path": "assets/template/fonts/display/noto_serif_sc_heavy.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "7ed1195ea8a7d602c7ee0e9043bdc4c4bd988cf4"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "06126a3445f20f98c9cb6a453ff031cf7a2cf52f"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "c70216de984d60cc9378b2b53a0a023f198764c0"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "2a267894c7c2de3947acb0d37b41d46c44f1199a"
+      },
+      {
+        "path": "assets/template/fonts/runtime-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "2abefff57b45b0b85445c2f3c4887c036a5fd2e6"
+      },
+      {
+        "path": "assets/template/fonts/ui_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "9b38f1fa3e361ab120f98f2b2ab6f8e45b048f38"
+      },
+      {
+        "path": "assets/template/fonts/ui_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "0b012cd9d897a3bd3b8d945c7cf7c505b885b009"
+      },
+      {
+        "path": "assets/template/fonts/ui_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "c3b98622b9dcb4b43ff2e415b6bb6fa68e50b901"
+      },
+      {
+        "path": "assets/template/ui/loading-background.png",
+        "type": "managed",
+        "sha256": "sha256:b1cdf51b30251bb656540ed63098d45e9063325ead7585ed5afbbc78db2c7a11"
+      },
+      {
+        "path": "assets/template/ui/loading-background.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "4ce51006ee1c8a0b5c20e3a566f8cd86274eea32"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "ef4b5b9bf363df41d75dc9319a6a2409822c916a"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c85c055655809aeb4ff3b46837d58dce5f60a8d7"
+      },
+      {
+        "path": "default_bus_layout.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "0b4a33fae4c48b69fcd7a989019a375ce320870d"
+      },
+      {
+        "path": "docs/PT_NOTES.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "04b5a128055e080d8a3aeb5f527bd740e3c81cc0"
+      },
+      {
+        "path": "docs/game-multiplayer.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c08672b6afbec2b4a77655b2413a8ae3431a3a8a"
+      },
+      {
+        "path": "docs/loading-art-provenance.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8ead7e13eee47cfafb444114e7c0e83705e4c8da"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/DESIGN.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "777d03b7bf50c866468ad007e6b84765119b6f85"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/LICENSE",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "174a74cb1c84a955706817734449a5e7becd2a4b"
+      },
+      {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "f511697e1bb2e35185be460ae76fbd3bd3d924b4"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/CinzelDecorative-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "efe1168f1c8de9d560f84355f9b8d699536118d5"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/LilitaOne-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "055594f2f330e835940070f2d5944a2331c7c299"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/index.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "5ef9bd8faf1cc6fe7a444420b9b2010b348b8cda"
+      },
+      {
+        "path": "export_presets.cfg",
+        "type": "file",
+        "mode": "100644",
+        "object": "78ceffc204d611f3ba37aaa9d14161626679e83e"
+      },
+      {
+        "path": "localization/en.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "1cf8f5b6741d19853afc96068dfbb49a1c312d79"
+      },
+      {
+        "path": "localization/zh-CN.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "1a268a4d287a195af90f4d5dfd4a823ead4c66a2"
+      },
+      {
+        "path": "multiplayer/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "3e85f0ebc8109776ba0178c1530a4c4029335491"
+      },
+      {
+        "path": "multiplayer/cards.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "61253368f52a7d24a4a16fcab78c29e88981c0c6"
+      },
+      {
+        "path": "multiplayer/client.js",
+        "type": "file",
+        "mode": "100644",
+        "object": "6c7c2971f30f774a43873e9bcfc0d2ca44ed1bb4"
+      },
+      {
+        "path": "multiplayer/config.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "34f1e0c7e4b59373dbfe5b3c29e4e0a7dd95b75f"
+      },
+      {
+        "path": "multiplayer/rules.js",
+        "type": "file",
+        "mode": "100644",
+        "object": "7a448249a270f8ff7594f5f029144c71518e9abc"
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "3a0e242b64d29cd9d816ea91a9bedc7347f339d4"
+      },
+      {
+        "path": "project.godot",
+        "type": "file",
+        "mode": "100644",
+        "object": "0ed5216b05c8d6e4628fc0ac23f41ac79a2a35fb"
+      },
+      {
+        "path": "scenes/boot.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "0614e5a76e46d611a27bd9e4d30a142e1760b3b7"
+      },
+      {
+        "path": "scenes/card_game.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "461df5a94e44628b5f0409367090607a491602bb"
+      },
+      {
+        "path": "scenes/multiplayer.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "49a84b03017f4b3146d673df1937869c6afbe083"
+      },
+      {
+        "path": "scenes/packet_tactics.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "da4f7ea9a1963eb75c778583c1a35f46ea10d343"
+      },
+      {
+        "path": "scripts/atomic_json_file.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "ab1811a2eff0e5d7be7d3407c2859c39bfd9928b"
+      },
+      {
+        "path": "scripts/atomic_json_file.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "52e46aedf4bb91501edf98a998900bfc5b1b5539"
+      },
+      {
+        "path": "scripts/battle_layout.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "a33e88f14eba51549d213adff3178ab55de1d601"
+      },
+      {
+        "path": "scripts/battle_layout.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "6ec2b2b967cb707319c7fc9f996b55a4aae51011"
+      },
+      {
+        "path": "scripts/boot.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4ff88afe6220cb1c2c3fda52ed3d38b84c869bbf"
+      },
+      {
+        "path": "scripts/boot.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "21a569b65ec7f82aba26a887583185f9fec86e36"
+      },
+      {
+        "path": "scripts/card_battle_juice_profiles.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5a55c23ced9683fe0f3dfef34efba5ebe60ed12b"
+      },
+      {
+        "path": "scripts/card_battle_juice_profiles.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "1c90b8ed26b3f055f9d7d73a6f8b38cdb8b6aef5"
+      },
+      {
+        "path": "scripts/card_crack_overlay.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "414d7f8764f4fc7210aa35be61b2f4219bf26470"
+      },
+      {
+        "path": "scripts/card_crack_overlay.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "13224e4d3091b34fc340c4c130bf0d2652b97e69"
+      },
+      {
+        "path": "scripts/card_database.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "015f781b34dc10f1632a17be87b4aa4e97c099ef"
+      },
+      {
+        "path": "scripts/card_database.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "e26aa55fc68cc2d0de6dedf99c93d06dcdf31acf"
+      },
+      {
+        "path": "scripts/card_game.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "aa807d007e6c6616c7ab5a6a4d2fabefb0ad389a"
+      },
+      {
+        "path": "scripts/card_game.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "1e6e9d64940f736d0842cc74df3ac0447441cb89"
+      },
+      {
+        "path": "scripts/cursor_director.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "ce84df7fff7c24eb89745593be3b76f99593ae85"
+      },
+      {
+        "path": "scripts/cursor_director.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "8ce906326182102377cd4970cc159c375aba7620"
+      },
+      {
+        "path": "scripts/generate_multiplayer_cards.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "0159bb36505aa11bc13f33a6b4a89dd33b045910"
+      },
+      {
+        "path": "scripts/juice_director.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "ab2a409df7a4635a3fc039d1f5666664b53a657a"
+      },
+      {
+        "path": "scripts/juice_director.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "227eb157767527209068eb934b04f064f1fab5c6"
+      },
+      {
+        "path": "scripts/juice_target_line.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "1869c9423d0492f106c09558a63595dd63309417"
+      },
+      {
+        "path": "scripts/juice_target_line.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "3ab416f1902b3d55971f22480dab51e843c36c18"
+      },
+      {
+        "path": "scripts/leaderboard_client.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "cac4fc7e42399a6e654bda688a7f79965c1818ca"
+      },
+      {
+        "path": "scripts/leaderboard_client.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "03b72da76d3efb7456c1d812e7bd5a1cc29b2b79"
+      },
+      {
+        "path": "scripts/localization.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4b78db7f92a317d14896f47b5853c6d42c9e069c"
+      },
+      {
+        "path": "scripts/localization.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "81aee0202afc42a315c61967e5b62c7a5b95f70b"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5b11ca0a310976b075d441b47bb9f5bbf970a6af"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "649c2b56333c66d50387d5d3bc723d1252fc6f55"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4d23223998288ffdc9391dde1206b13dfe89b765"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "aa9a28d8342f55919ca56dc05baa61aa0c9a9b80"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "cff16db79268ab9ca9abe67686317cebfc607a09"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "6e8c96c1c1c14c05a862f8f5a6813ce831cd0cb7"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "f96b57b13634687de25c403cb5e9cf7fc6c7abc4"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "fb01d5c5e43714cf4e900328e2cf76a99a308c2e"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "b9862de6b84c76f107f875b00f05bd7318d8bb30"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "e523b2eb7bcdd79c90309ab93d95a26d159eefde"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "845eedb5cfe41711f0f4b14f093159b45c825ecc"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c107e5c2293f0c2e0852307ce663088ec82c5154"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5bac89f3f21e5b2fe574b0896ad0f90f1792247a"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "28c4997ffa4ac2a807cf9724050bef5dbeb717f7"
+      },
+      {
+        "path": "scripts/manus/runtime-command.cjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "39fd46daecc470eaf3731632a1969e0f382144ad"
+      },
+      {
+        "path": "scripts/multiplayer.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "f87888b07f9ca7f3358d8ffaa3f8a058ab4534d9"
+      },
+      {
+        "path": "scripts/multiplayer.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "a1cefe9a97ff9b3af25eb893412f41f18fa05691"
+      },
+      {
+        "path": "scripts/multiplayer_native_client.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "9f1d31534415829d29682477f05955e2014e0945"
+      },
+      {
+        "path": "scripts/multiplayer_native_client.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "0f51a1ccb1a028adc0e9d37ed3549e433fc33ef7"
+      },
+      {
+        "path": "scripts/pause_input_router.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "53b593191392a070ca0d4efb6618d990ca24df34"
+      },
+      {
+        "path": "scripts/pause_input_router.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "bf75a91bbb206780a927b679dc490cd6c3ab047f"
+      },
+      {
+        "path": "scripts/pt/pt_ai.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "33d68e739dde53f5b9fee2e72e51ed2bc83ec858"
+      },
+      {
+        "path": "scripts/pt/pt_ai.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "ff5effee23951c1494a625cf3c2e7d9230d4a0e4"
+      },
+      {
+        "path": "scripts/pt/pt_card.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "9e831adaf24fa36e6b136d663aea3dcb6db0536b"
+      },
+      {
+        "path": "scripts/pt/pt_card.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c44d8a0b032a95a4975f98119fb0c3763512c890"
+      },
+      {
+        "path": "scripts/pt/pt_card_view.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "0db67ac1523ed773c1f8810887bb57187d212505"
+      },
+      {
+        "path": "scripts/pt/pt_card_view.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "3b29e992ff7cccf8f0f00b3ddf68d49bd775a954"
+      },
+      {
+        "path": "scripts/pt/pt_defs.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4324c28668f9777c2982c14191360dc753ae9683"
+      },
+      {
+        "path": "scripts/pt/pt_defs.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "6412cd0184b7af489e2326bac7d4cc2e8e72bc99"
+      },
+      {
+        "path": "scripts/pt/pt_engine.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "36381c58ad4a558c8a1f5cbd92a0858c0a98eca6"
+      },
+      {
+        "path": "scripts/pt/pt_engine.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "86afcded10e622db381be99e21e8888271beae6a"
+      },
+      {
+        "path": "scripts/pt/pt_game.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "205bd2dbf22c5fad523004ebf8b7995d2682819c"
+      },
+      {
+        "path": "scripts/pt/pt_game.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "df362dc131aa7db3d4e5ec7466173ff2f4aa400e"
+      },
+      {
+        "path": "scripts/pt/pt_human.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "a4844c698bca53847e1f84dbc4a6c35276257ca1"
+      },
+      {
+        "path": "scripts/pt/pt_human.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "4a6f8c7daf32357cf970b99ded4b817ff41808d3"
+      },
+      {
+        "path": "scripts/pt/pt_menu.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "958f874c9fd6ee5c467d71ec381a8f978c77cfa3"
+      },
+      {
+        "path": "scripts/pt/pt_menu.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "93a39fea93be86c4acd2a668c8156af9b29834fc"
+      },
+      {
+        "path": "scripts/pt/pt_net_panel.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "9371eb0e72059694e6b340442369dd0220a019ce"
+      },
+      {
+        "path": "scripts/pt/pt_net_panel.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "0f1121ab0eb609108b3cda26e562c8745368059c"
+      },
+      {
+        "path": "scripts/pt/pt_rules_text.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "8dd6663f6306bc2ed2d3efaa746d62235a6fdd7e"
+      },
+      {
+        "path": "scripts/pt/pt_rules_text.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "82a9f00bbb893d296e7c506db0e2409885f89c37"
+      },
+      {
+        "path": "scripts/pt/pt_rules_view.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "febf77f5639b3770a145000ca7875bfaf7b3fdcb"
+      },
+      {
+        "path": "scripts/pt/pt_rules_view.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f1f7137fb7724899ec462a9b058e25022542a335"
+      },
+      {
+        "path": "scripts/pt/pt_sfx.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "1954df31465c276e7c3365eb610ef1ba92849b86"
+      },
+      {
+        "path": "scripts/pt/pt_sfx.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "45392adfc29106c2ecc26c5ef64e4fe8a8888d43"
+      },
+      {
+        "path": "scripts/pt/pt_slot_view.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "c0bf26654531a2eec47f9026a218d8df1466c83e"
+      },
+      {
+        "path": "scripts/pt/pt_slot_view.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "252cdc166a5429c14a54a6d5b10e1e8d9370951c"
+      },
+      {
+        "path": "scripts/pt/pt_theme.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "50def0d0413a03e724959adcfa4e88ebbb099376"
+      },
+      {
+        "path": "scripts/pt/pt_theme.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "b4652f315722a5e18c11a7ab82d5b460a3ad34ba"
+      },
+      {
+        "path": "scripts/runtime_tweak_controls.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "79585394ad5ac27c81ba766ba7e719af219f78a1"
+      },
+      {
+        "path": "scripts/runtime_tweak_controls.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "17e6c91c37a6035e38e4e93e62aa8965168ea630"
+      },
+      {
+        "path": "scripts/sleep_particle_emitter.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "e3951bcd5a353a8691d5d883ac9b9f2b8a607213"
+      },
+      {
+        "path": "scripts/sleep_particle_emitter.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "a530840db6364b270767bb804f78732697bec942"
+      },
+      {
+        "path": "scripts/smoke_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "421ab639603d0299964eabb24b5a47caad3f1c5d"
+      },
+      {
+        "path": "scripts/smoke_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "52c0301bdb7a578179cb1a076f4adcd92a58d7b3"
+      },
+      {
+        "path": "scripts/tavern_ui.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "d7aac6c122903965c73b3fa61e720fc127c454ee"
+      },
+      {
+        "path": "scripts/tavern_ui.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "74c53c4006f7b05cb693e9994dd306b928b52a0d"
+      },
+      {
+        "path": "scripts/tutorial_callout.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "1a2c3d337f61a7ce2627d7a19ba5e46ddfe71dc2"
+      },
+      {
+        "path": "scripts/tutorial_callout.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "62fe0c2e225646f79251d3d3cce7001492d2e566"
+      },
+      {
+        "path": "template-provenance.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "51d457f22e41adc1ea44de05fae075898604fafa"
+      },
+      {
+        "path": "template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "686f50ef14b83c5d018fa5f55d500514dc4bd400"
+      },
+      {
+        "path": "test/atomic_json_file_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "6e42990eaf411f150ad54db026306d0cd6e19d33"
+      },
+      {
+        "path": "test/atomic_json_file_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "1b58f138efabf90f208e97a68bf6bdea21cb8b36"
+      },
+      {
+        "path": "test/battle_layout_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "97ad2680a0c7a739875c3b2f84e3f7fc74939297"
+      },
+      {
+        "path": "test/battle_layout_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "cc8855cc235fce49018aa88bfd2032706c437cc5"
+      },
+      {
+        "path": "test/boot_loading_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "ab2ac7c7762ab7be9c9e72244103897b4d2ad83f"
+      },
+      {
+        "path": "test/boot_loading_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "bafc2db260f633d0c36699910659eed1dc3de282"
+      },
+      {
+        "path": "test/card_battle_juice_system_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "d06a412a9a3dda97db8f79586afcd64617d13de5"
+      },
+      {
+        "path": "test/card_battle_juice_system_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "ccec4d3662944d6637a434146d6c483859f6e654"
+      },
+      {
+        "path": "test/cursor_system_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "33fd0c0bfd2eba7947cf60d1ce4770460ee1c103"
+      },
+      {
+        "path": "test/cursor_system_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "7c10efbc87dc97141554e34a6f4b9884b76334c0"
+      },
+      {
+        "path": "test/debug_capture.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "dba76a835009701b961c81b4c0a30784616f48c3"
+      },
+      {
+        "path": "test/debug_capture.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "42ef454a668f24759e29733e887b77ec6a1bf91d"
+      },
+      {
+        "path": "test/debug_capture.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "d324f7015f05c3f5e16a0005f08e0d0b187054d8"
+      },
+      {
+        "path": "test/exported_pack_boot.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "24e250f0af4c9499e648201c50672908716ac3b5"
+      },
+      {
+        "path": "test/exported_pack_boot.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "68b56e90aff12dfac3c79d26d9ee7bdeb43a21c3"
+      },
+      {
+        "path": "test/exported_runtime_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "114e58a7d54a36c90ec14036f50e9b9c91324f18"
+      },
+      {
+        "path": "test/exported_runtime_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "25322999e9fdaf086264c485f0f3d8b68f3d24ad"
+      },
+      {
+        "path": "test/juice_runtime_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "20a9331362160a3a35a166737b0f9d5c35671c29"
+      },
+      {
+        "path": "test/juice_runtime_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "cd99ad6e5c8c5a4b619341b9d6b5bf196f5a6739"
+      },
+      {
+        "path": "test/layout_asset_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "940bae416a60ee30026a09231a18ea112cbbf1c0"
+      },
+      {
+        "path": "test/layout_asset_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "0bd93c37a02dfeeee051a311c3e23c977c4264a4"
+      },
+      {
+        "path": "test/leaderboard_client_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "867fbd9631caa371b0c092ca2760be9c711c8250"
+      },
+      {
+        "path": "test/leaderboard_client_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "540cc17b740b5ee32f9d840f0139b4c5f510d507"
+      },
+      {
+        "path": "test/localization_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "cbedc35a45a1d18b66aca2358a5bf49ed86d77a1"
+      },
+      {
+        "path": "test/localization_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "988f153196bab59cf1c8ad7a73bfc98c302a561f"
+      },
+      {
+        "path": "test/multiplayer_loadout_capture.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "6967d88208659a00df4c22a7cb6e9fb15533603f"
+      },
+      {
+        "path": "test/multiplayer_loadout_capture.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "dc1aec4c67b3a9039eb0ae152ccf52e621392388"
+      },
+      {
+        "path": "test/multiplayer_native_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4e004489b5ddd9d1d1b3cb4cf2cc3a40249ec394"
+      },
+      {
+        "path": "test/multiplayer_native_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f72448bb06d2b0d82d836865e40b8f79eda98803"
+      },
+      {
+        "path": "test/multiplayer_native_test.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "b41b00101e5aac32cf47ad7608318f02afa464f0"
+      },
+      {
+        "path": "test/multiplayer_rules.test.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "5152c88c0b9fa75516ecadba8ca14bc71b0a0b90"
+      },
+      {
+        "path": "test/multiplayer_ui_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "1901ee3115351dc3951f6c1d03ec5be4c9acd98d"
+      },
+      {
+        "path": "test/multiplayer_ui_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "42ff23b067c051eb3c41614414d7f55fbf835c34"
+      },
+      {
+        "path": "test/player_name_transport.test.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "9aed8e9826e3669e65d79be7a246bba0bcabc97b"
+      },
+      {
+        "path": "test/player_name_unicode_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "2560d67d914d3837617719681f356b38aaa454af"
+      },
+      {
+        "path": "test/player_name_unicode_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "d4c0d8433dff8d81055ad968172ed86fe615b80a"
+      },
+      {
+        "path": "test/pt_capture.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "00c220182adfac954f5f84594e4d449b5f06cca4"
+      },
+      {
+        "path": "test/pt_capture.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f7767acd813316c9047bf209c1a16ff3cf6af48e"
+      },
+      {
+        "path": "test/pt_capture2.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "24aecbd58b852b1148746c28bb53a244191af536"
+      },
+      {
+        "path": "test/pt_capture2.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "481176d2f92374512653db6260befb037f5a30ab"
+      },
+      {
+        "path": "test/pt_engine_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "39cb54cdd8ca0ada9972bbfa47dc0e0936226f43"
+      },
+      {
+        "path": "test/pt_engine_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "ebab3faba6942aeff137caf6a46340510cfe7e7a"
+      },
+      {
+        "path": "test/reliability_regression_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "9b5a3dbb1419f74987b2ceb07a6cb8a9d9f1ec75"
+      },
+      {
+        "path": "test/reliability_regression_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "08b68115402932b40597361b371647e4a9761966"
+      },
+      {
+        "path": "test/runtime_tweaks_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "c49dcaabe1c927781396397069e340a1c619195d"
+      },
+      {
+        "path": "test/runtime_tweaks_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "6d0467e51de75660a40cf079bd2702fdac15c606"
+      },
+      {
+        "path": "test/tutorial_system_test.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "9ca2bb4708f657e6d467395e20cc6c58ac80df6f"
+      },
+      {
+        "path": "test/tutorial_system_test.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "27d7677399679ed140e8ee27eba72b3c00fa3e58"
+      },
+      {
+        "path": "tools/build_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "dd2a5a944c7de770b7efde8bc2e0010068dc9eda"
+      },
+      {
+        "path": "tools/game-runtime-font-codepoints.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "d58015f2c8148087b62a53d7893da2591ffa5cac"
+      },
+      {
+        "path": "tools/game-runtime-font.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "b592ef10ae9fc7cfc2e5a8b3836dbb1f580515ce"
+      },
+      {
+        "path": "tools/game-runtime-font.requirements.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0810aab0e2ee9e8c03cc20d7e738a2b180ffa1ca"
+      },
+      {
+        "path": "tools/install_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "28de478c5dd3ba4e09d7f3241957772cf4c3f1a3"
+      },
+      {
+        "path": "web/loader-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8c35c5633c7b6170774f7a8af6b36ebfe63763dd"
+      },
+      {
+        "path": "web/loading.html",
+        "type": "file",
+        "mode": "100644",
+        "object": "1781736eb693ec4adab5f51d5942f46ebc1052c8"
+      }
+    ]
+  },
+  "build": {
+    "snapshotId": "sha256:e482c8f0a6de806d529b8fc992f5b6c25cf059c8eda2dc1ce77018883f0e55d5",
+    "toolchain": {
+      "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+      "engineDigest": "sha256:8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+      "templates": {
+        "debug": "sha256:08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a",
+        "release": "sha256:d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0"
+      },
+      "runtimeDigest": "sha256:e5d15ba6063e06f6705e6bd67fefec8cb96da014f74296bb8a991ac39ce74a64"
+    },
+    "profile": "release",
+    "export": {
+      "profile": "release",
+      "snapshotId": "sha256:e482c8f0a6de806d529b8fc992f5b6c25cf059c8eda2dc1ce77018883f0e55d5",
+      "files": {
+        "THIRD_PARTY_NOTICES.txt": "sha256:889699801d4b21f0cf9646c9a53aeadbcbeb07a7cd26ed9e15f564d63e4c0afb",
+        "index.apple-touch-icon.png": "sha256:2ed6dcbe6b49df519e940272f055209929e41770eb1cc7bd0238eece845f7b09",
+        "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+        "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+        "index.html": "sha256:a024a996790ad6afa4c051b77dd3a89a2426e7544f2c2622210648aeee961093",
+        "index.icon.png": "sha256:aaeb23fe6ffda9836624443f18863c448c56ff0bdea72e39981b05ab30f63aa6",
+        "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+        "index.pck": "sha256:14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702",
+        "index.png": "sha256:b32fa2ba9b8e35f91bcb29d94a0afbf95bf45b055f455ad0ac3f73181ade19d1",
+        "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "open-source-licenses.html": "sha256:991cfdad42bc1a9b2298cdab75bc25f641a65e4a6da89f2a74daf2c191977bcf"
+      },
+      "digest": "sha256:e0b13d461e5ece33bc0bf52e0e4a26be1609fe045ce4ed587c763e1c03d0dc19"
+    }
+  },
+  "artifacts": {
+    "wasm": {
+      "path": "/manus-storage/game/sha256/fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0.wasm",
+      "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "pck": {
+      "path": "/manus-storage/game/sha256/14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702.pck",
+      "sha256": "sha256:14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702"
+    }
+  },
+  "files": {
+    "THIRD_PARTY_NOTICES.txt": "sha256:889699801d4b21f0cf9646c9a53aeadbcbeb07a7cd26ed9e15f564d63e4c0afb",
+    "game-sharing.json": "sha256:297025fe7f4cea40901f941f4cd042c572c96461645cd4af6f9599fca99dcb35",
+    "index.apple-touch-icon.png": "sha256:2ed6dcbe6b49df519e940272f055209929e41770eb1cc7bd0238eece845f7b09",
+    "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "sha256:8e776821a0348a61a3811bbaa35594a557a4c3e702a80e4281540e0daaabc68a",
+    "index.icon.png": "sha256:aaeb23fe6ffda9836624443f18863c448c56ff0bdea72e39981b05ab30f63aa6",
+    "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+    "index.png": "sha256:b32fa2ba9b8e35f91bcb29d94a0afbf95bf45b055f455ad0ac3f73181ade19d1",
+    "multiplayer/bootstrap.json": "sha256:42e3d4700501e0ac010a829e49b9dc21f084746c688dd8e8f3da1d15f115ff6c",
+    "open-source-licenses.html": "sha256:991cfdad42bc1a9b2298cdab75bc25f641a65e4a6da89f2a74daf2c191977bcf",
+    "share/146152dcbf997713425c3b7ae1f988319349f3551928605843bbd95df0c53f5d.png": "sha256:146152dcbf997713425c3b7ae1f988319349f3551928605843bbd95df0c53f5d",
+    "share/ff64a4e786e7db4c543d850f336544dc51ad0e8ab1a82fd86ca5529fd8627faf.png": "sha256:ff64a4e786e7db4c543d850f336544dc51ad0e8ab1a82fd86ca5529fd8627faf"
+  }
+}

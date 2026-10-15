@@ -2,8 +2,8 @@ extends Control
 ## Lightweight entry scene: render first, then load the game without preloading its resources.
 
 const L10N := preload("res://scripts/localization.gd")
-const BACKGROUND := preload("res://assets/template/cardgame/loading/emberpan-loading.png")
-@export_file("*.tscn") var target_scene := "res://scenes/card_game.tscn"
+const BACKGROUND := preload("res://assets/pt/bg_circuit.webp")
+@export_file("*.tscn") var target_scene := "res://scenes/packet_tactics.tscn"
 var progress_bar: ProgressBar
 var status_label: Label
 var retry_button: Button
@@ -19,24 +19,24 @@ func _ready() -> void:
 	art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(art)
 	var shade := ColorRect.new()
-	shade.color = Color(0.025, 0.01, 0.04, 0.3)
+	shade.color = Color(0.01, 0.03, 0.05, 0.35)
 	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(shade)
 	var title := Label.new()
 	title.text = L10N.t("loading.title")
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	title.add_theme_font_size_override("font_size", 46)
-	title.add_theme_color_override("font_color", Color("#FFD36A"))
+	title.add_theme_font_size_override("font_size", 56)
+	title.add_theme_color_override("font_color", Color("#27d3f5"))
 	title.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
-	title.offset_top = 45
-	title.offset_bottom = 110
+	title.offset_top = 220
+	title.offset_bottom = 300
 	add_child(title)
 	var panel := VBoxContainer.new()
 	panel.name = "LoadingPanel"
-	panel.anchor_left = 0.2
-	panel.anchor_right = 0.8
-	panel.anchor_top = 0.72
-	panel.anchor_bottom = 0.96
+	panel.anchor_left = 0.25
+	panel.anchor_right = 0.75
+	panel.anchor_top = 0.55
+	panel.anchor_bottom = 0.9
 	panel.add_theme_constant_override("separation", 14)
 	add_child(panel)
 	status_label = Label.new()
@@ -44,7 +44,8 @@ func _ready() -> void:
 	status_label.text = L10N.t("loading.preparing")
 	status_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	status_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	status_label.add_theme_font_size_override("font_size", 23)
+	status_label.add_theme_font_size_override("font_size", 22)
+	status_label.add_theme_color_override("font_color", Color("#3dff8e"))
 	panel.add_child(status_label)
 	progress_bar = ProgressBar.new()
 	progress_bar.name = "SceneProgress"
@@ -52,10 +53,10 @@ func _ready() -> void:
 	progress_bar.show_percentage = false
 	progress_bar.indeterminate = true
 	var track := StyleBoxFlat.new()
-	track.bg_color = Color("#35223E")
+	track.bg_color = Color("#10252f")
 	track.set_corner_radius_all(5)
 	var fill := StyleBoxFlat.new()
-	fill.bg_color = Color("#F3A33C")
+	fill.bg_color = Color("#27d3f5")
 	fill.set_corner_radius_all(5)
 	progress_bar.add_theme_stylebox_override("background", track)
 	progress_bar.add_theme_stylebox_override("fill", fill)
@@ -64,7 +65,7 @@ func _ready() -> void:
 	hint.text = L10N.t("loading.hint")
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	hint.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	hint.add_theme_color_override("font_color", Color("#DEC9A7"))
+	hint.add_theme_color_override("font_color", Color("#7fa3b1"))
 	panel.add_child(hint)
 	retry_button = Button.new()
 	retry_button.name = "RetryLoading"

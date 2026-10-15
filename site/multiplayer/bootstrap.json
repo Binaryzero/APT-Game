@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "build": "game-trading-card-server-v4",
+  "signalingUrl": "",
+  "iceTransportPolicy": "all"
+}

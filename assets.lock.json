@@ -1,6 +1,14 @@
 {
   "version": 2,
   "groups": {
+    "pt": {
+      "name": "Pt",
+      "order": 20
+    },
+    "share": {
+      "name": "Share",
+      "order": 30
+    },
     "template": {
       "name": "Template",
       "order": 0
@@ -8,6 +16,86 @@
   },
   "bundles": {},
   "assets": {
+    "assets/pt/art_exploit.webp": {
+      "path": "/manus-storage/game/sha256/760458a4da5dba789c30a9f0ddcf92f68b93b5dc691524af385dbb48f04488c0.webp",
+      "sha256": "sha256:760458a4da5dba789c30a9f0ddcf92f68b93b5dc691524af385dbb48f04488c0",
+      "size": 59160,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/art_malware.webp": {
+      "path": "/manus-storage/game/sha256/f57e95b6c8d516a0ff15deb29f2b34eecde8a99d73174d4b027f8b5310cfc64f.webp",
+      "sha256": "sha256:f57e95b6c8d516a0ff15deb29f2b34eecde8a99d73174d4b027f8b5310cfc64f",
+      "size": 66108,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/art_production.webp": {
+      "path": "/manus-storage/game/sha256/ee910fbff6f1c4872e69c801077cff21f8e245919940c677084818c17f17a82d.webp",
+      "sha256": "sha256:ee910fbff6f1c4872e69c801077cff21f8e245919940c677084818c17f17a82d",
+      "size": 63004,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/art_software.webp": {
+      "path": "/manus-storage/game/sha256/c97413b2112fcc0aa95f4c25fc48cf3c80b496a0791ac751718a6568d30e94b1.webp",
+      "sha256": "sha256:c97413b2112fcc0aa95f4c25fc48cf3c80b496a0791ac751718a6568d30e94b1",
+      "size": 36026,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/art_staging.webp": {
+      "path": "/manus-storage/game/sha256/ae97d8a40496d494ef15fd288293c1d0f8811deab5e2cd469d6e5e5949e3033b.webp",
+      "sha256": "sha256:ae97d8a40496d494ef15fd288293c1d0f8811deab5e2cd469d6e5e5949e3033b",
+      "size": 38172,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/art_zeroday.webp": {
+      "path": "/manus-storage/game/sha256/2008a89a4245b338c1214b15736655150a63bc04464c3c681556c7241a02aa9a.webp",
+      "sha256": "sha256:2008a89a4245b338c1214b15736655150a63bc04464c3c681556c7241a02aa9a",
+      "size": 60396,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": false
+    },
+    "assets/pt/bg_circuit.webp": {
+      "path": "/manus-storage/game/sha256/8d6f2c193e3de673aea35b0afee28ae6d1e419e10c381a6ffc1438d89db7803a.webp",
+      "sha256": "sha256:8d6f2c193e3de673aea35b0afee28ae6d1e419e10c381a6ffc1438d89db7803a",
+      "size": 44422,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": true
+    },
+    "assets/pt/splash.png": {
+      "path": "/manus-storage/game/sha256/0682fec602055fc854b2b0f58e608e8d074eb92c9bf7948e020173e3f7a7c01b.png",
+      "sha256": "sha256:0682fec602055fc854b2b0f58e608e8d074eb92c9bf7948e020173e3f7a7c01b",
+      "size": 478184,
+      "assetType": "image",
+      "groupId": "pt",
+      "used": true
+    },
+    "assets/share/favicon.png": {
+      "path": "/manus-storage/game/sha256/146152dcbf997713425c3b7ae1f988319349f3551928605843bbd95df0c53f5d.png",
+      "sha256": "sha256:146152dcbf997713425c3b7ae1f988319349f3551928605843bbd95df0c53f5d",
+      "size": 98573,
+      "assetType": "image",
+      "groupId": "share",
+      "used": true
+    },
+    "assets/share/og.png": {
+      "path": "/manus-storage/game/sha256/ff64a4e786e7db4c543d850f336544dc51ad0e8ab1a82fd86ca5529fd8627faf.png",
+      "sha256": "sha256:ff64a4e786e7db4c543d850f336544dc51ad0e8ab1a82fd86ca5529fd8627faf",
+      "size": 1088987,
+      "assetType": "image",
+      "groupId": "share",
+      "used": true
+    },
     "assets/template/cardgame/banquet_tyrant.webp": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c.webp",
       "sha256": "sha256:14218001017b655a63eff0bf89b9244ac4a0e7055ed0fdfa25d527814ce2483c",
@@ -430,7 +518,7 @@
       "size": 1850907,
       "assetType": "image",
       "groupId": "template",
-      "used": true
+      "used": false
     },
     "assets/template/cardgame/meat_mimic.webp": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/03/44465932c36b3eb438a70077a9e06d8dbacc268bf43b11248c770760e74ca261.webp",
@@ -824,6 +912,14 @@
       "groupId": "template",
       "used": true
     },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "size": 10308,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
     "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic/2026.09.25-typography-v1/38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412/assets/template/fonts/NotoSansSC-VF.subset.woff2",
       "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
@@ -854,15 +950,7 @@
       "size": 618199,
       "assetType": "image",
       "groupId": "template",
-      "used": true
-    },
-    "assets/template/fonts/ManusCC0-Bold.woff2": {
-      "assetType": "font",
-      "groupId": "template",
-      "used": true,
-      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
-      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
-      "size": 10308
+      "used": false
     }
   }
 }

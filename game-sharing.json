@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "title": "Packet Tactics",
+  "description": "A cyberpunk network-security card game. Build servers, install software, launch exploits and answer with an instant 0DAY. Play against AI opponents or hot-seat with friends.",
+  "defaultCaptions": {
+    "x": "Build your network, plant malware, and counter with a 0DAY in Packet Tactics.",
+    "facebook": "Packet Tactics: a cyberpunk card game of servers, exploits and instant 0DAY counters. Play free in your browser.",
+    "reddit": "Packet Tactics - a browser card game about building a network and out-hacking your rivals (vs AI or hot-seat).",
+    "discord": "Packet Tactics: race to control the most servers. Exploits, malware and 0DAY counters. Play in your browser."
+  },
+  "assets": {
+    "og": "assets/share/og.png",
+    "favicon": "assets/share/favicon.png"
+  }
+}

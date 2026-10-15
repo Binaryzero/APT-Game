@@ -1,5 +1,5 @@
 {
-  "app.title": "余烬平底锅：午夜营业",
+  "app.title": "Packet Tactics",
   "battle.allies": "你的厨房伙伴",
   "battle.armor": "{armor} 护甲",
   "battle.board_full": "场地已满",
@@ -709,7 +709,7 @@
   "mp.card.the_sovereign_cleaver": "7法力·对敌方英雄及所有敌方随从造成5点伤害。请选择敌方英雄。",
   "mp.card.bell_of_the_last_service": "8法力·恢复8生命（上限24）。己方随从获得＋3/＋3并就绪。",
   "mp.error.room_creation_limited": "最近创建的房间过多。请稍等片刻后重试。",
-  "loading.title": "余烬厨房",
+  "loading.title": "PACKET TACTICS",
   "loading.preparing": "正在布置餐桌…",
   "loading.hint": "一缕炉火，一点魔法。下一手好牌正在等你。",
   "loading.retry": "重试",
