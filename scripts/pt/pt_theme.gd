@@ -19,6 +19,61 @@ const TEXT_DIM := Color("#7fa3b1")
 static var _font_cache := {}
 static var _art_cache := {}
 
+## Explicit preloads keep each card illustration in Godot web exports.
+const CARD_ART := {
+	"antivirus": preload("res://assets/pt/cards/antivirus.webp"),
+	"api_gateway": preload("res://assets/pt/cards/api_gateway.webp"),
+	"auth_server": preload("res://assets/pt/cards/auth_server.webp"),
+	"auto_patcher": preload("res://assets/pt/cards/auto_patcher.webp"),
+	"backdoor_cache": preload("res://assets/pt/cards/backdoor_cache.webp"),
+	"backup_agent": preload("res://assets/pt/cards/backup_agent.webp"),
+	"billing_cluster": preload("res://assets/pt/cards/billing_cluster.webp"),
+	"bug_bounty": preload("res://assets/pt/cards/bug_bounty.webp"),
+	"build_runner": preload("res://assets/pt/cards/build_runner.webp"),
+	"canary_node": preload("res://assets/pt/cards/canary_node.webp"),
+	"clean_sweep": preload("res://assets/pt/cards/clean_sweep.webp"),
+	"cloud_storage": preload("res://assets/pt/cards/cloud_storage.webp"),
+	"cryptominer": preload("res://assets/pt/cards/cryptominer.webp"),
+	"customer_db": preload("res://assets/pt/cards/customer_db.webp"),
+	"data_warehouse": preload("res://assets/pt/cards/data_warehouse.webp"),
+	"data_wipe": preload("res://assets/pt/cards/data_wipe.webp"),
+	"dev_sandbox": preload("res://assets/pt/cards/dev_sandbox.webp"),
+	"domain_controller": preload("res://assets/pt/cards/domain_controller.webp"),
+	"double_tap": preload("res://assets/pt/cards/double_tap.webp"),
+	"escrow_vault": preload("res://assets/pt/cards/escrow_vault.webp"),
+	"exfil_trojan": preload("res://assets/pt/cards/exfil_trojan.webp"),
+	"failover_node": preload("res://assets/pt/cards/failover_node.webp"),
+	"forced_failover": preload("res://assets/pt/cards/forced_failover.webp"),
+	"fresh_install": preload("res://assets/pt/cards/fresh_install.webp"),
+	"hot_standby": preload("res://assets/pt/cards/hot_standby.webp"),
+	"hot_swap": preload("res://assets/pt/cards/hot_swap.webp"),
+	"lateral_pivot": preload("res://assets/pt/cards/lateral_pivot.webp"),
+	"macro_engine": preload("res://assets/pt/cards/macro_engine.webp"),
+	"mail_relay": preload("res://assets/pt/cards/mail_relay.webp"),
+	"memory_leak": preload("res://assets/pt/cards/memory_leak.webp"),
+	"phishing": preload("res://assets/pt/cards/phishing.webp"),
+	"poisoned_package": preload("res://assets/pt/cards/poisoned_package.webp"),
+	"preview_env": preload("res://assets/pt/cards/preview_env.webp"),
+	"process_kill": preload("res://assets/pt/cards/process_kill.webp"),
+	"qa_cluster": preload("res://assets/pt/cards/qa_cluster.webp"),
+	"ransomware": preload("res://assets/pt/cards/ransomware.webp"),
+	"rollback": preload("res://assets/pt/cards/rollback.webp"),
+	"rootkit": preload("res://assets/pt/cards/rootkit.webp"),
+	"server_hijack": preload("res://assets/pt/cards/server_hijack.webp"),
+	"small_ddos": preload("res://assets/pt/cards/small_ddos.webp"),
+	"sniffer": preload("res://assets/pt/cards/sniffer.webp"),
+	"social_engineering": preload("res://assets/pt/cards/social_engineering.webp"),
+	"supply_chain": preload("res://assets/pt/cards/supply_chain.webp"),
+	"test_bench": preload("res://assets/pt/cards/test_bench.webp"),
+	"threat_feed": preload("res://assets/pt/cards/threat_feed.webp"),
+	"throttle": preload("res://assets/pt/cards/throttle.webp"),
+	"vpn_tunnel": preload("res://assets/pt/cards/vpn_tunnel.webp"),	
+	"cache_layer": preload("res://assets/pt/cards/cloud_storage.webp"),
+	"firewall": preload("res://assets/pt/cards/antivirus.webp"),
+	"password_manager": preload("res://assets/pt/cards/vpn_tunnel.webp"),
+	"remote_root": preload("res://assets/pt/cards/small_ddos.webp"),
+}
+
 static func font(kind: String) -> Font:
 	if not _font_cache.has(kind):
 		var path := "res://assets/template/fonts/ui_regular.tres"
@@ -41,6 +96,11 @@ static func art(type_key: String) -> Texture2D:
 	if not _art_cache.has(name_):
 		_art_cache[name_] = load("res://assets/pt/art_%s.webp" % name_)
 	return _art_cache[name_]
+
+static func art_for_card(card_key: String, type_key: String) -> Texture2D:
+	if CARD_ART.has(card_key):
+		return CARD_ART[card_key]
+	return art(type_key)
 
 static func type_color(t: String) -> Color:
 	return Defs.TYPE_COLOR.get(t, CYAN)

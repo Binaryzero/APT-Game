@@ -1,6 +1,10 @@
 {
   "version": 2,
   "groups": {
+    "card-art": {
+      "name": "Card Illustrations",
+      "order": 10
+    },
     "pt": {
       "name": "Pt",
       "order": 20
@@ -70,6 +74,382 @@
       "size": 44422,
       "assetType": "image",
       "groupId": "pt",
+      "used": true
+    },
+    "assets/pt/cards/antivirus.webp": {
+      "path": "/manus-storage/game/sha256/5f3a9ee25a1ec6a6283428208f703026782a97f6e049d0bf8b70b753dc40d267.webp",
+      "sha256": "sha256:5f3a9ee25a1ec6a6283428208f703026782a97f6e049d0bf8b70b753dc40d267",
+      "size": 73742,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/api_gateway.webp": {
+      "path": "/manus-storage/game/sha256/37c60b106b0c96a34aad778f86757033d7f413515437c410493262806e73df79.webp",
+      "sha256": "sha256:37c60b106b0c96a34aad778f86757033d7f413515437c410493262806e73df79",
+      "size": 89798,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/auth_server.webp": {
+      "path": "/manus-storage/game/sha256/6200f8bc651084c1fc37a2d72a74b92fd70b72269b0562db42cdfb9081489e5e.webp",
+      "sha256": "sha256:6200f8bc651084c1fc37a2d72a74b92fd70b72269b0562db42cdfb9081489e5e",
+      "size": 106112,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/auto_patcher.webp": {
+      "path": "/manus-storage/game/sha256/d35733591a1083185283edcd3acaf20e420feced3014cfbc21ad585bc87d329d.webp",
+      "sha256": "sha256:d35733591a1083185283edcd3acaf20e420feced3014cfbc21ad585bc87d329d",
+      "size": 96990,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/backdoor_cache.webp": {
+      "path": "/manus-storage/game/sha256/c0f751441ddfee9c1ae975269642d7e6691cf310ac055e1be1523a84ed5820ca.webp",
+      "sha256": "sha256:c0f751441ddfee9c1ae975269642d7e6691cf310ac055e1be1523a84ed5820ca",
+      "size": 52076,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/backup_agent.webp": {
+      "path": "/manus-storage/game/sha256/95ae26a87cba3233d3cf348627ebac9fe8177844870c396c25a6326ee1695c5f.webp",
+      "sha256": "sha256:95ae26a87cba3233d3cf348627ebac9fe8177844870c396c25a6326ee1695c5f",
+      "size": 69648,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/billing_cluster.webp": {
+      "path": "/manus-storage/game/sha256/c3fdbf455791f35d1d3e5c89e02873febdbf520cc7a60add33c42c8eced52299.webp",
+      "sha256": "sha256:c3fdbf455791f35d1d3e5c89e02873febdbf520cc7a60add33c42c8eced52299",
+      "size": 128782,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/bug_bounty.webp": {
+      "path": "/manus-storage/game/sha256/163e652c9d099c8d36a2532d7135415d73db7c7e245092a80290f341012eeb41.webp",
+      "sha256": "sha256:163e652c9d099c8d36a2532d7135415d73db7c7e245092a80290f341012eeb41",
+      "size": 103118,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/build_runner.webp": {
+      "path": "/manus-storage/game/sha256/244704ba2baedd3280be5f9ebdcd155de7a481fa516e348e379ecf287d4b936a.webp",
+      "sha256": "sha256:244704ba2baedd3280be5f9ebdcd155de7a481fa516e348e379ecf287d4b936a",
+      "size": 88604,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/canary_node.webp": {
+      "path": "/manus-storage/game/sha256/438503bd93a79120b9b1502ea4cbdba97054fab114b1e43e577bb6e87065c4de.webp",
+      "sha256": "sha256:438503bd93a79120b9b1502ea4cbdba97054fab114b1e43e577bb6e87065c4de",
+      "size": 50916,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/clean_sweep.webp": {
+      "path": "/manus-storage/game/sha256/eff7b3cb559b3684a8e140a5d748f1c63ca15b8034bde4aeea83a5c5ec38a810.webp",
+      "sha256": "sha256:eff7b3cb559b3684a8e140a5d748f1c63ca15b8034bde4aeea83a5c5ec38a810",
+      "size": 99766,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/cloud_storage.webp": {
+      "path": "/manus-storage/game/sha256/677eb00db4125ed0c0b5057dda9fe6d394a4a5ea6eaf8fc2e53795d71038d0b5.webp",
+      "sha256": "sha256:677eb00db4125ed0c0b5057dda9fe6d394a4a5ea6eaf8fc2e53795d71038d0b5",
+      "size": 66032,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/cryptominer.webp": {
+      "path": "/manus-storage/game/sha256/164d44046ad9b84ddf7a310ce446b20d09dc4a1e3be16e0aab4ac91078d435b7.webp",
+      "sha256": "sha256:164d44046ad9b84ddf7a310ce446b20d09dc4a1e3be16e0aab4ac91078d435b7",
+      "size": 123534,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/customer_db.webp": {
+      "path": "/manus-storage/game/sha256/b7d7e914f153ef31ad1848271b5ab639eb42f58ba81e021ed86d8180070299a7.webp",
+      "sha256": "sha256:b7d7e914f153ef31ad1848271b5ab639eb42f58ba81e021ed86d8180070299a7",
+      "size": 138136,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/data_warehouse.webp": {
+      "path": "/manus-storage/game/sha256/2c87d7df03ea63ba9abc7866abcb8fbec34a3e41f499035123f822a5b9a91e96.webp",
+      "sha256": "sha256:2c87d7df03ea63ba9abc7866abcb8fbec34a3e41f499035123f822a5b9a91e96",
+      "size": 130316,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/data_wipe.webp": {
+      "path": "/manus-storage/game/sha256/65cb62a3f04a53b49c56faae444e1975cff27bb0bd2118d86677a18b2d9cb13b.webp",
+      "sha256": "sha256:65cb62a3f04a53b49c56faae444e1975cff27bb0bd2118d86677a18b2d9cb13b",
+      "size": 135484,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/dev_sandbox.webp": {
+      "path": "/manus-storage/game/sha256/dd2b520b4d99c9511455d76f29d90fb5eca3bb0bf1fb2f988480e53bdd44c3f2.webp",
+      "sha256": "sha256:dd2b520b4d99c9511455d76f29d90fb5eca3bb0bf1fb2f988480e53bdd44c3f2",
+      "size": 74686,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/domain_controller.webp": {
+      "path": "/manus-storage/game/sha256/d774018acce01f8f86f00fdf2d3a5db42c422eeccb7425bf2be62aca6f17f51b.webp",
+      "sha256": "sha256:d774018acce01f8f86f00fdf2d3a5db42c422eeccb7425bf2be62aca6f17f51b",
+      "size": 103044,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/double_tap.webp": {
+      "path": "/manus-storage/game/sha256/1c4dc07ee70806a4726b994ffb9f86621433351186f1664bc83e5fcce4dbdaf9.webp",
+      "sha256": "sha256:1c4dc07ee70806a4726b994ffb9f86621433351186f1664bc83e5fcce4dbdaf9",
+      "size": 98418,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/escrow_vault.webp": {
+      "path": "/manus-storage/game/sha256/9fe3f95d002aa829d640973f6330fbea06dd2178e548626ce7d995cc60f1779f.webp",
+      "sha256": "sha256:9fe3f95d002aa829d640973f6330fbea06dd2178e548626ce7d995cc60f1779f",
+      "size": 108716,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/exfil_trojan.webp": {
+      "path": "/manus-storage/game/sha256/9dc66101f5bfe84c90712083ad8284fca621e36e15e4378754fec09ae146092d.webp",
+      "sha256": "sha256:9dc66101f5bfe84c90712083ad8284fca621e36e15e4378754fec09ae146092d",
+      "size": 86308,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/failover_node.webp": {
+      "path": "/manus-storage/game/sha256/9f839a490e51e4fd02858c5c75c3623533a44d42bd7182f66ddeca362121a536.webp",
+      "sha256": "sha256:9f839a490e51e4fd02858c5c75c3623533a44d42bd7182f66ddeca362121a536",
+      "size": 105686,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/forced_failover.webp": {
+      "path": "/manus-storage/game/sha256/88246c8b478667f7e13eb6f8373cf3beefe0908e2e1847ecf13bf006bfb7c3fd.webp",
+      "sha256": "sha256:88246c8b478667f7e13eb6f8373cf3beefe0908e2e1847ecf13bf006bfb7c3fd",
+      "size": 86016,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/fresh_install.webp": {
+      "path": "/manus-storage/game/sha256/0813a9451f56e680d42697e36a20b2d05eeeef88aa7f4a131bc2f727a1b7815d.webp",
+      "sha256": "sha256:0813a9451f56e680d42697e36a20b2d05eeeef88aa7f4a131bc2f727a1b7815d",
+      "size": 89354,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/hot_standby.webp": {
+      "path": "/manus-storage/game/sha256/0b7f05e8a98269ad3fcae8ef552d6f77582837c2403b6632578833d1ce05905b.webp",
+      "sha256": "sha256:0b7f05e8a98269ad3fcae8ef552d6f77582837c2403b6632578833d1ce05905b",
+      "size": 100114,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/hot_swap.webp": {
+      "path": "/manus-storage/game/sha256/a76682bc0f8a320b2af899d63ada03803c8e6044d860cf640fc53ec750edfd0e.webp",
+      "sha256": "sha256:a76682bc0f8a320b2af899d63ada03803c8e6044d860cf640fc53ec750edfd0e",
+      "size": 74752,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/lateral_pivot.webp": {
+      "path": "/manus-storage/game/sha256/92f521f6420c52c7f8042738e84cb8ab50c37995118b5246bc400b8cc0d336d8.webp",
+      "sha256": "sha256:92f521f6420c52c7f8042738e84cb8ab50c37995118b5246bc400b8cc0d336d8",
+      "size": 81998,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/macro_engine.webp": {
+      "path": "/manus-storage/game/sha256/3cc41ff9f86dfa250fd6e00a92a7515614329cee834a9aec87712bb8bb26535a.webp",
+      "sha256": "sha256:3cc41ff9f86dfa250fd6e00a92a7515614329cee834a9aec87712bb8bb26535a",
+      "size": 103200,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/mail_relay.webp": {
+      "path": "/manus-storage/game/sha256/4feb28da390fe4e8c4a927c9a33a11cae5528299db0f47b9125914ff344dad7a.webp",
+      "sha256": "sha256:4feb28da390fe4e8c4a927c9a33a11cae5528299db0f47b9125914ff344dad7a",
+      "size": 103180,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/memory_leak.webp": {
+      "path": "/manus-storage/game/sha256/fd1e93d537aaa4bf947448c3065a84df2fb9727d8810374acc74bdba2803ab0b.webp",
+      "sha256": "sha256:fd1e93d537aaa4bf947448c3065a84df2fb9727d8810374acc74bdba2803ab0b",
+      "size": 68680,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/phishing.webp": {
+      "path": "/manus-storage/game/sha256/dbd82fa48b38003b48a518e97bf3a224fac5ee0bb3a5a4ef9640e837ab1e1139.webp",
+      "sha256": "sha256:dbd82fa48b38003b48a518e97bf3a224fac5ee0bb3a5a4ef9640e837ab1e1139",
+      "size": 70970,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/poisoned_package.webp": {
+      "path": "/manus-storage/game/sha256/9d6dd92a445b0a106069555412207707e6bef6e69e0bb5a9b08380e3422d7a44.webp",
+      "sha256": "sha256:9d6dd92a445b0a106069555412207707e6bef6e69e0bb5a9b08380e3422d7a44",
+      "size": 82812,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/preview_env.webp": {
+      "path": "/manus-storage/game/sha256/12022035031b92b34fe21c41c33c2acd27ba71040fdc1bb50a8a3172614e90de.webp",
+      "sha256": "sha256:12022035031b92b34fe21c41c33c2acd27ba71040fdc1bb50a8a3172614e90de",
+      "size": 76886,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/process_kill.webp": {
+      "path": "/manus-storage/game/sha256/fdbffed748a17123e76bf7489dfd7b69a24a1a314f17418a5aec73e5c758d034.webp",
+      "sha256": "sha256:fdbffed748a17123e76bf7489dfd7b69a24a1a314f17418a5aec73e5c758d034",
+      "size": 124044,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/qa_cluster.webp": {
+      "path": "/manus-storage/game/sha256/984100c810f6c2d92e697c39a8f10a3d17d949d7ad7eedca8c17377edfa8d425.webp",
+      "sha256": "sha256:984100c810f6c2d92e697c39a8f10a3d17d949d7ad7eedca8c17377edfa8d425",
+      "size": 76734,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/ransomware.webp": {
+      "path": "/manus-storage/game/sha256/c6078ae131b53c513c091f4f422328526f69a274db91e30066f723bafbf441a3.webp",
+      "sha256": "sha256:c6078ae131b53c513c091f4f422328526f69a274db91e30066f723bafbf441a3",
+      "size": 100776,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/rollback.webp": {
+      "path": "/manus-storage/game/sha256/a17c709570ee559d9fb06d9e5bf463f8c3f90c9a30e897f041055f9586f44ea7.webp",
+      "sha256": "sha256:a17c709570ee559d9fb06d9e5bf463f8c3f90c9a30e897f041055f9586f44ea7",
+      "size": 89562,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/rootkit.webp": {
+      "path": "/manus-storage/game/sha256/5581f2b99a56b91f12acc25f1c695055fe4aef716a4596f7004614cab149a70d.webp",
+      "sha256": "sha256:5581f2b99a56b91f12acc25f1c695055fe4aef716a4596f7004614cab149a70d",
+      "size": 99362,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/server_hijack.webp": {
+      "path": "/manus-storage/game/sha256/5be258f49eff7b4c7f3a1ed486977d74448571a515e1ef77fc88c6fe63a0d16f.webp",
+      "sha256": "sha256:5be258f49eff7b4c7f3a1ed486977d74448571a515e1ef77fc88c6fe63a0d16f",
+      "size": 108700,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/small_ddos.webp": {
+      "path": "/manus-storage/game/sha256/70b655543f856f60c8e058067ec4e7e3f7ad7a06e5dfee8ef90db91b17f2d71a.webp",
+      "sha256": "sha256:70b655543f856f60c8e058067ec4e7e3f7ad7a06e5dfee8ef90db91b17f2d71a",
+      "size": 105910,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/sniffer.webp": {
+      "path": "/manus-storage/game/sha256/8bb5e837d4229728aea5a170116f009b032f7f3607eb7316365300bdfe14f58f.webp",
+      "sha256": "sha256:8bb5e837d4229728aea5a170116f009b032f7f3607eb7316365300bdfe14f58f",
+      "size": 84246,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/social_engineering.webp": {
+      "path": "/manus-storage/game/sha256/6a6290fcf67058f5adda93b1bd333ca033db42e702fcb0bcd76d62fd4538ae37.webp",
+      "sha256": "sha256:6a6290fcf67058f5adda93b1bd333ca033db42e702fcb0bcd76d62fd4538ae37",
+      "size": 79670,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/supply_chain.webp": {
+      "path": "/manus-storage/game/sha256/fd8f5ee99dee901c779cd733e45a5395f6ba4051330dc0f3adb3d0e3760aeb61.webp",
+      "sha256": "sha256:fd8f5ee99dee901c779cd733e45a5395f6ba4051330dc0f3adb3d0e3760aeb61",
+      "size": 77124,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/test_bench.webp": {
+      "path": "/manus-storage/game/sha256/03b5091d981a664fe199e714cba2d4a655f119e9237c26a6044ce631327d814c.webp",
+      "sha256": "sha256:03b5091d981a664fe199e714cba2d4a655f119e9237c26a6044ce631327d814c",
+      "size": 78050,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/threat_feed.webp": {
+      "path": "/manus-storage/game/sha256/776ea634769ba8aefdd13211f3d7aa5b598d7d899416d80ed107d36cefd75ac0.webp",
+      "sha256": "sha256:776ea634769ba8aefdd13211f3d7aa5b598d7d899416d80ed107d36cefd75ac0",
+      "size": 62502,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/throttle.webp": {
+      "path": "/manus-storage/game/sha256/21ac7fababfc60662d7df3a8947a3c14d93cd8d024e9df3e3267e08691519665.webp",
+      "sha256": "sha256:21ac7fababfc60662d7df3a8947a3c14d93cd8d024e9df3e3267e08691519665",
+      "size": 99124,
+      "assetType": "image",
+      "groupId": "card-art",
+      "used": true
+    },
+    "assets/pt/cards/vpn_tunnel.webp": {
+      "path": "/manus-storage/game/sha256/4c2fe9bd517ac41554939ec9c27d307bbe3114c848cce0e5e59750d4c2ab629a.webp",
+      "sha256": "sha256:4c2fe9bd517ac41554939ec9c27d307bbe3114c848cce0e5e59750d4c2ab629a",
+      "size": 89704,
+      "assetType": "image",
+      "groupId": "card-art",
       "used": true
     },
     "assets/pt/splash.png": {

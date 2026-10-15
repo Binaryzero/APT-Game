@@ -84,7 +84,7 @@ func _draw() -> void:
 	draw_string(f_b, Vector2(7 * k, 38 * k), String(Defs.TYPE_LABEL.get(d.type, "")), HORIZONTAL_ALIGNMENT_LEFT, size.x - 14 * k, int(9 * k), Color(tcol, alpha))
 	# art
 	var art_rect := Rect2(5 * k, 42 * k, size.x - 10 * k, 60 * k)
-	var tex := T.art(String(d.type))
+	var tex := T.art_for_card(String(card.key), String(d.type))
 	var ts := tex.get_size()
 	var aspect := art_rect.size.x / art_rect.size.y
 	var src_h := ts.x / aspect

@@ -134,6 +134,1040 @@
       "used": true,
       "usedBy": []
     },
+    "assets/pt/cards/antivirus.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5f3a9ee25a1ec6a6283428208f703026782a97f6e049d0bf8b70b753dc40d267",
+      "shipped": true,
+      "size": 73742,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/api_gateway.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:37c60b106b0c96a34aad778f86757033d7f413515437c410493262806e73df79",
+      "shipped": true,
+      "size": 89798,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/auth_server.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6200f8bc651084c1fc37a2d72a74b92fd70b72269b0562db42cdfb9081489e5e",
+      "shipped": true,
+      "size": 106112,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/auto_patcher.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d35733591a1083185283edcd3acaf20e420feced3014cfbc21ad585bc87d329d",
+      "shipped": true,
+      "size": 96990,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/backdoor_cache.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c0f751441ddfee9c1ae975269642d7e6691cf310ac055e1be1523a84ed5820ca",
+      "shipped": true,
+      "size": 52076,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/backup_agent.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:95ae26a87cba3233d3cf348627ebac9fe8177844870c396c25a6326ee1695c5f",
+      "shipped": true,
+      "size": 69648,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/billing_cluster.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c3fdbf455791f35d1d3e5c89e02873febdbf520cc7a60add33c42c8eced52299",
+      "shipped": true,
+      "size": 128782,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/bug_bounty.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:163e652c9d099c8d36a2532d7135415d73db7c7e245092a80290f341012eeb41",
+      "shipped": true,
+      "size": 103118,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/build_runner.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:244704ba2baedd3280be5f9ebdcd155de7a481fa516e348e379ecf287d4b936a",
+      "shipped": true,
+      "size": 88604,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/canary_node.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:438503bd93a79120b9b1502ea4cbdba97054fab114b1e43e577bb6e87065c4de",
+      "shipped": true,
+      "size": 50916,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/clean_sweep.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:eff7b3cb559b3684a8e140a5d748f1c63ca15b8034bde4aeea83a5c5ec38a810",
+      "shipped": true,
+      "size": 99766,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/cloud_storage.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:677eb00db4125ed0c0b5057dda9fe6d394a4a5ea6eaf8fc2e53795d71038d0b5",
+      "shipped": true,
+      "size": 66032,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/cryptominer.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:164d44046ad9b84ddf7a310ce446b20d09dc4a1e3be16e0aab4ac91078d435b7",
+      "shipped": true,
+      "size": 123534,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/customer_db.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:b7d7e914f153ef31ad1848271b5ab639eb42f58ba81e021ed86d8180070299a7",
+      "shipped": true,
+      "size": 138136,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/data_warehouse.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:2c87d7df03ea63ba9abc7866abcb8fbec34a3e41f499035123f822a5b9a91e96",
+      "shipped": true,
+      "size": 130316,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/data_wipe.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:65cb62a3f04a53b49c56faae444e1975cff27bb0bd2118d86677a18b2d9cb13b",
+      "shipped": true,
+      "size": 135484,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/dev_sandbox.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:dd2b520b4d99c9511455d76f29d90fb5eca3bb0bf1fb2f988480e53bdd44c3f2",
+      "shipped": true,
+      "size": 74686,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/domain_controller.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d774018acce01f8f86f00fdf2d3a5db42c422eeccb7425bf2be62aca6f17f51b",
+      "shipped": true,
+      "size": 103044,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/double_tap.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:1c4dc07ee70806a4726b994ffb9f86621433351186f1664bc83e5fcce4dbdaf9",
+      "shipped": true,
+      "size": 98418,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/escrow_vault.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9fe3f95d002aa829d640973f6330fbea06dd2178e548626ce7d995cc60f1779f",
+      "shipped": true,
+      "size": 108716,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/exfil_trojan.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9dc66101f5bfe84c90712083ad8284fca621e36e15e4378754fec09ae146092d",
+      "shipped": true,
+      "size": 86308,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/failover_node.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9f839a490e51e4fd02858c5c75c3623533a44d42bd7182f66ddeca362121a536",
+      "shipped": true,
+      "size": 105686,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/forced_failover.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:88246c8b478667f7e13eb6f8373cf3beefe0908e2e1847ecf13bf006bfb7c3fd",
+      "shipped": true,
+      "size": 86016,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/fresh_install.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0813a9451f56e680d42697e36a20b2d05eeeef88aa7f4a131bc2f727a1b7815d",
+      "shipped": true,
+      "size": 89354,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/hot_standby.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:0b7f05e8a98269ad3fcae8ef552d6f77582837c2403b6632578833d1ce05905b",
+      "shipped": true,
+      "size": 100114,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/hot_swap.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a76682bc0f8a320b2af899d63ada03803c8e6044d860cf640fc53ec750edfd0e",
+      "shipped": true,
+      "size": 74752,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/lateral_pivot.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:92f521f6420c52c7f8042738e84cb8ab50c37995118b5246bc400b8cc0d336d8",
+      "shipped": true,
+      "size": 81998,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/macro_engine.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3cc41ff9f86dfa250fd6e00a92a7515614329cee834a9aec87712bb8bb26535a",
+      "shipped": true,
+      "size": 103200,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/mail_relay.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4feb28da390fe4e8c4a927c9a33a11cae5528299db0f47b9125914ff344dad7a",
+      "shipped": true,
+      "size": 103180,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/memory_leak.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:fd1e93d537aaa4bf947448c3065a84df2fb9727d8810374acc74bdba2803ab0b",
+      "shipped": true,
+      "size": 68680,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/phishing.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:dbd82fa48b38003b48a518e97bf3a224fac5ee0bb3a5a4ef9640e837ab1e1139",
+      "shipped": true,
+      "size": 70970,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/poisoned_package.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:9d6dd92a445b0a106069555412207707e6bef6e69e0bb5a9b08380e3422d7a44",
+      "shipped": true,
+      "size": 82812,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/preview_env.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:12022035031b92b34fe21c41c33c2acd27ba71040fdc1bb50a8a3172614e90de",
+      "shipped": true,
+      "size": 76886,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/process_kill.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:fdbffed748a17123e76bf7489dfd7b69a24a1a314f17418a5aec73e5c758d034",
+      "shipped": true,
+      "size": 124044,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/qa_cluster.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:984100c810f6c2d92e697c39a8f10a3d17d949d7ad7eedca8c17377edfa8d425",
+      "shipped": true,
+      "size": 76734,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/ransomware.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c6078ae131b53c513c091f4f422328526f69a274db91e30066f723bafbf441a3",
+      "shipped": true,
+      "size": 100776,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/rollback.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a17c709570ee559d9fb06d9e5bf463f8c3f90c9a30e897f041055f9586f44ea7",
+      "shipped": true,
+      "size": 89562,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/rootkit.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5581f2b99a56b91f12acc25f1c695055fe4aef716a4596f7004614cab149a70d",
+      "shipped": true,
+      "size": 99362,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/server_hijack.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:5be258f49eff7b4c7f3a1ed486977d74448571a515e1ef77fc88c6fe63a0d16f",
+      "shipped": true,
+      "size": 108700,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/small_ddos.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:70b655543f856f60c8e058067ec4e7e3f7ad7a06e5dfee8ef90db91b17f2d71a",
+      "shipped": true,
+      "size": 105910,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/sniffer.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:8bb5e837d4229728aea5a170116f009b032f7f3607eb7316365300bdfe14f58f",
+      "shipped": true,
+      "size": 84246,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/social_engineering.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6a6290fcf67058f5adda93b1bd333ca033db42e702fcb0bcd76d62fd4538ae37",
+      "shipped": true,
+      "size": 79670,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/supply_chain.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:fd8f5ee99dee901c779cd733e45a5395f6ba4051330dc0f3adb3d0e3760aeb61",
+      "shipped": true,
+      "size": 77124,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/test_bench.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:03b5091d981a664fe199e714cba2d4a655f119e9237c26a6044ce631327d814c",
+      "shipped": true,
+      "size": 78050,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/threat_feed.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:776ea634769ba8aefdd13211f3d7aa5b598d7d899416d80ed107d36cefd75ac0",
+      "shipped": true,
+      "size": 62502,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/throttle.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:21ac7fababfc60662d7df3a8947a3c14d93cd8d024e9df3e3267e08691519665",
+      "shipped": true,
+      "size": 99124,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/pt/cards/vpn_tunnel.webp": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:4c2fe9bd517ac41554939ec9c27d307bbe3114c848cce0e5e59750d4c2ab629a",
+      "shipped": true,
+      "size": 89704,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/pt/pt_theme.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
     "assets/pt/splash.png": {
       "declaredUseEvidence": [],
       "generator": {},
@@ -2235,9 +3269,9 @@
         ]
       }
     ],
-    "pckSha256": "sha256:14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702",
+    "pckSha256": "sha256:9c10fb673a416bafbbe7d5265ddb2feade9cad01a4e143e0b5fc90f875e3e404",
     "profile": "release",
-    "sourceFingerprint": "sha256:f2b7a62b9f741025b5e628c092ea8ad495d0516178323200ac672a5b4b642f9a"
+    "sourceFingerprint": "sha256:829edda47f626e970c01c15878fd11470606ddd483ea782e126e8865ffb1bbd7"
   },
   "procedures": {},
   "summary": {
@@ -2270,9 +3304,9 @@
     },
     "files": {
       "downloaded": 0,
-      "retained": 117,
-      "shipped": 16,
-      "used": 9
+      "retained": 164,
+      "shipped": 63,
+      "used": 56
     },
     "origins": {
       "ai": {
@@ -2306,9 +3340,9 @@
         "used": 1
       },
       "unknown": {
-        "retained": 115,
-        "shipped": 14,
-        "used": 7
+        "retained": 162,
+        "shipped": 61,
+        "used": 54
       }
     },
     "packs": {

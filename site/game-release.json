@@ -3,7 +3,7 @@
   "engineVersion": "4.7.2.stable.official.ed1daf0bf",
   "inputs": {
     "objectFormat": "sha1",
-    "tree": "04f578cd9238efe1a8b5651855b0cec6764e9198",
+    "tree": "39f6acee2904f4516d8ff965244bb73f1c1d2aba",
     "entries": [
       {
         "path": ".gitignore",
@@ -39,7 +39,7 @@
         "path": "assets.lock.json",
         "type": "file",
         "mode": "100644",
-        "object": "8d4da08502d90659db510bb4cb9637d342346a20"
+        "object": "800036a60d2775a65d361b9ff47960f5d07527c4"
       },
       {
         "path": "assets/pt/art_exploit.webp",
@@ -117,6 +117,523 @@
         "type": "file",
         "mode": "100644",
         "object": "8cb09789a0867b099fc6c4c1fe6a8c8a5ec3160e"
+      },
+      {
+        "path": "assets/pt/cards/antivirus.webp",
+        "type": "managed",
+        "sha256": "sha256:5f3a9ee25a1ec6a6283428208f703026782a97f6e049d0bf8b70b753dc40d267"
+      },
+      {
+        "path": "assets/pt/cards/antivirus.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c17e127d25f1fbec907b29b200c3d732496d7123"
+      },
+      {
+        "path": "assets/pt/cards/api_gateway.webp",
+        "type": "managed",
+        "sha256": "sha256:37c60b106b0c96a34aad778f86757033d7f413515437c410493262806e73df79"
+      },
+      {
+        "path": "assets/pt/cards/api_gateway.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b2245ef057c145658fd55ef396b01af7a9ef20b9"
+      },
+      {
+        "path": "assets/pt/cards/auth_server.webp",
+        "type": "managed",
+        "sha256": "sha256:6200f8bc651084c1fc37a2d72a74b92fd70b72269b0562db42cdfb9081489e5e"
+      },
+      {
+        "path": "assets/pt/cards/auth_server.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8c96ad1a9fa7fe7c7a8583a2523165cc7fb146f5"
+      },
+      {
+        "path": "assets/pt/cards/auto_patcher.webp",
+        "type": "managed",
+        "sha256": "sha256:d35733591a1083185283edcd3acaf20e420feced3014cfbc21ad585bc87d329d"
+      },
+      {
+        "path": "assets/pt/cards/auto_patcher.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "868f81433cfa396c4ef5c3d99573d9e942aa10a7"
+      },
+      {
+        "path": "assets/pt/cards/backdoor_cache.webp",
+        "type": "managed",
+        "sha256": "sha256:c0f751441ddfee9c1ae975269642d7e6691cf310ac055e1be1523a84ed5820ca"
+      },
+      {
+        "path": "assets/pt/cards/backdoor_cache.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3584358265874313b104a83d721f982668c6ce34"
+      },
+      {
+        "path": "assets/pt/cards/backup_agent.webp",
+        "type": "managed",
+        "sha256": "sha256:95ae26a87cba3233d3cf348627ebac9fe8177844870c396c25a6326ee1695c5f"
+      },
+      {
+        "path": "assets/pt/cards/backup_agent.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "93cc08ab6776257fc9a2246750fe27677c9fa768"
+      },
+      {
+        "path": "assets/pt/cards/billing_cluster.webp",
+        "type": "managed",
+        "sha256": "sha256:c3fdbf455791f35d1d3e5c89e02873febdbf520cc7a60add33c42c8eced52299"
+      },
+      {
+        "path": "assets/pt/cards/billing_cluster.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f4988c39c4d7b1f9fc7e2f5267c2b63b3fb7537f"
+      },
+      {
+        "path": "assets/pt/cards/bug_bounty.webp",
+        "type": "managed",
+        "sha256": "sha256:163e652c9d099c8d36a2532d7135415d73db7c7e245092a80290f341012eeb41"
+      },
+      {
+        "path": "assets/pt/cards/bug_bounty.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "debf0ed69104fc63abc668309b2f98db1b92564c"
+      },
+      {
+        "path": "assets/pt/cards/build_runner.webp",
+        "type": "managed",
+        "sha256": "sha256:244704ba2baedd3280be5f9ebdcd155de7a481fa516e348e379ecf287d4b936a"
+      },
+      {
+        "path": "assets/pt/cards/build_runner.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "eb013d07bace285d723789c6af60c408ea1f86a0"
+      },
+      {
+        "path": "assets/pt/cards/canary_node.webp",
+        "type": "managed",
+        "sha256": "sha256:438503bd93a79120b9b1502ea4cbdba97054fab114b1e43e577bb6e87065c4de"
+      },
+      {
+        "path": "assets/pt/cards/canary_node.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2943a45e61e580e8ac11796b277d10a8892d7b26"
+      },
+      {
+        "path": "assets/pt/cards/clean_sweep.webp",
+        "type": "managed",
+        "sha256": "sha256:eff7b3cb559b3684a8e140a5d748f1c63ca15b8034bde4aeea83a5c5ec38a810"
+      },
+      {
+        "path": "assets/pt/cards/clean_sweep.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "aceb9aa0d1882e3e965aded5ec40f0ef8adbe414"
+      },
+      {
+        "path": "assets/pt/cards/cloud_storage.webp",
+        "type": "managed",
+        "sha256": "sha256:677eb00db4125ed0c0b5057dda9fe6d394a4a5ea6eaf8fc2e53795d71038d0b5"
+      },
+      {
+        "path": "assets/pt/cards/cloud_storage.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "caac18fd1995b32b054c7c62d6d2881770bb9b5d"
+      },
+      {
+        "path": "assets/pt/cards/cryptominer.webp",
+        "type": "managed",
+        "sha256": "sha256:164d44046ad9b84ddf7a310ce446b20d09dc4a1e3be16e0aab4ac91078d435b7"
+      },
+      {
+        "path": "assets/pt/cards/cryptominer.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c0dbd72fb4094a26d477e6959456c7d6c992d597"
+      },
+      {
+        "path": "assets/pt/cards/customer_db.webp",
+        "type": "managed",
+        "sha256": "sha256:b7d7e914f153ef31ad1848271b5ab639eb42f58ba81e021ed86d8180070299a7"
+      },
+      {
+        "path": "assets/pt/cards/customer_db.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e6579bb2b14c41b24bb1234807c5efb659ca5923"
+      },
+      {
+        "path": "assets/pt/cards/data_warehouse.webp",
+        "type": "managed",
+        "sha256": "sha256:2c87d7df03ea63ba9abc7866abcb8fbec34a3e41f499035123f822a5b9a91e96"
+      },
+      {
+        "path": "assets/pt/cards/data_warehouse.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3a377a9d72f27e324f6ed3138e4e1ec98355b655"
+      },
+      {
+        "path": "assets/pt/cards/data_wipe.webp",
+        "type": "managed",
+        "sha256": "sha256:65cb62a3f04a53b49c56faae444e1975cff27bb0bd2118d86677a18b2d9cb13b"
+      },
+      {
+        "path": "assets/pt/cards/data_wipe.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "70f0d06fb36052b72afc5af6aebfe7c777cd5d0e"
+      },
+      {
+        "path": "assets/pt/cards/dev_sandbox.webp",
+        "type": "managed",
+        "sha256": "sha256:dd2b520b4d99c9511455d76f29d90fb5eca3bb0bf1fb2f988480e53bdd44c3f2"
+      },
+      {
+        "path": "assets/pt/cards/dev_sandbox.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "df7b9e933976f5a0f267b36e0da2175789a8ffa1"
+      },
+      {
+        "path": "assets/pt/cards/domain_controller.webp",
+        "type": "managed",
+        "sha256": "sha256:d774018acce01f8f86f00fdf2d3a5db42c422eeccb7425bf2be62aca6f17f51b"
+      },
+      {
+        "path": "assets/pt/cards/domain_controller.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "74815eebc1aa011ffdb35a77317b3052e7fda9f0"
+      },
+      {
+        "path": "assets/pt/cards/double_tap.webp",
+        "type": "managed",
+        "sha256": "sha256:1c4dc07ee70806a4726b994ffb9f86621433351186f1664bc83e5fcce4dbdaf9"
+      },
+      {
+        "path": "assets/pt/cards/double_tap.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c2b4a8f2553a585a206461a85b3e3920afdf2268"
+      },
+      {
+        "path": "assets/pt/cards/escrow_vault.webp",
+        "type": "managed",
+        "sha256": "sha256:9fe3f95d002aa829d640973f6330fbea06dd2178e548626ce7d995cc60f1779f"
+      },
+      {
+        "path": "assets/pt/cards/escrow_vault.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "b175b3e25067eaf3feee1c252a8e288fc6df8fbb"
+      },
+      {
+        "path": "assets/pt/cards/exfil_trojan.webp",
+        "type": "managed",
+        "sha256": "sha256:9dc66101f5bfe84c90712083ad8284fca621e36e15e4378754fec09ae146092d"
+      },
+      {
+        "path": "assets/pt/cards/exfil_trojan.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f452a298876521b641163a06792888de0b75ff47"
+      },
+      {
+        "path": "assets/pt/cards/failover_node.webp",
+        "type": "managed",
+        "sha256": "sha256:9f839a490e51e4fd02858c5c75c3623533a44d42bd7182f66ddeca362121a536"
+      },
+      {
+        "path": "assets/pt/cards/failover_node.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "814f9b4877ae155b4a486cda82715cbf0a3ad359"
+      },
+      {
+        "path": "assets/pt/cards/forced_failover.webp",
+        "type": "managed",
+        "sha256": "sha256:88246c8b478667f7e13eb6f8373cf3beefe0908e2e1847ecf13bf006bfb7c3fd"
+      },
+      {
+        "path": "assets/pt/cards/forced_failover.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "ad338c59413dfa08dff184129598dbe36881f174"
+      },
+      {
+        "path": "assets/pt/cards/fresh_install.webp",
+        "type": "managed",
+        "sha256": "sha256:0813a9451f56e680d42697e36a20b2d05eeeef88aa7f4a131bc2f727a1b7815d"
+      },
+      {
+        "path": "assets/pt/cards/fresh_install.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "db3ac1f688779ec2a84793561e3fbe2cf7a74a3d"
+      },
+      {
+        "path": "assets/pt/cards/hot_standby.webp",
+        "type": "managed",
+        "sha256": "sha256:0b7f05e8a98269ad3fcae8ef552d6f77582837c2403b6632578833d1ce05905b"
+      },
+      {
+        "path": "assets/pt/cards/hot_standby.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "c2105ec690f36984d4ebb35dbe5a897d4dbfa274"
+      },
+      {
+        "path": "assets/pt/cards/hot_swap.webp",
+        "type": "managed",
+        "sha256": "sha256:a76682bc0f8a320b2af899d63ada03803c8e6044d860cf640fc53ec750edfd0e"
+      },
+      {
+        "path": "assets/pt/cards/hot_swap.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "839bec3f6cfb91fde1edea2c71f758ccbcc282a9"
+      },
+      {
+        "path": "assets/pt/cards/lateral_pivot.webp",
+        "type": "managed",
+        "sha256": "sha256:92f521f6420c52c7f8042738e84cb8ab50c37995118b5246bc400b8cc0d336d8"
+      },
+      {
+        "path": "assets/pt/cards/lateral_pivot.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "813cc7e541706061d4277e612367887b7673c954"
+      },
+      {
+        "path": "assets/pt/cards/macro_engine.webp",
+        "type": "managed",
+        "sha256": "sha256:3cc41ff9f86dfa250fd6e00a92a7515614329cee834a9aec87712bb8bb26535a"
+      },
+      {
+        "path": "assets/pt/cards/macro_engine.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "ae5fbf43814462be36586062158d19bccc7e6459"
+      },
+      {
+        "path": "assets/pt/cards/mail_relay.webp",
+        "type": "managed",
+        "sha256": "sha256:4feb28da390fe4e8c4a927c9a33a11cae5528299db0f47b9125914ff344dad7a"
+      },
+      {
+        "path": "assets/pt/cards/mail_relay.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2f253471d5a52b71f42622247dc4737e6a2f2ec6"
+      },
+      {
+        "path": "assets/pt/cards/memory_leak.webp",
+        "type": "managed",
+        "sha256": "sha256:fd1e93d537aaa4bf947448c3065a84df2fb9727d8810374acc74bdba2803ab0b"
+      },
+      {
+        "path": "assets/pt/cards/memory_leak.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "d49ffd84797885c19f23b6d3ed2a31c6d21ab2de"
+      },
+      {
+        "path": "assets/pt/cards/phishing.webp",
+        "type": "managed",
+        "sha256": "sha256:dbd82fa48b38003b48a518e97bf3a224fac5ee0bb3a5a4ef9640e837ab1e1139"
+      },
+      {
+        "path": "assets/pt/cards/phishing.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "83e02a1492c2d682b03b6da09b5c49a00f7ed286"
+      },
+      {
+        "path": "assets/pt/cards/poisoned_package.webp",
+        "type": "managed",
+        "sha256": "sha256:9d6dd92a445b0a106069555412207707e6bef6e69e0bb5a9b08380e3422d7a44"
+      },
+      {
+        "path": "assets/pt/cards/poisoned_package.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5da686b14d10304f72b74d734789e6bb80eeb3b7"
+      },
+      {
+        "path": "assets/pt/cards/preview_env.webp",
+        "type": "managed",
+        "sha256": "sha256:12022035031b92b34fe21c41c33c2acd27ba71040fdc1bb50a8a3172614e90de"
+      },
+      {
+        "path": "assets/pt/cards/preview_env.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fd21aff88799b1caf8d8d11347d3042b06386407"
+      },
+      {
+        "path": "assets/pt/cards/process_kill.webp",
+        "type": "managed",
+        "sha256": "sha256:fdbffed748a17123e76bf7489dfd7b69a24a1a314f17418a5aec73e5c758d034"
+      },
+      {
+        "path": "assets/pt/cards/process_kill.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "8fb44f87aa99ce163b694a54c04d3c2f005fe077"
+      },
+      {
+        "path": "assets/pt/cards/qa_cluster.webp",
+        "type": "managed",
+        "sha256": "sha256:984100c810f6c2d92e697c39a8f10a3d17d949d7ad7eedca8c17377edfa8d425"
+      },
+      {
+        "path": "assets/pt/cards/qa_cluster.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9161240cea1479611771e4f6c18c488d0f116587"
+      },
+      {
+        "path": "assets/pt/cards/ransomware.webp",
+        "type": "managed",
+        "sha256": "sha256:c6078ae131b53c513c091f4f422328526f69a274db91e30066f723bafbf441a3"
+      },
+      {
+        "path": "assets/pt/cards/ransomware.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "785ffaa16500a65b8acc2d2969581ba7c1eeece3"
+      },
+      {
+        "path": "assets/pt/cards/rollback.webp",
+        "type": "managed",
+        "sha256": "sha256:a17c709570ee559d9fb06d9e5bf463f8c3f90c9a30e897f041055f9586f44ea7"
+      },
+      {
+        "path": "assets/pt/cards/rollback.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e7c8333e4b4c0c5ce5d8f041b31c669b6a535671"
+      },
+      {
+        "path": "assets/pt/cards/rootkit.webp",
+        "type": "managed",
+        "sha256": "sha256:5581f2b99a56b91f12acc25f1c695055fe4aef716a4596f7004614cab149a70d"
+      },
+      {
+        "path": "assets/pt/cards/rootkit.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "e229c357249266129be8900e50aeacaea6f6303a"
+      },
+      {
+        "path": "assets/pt/cards/server_hijack.webp",
+        "type": "managed",
+        "sha256": "sha256:5be258f49eff7b4c7f3a1ed486977d74448571a515e1ef77fc88c6fe63a0d16f"
+      },
+      {
+        "path": "assets/pt/cards/server_hijack.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2f0eb4247d6038a6d10adf110aa3aa220c1899a7"
+      },
+      {
+        "path": "assets/pt/cards/small_ddos.webp",
+        "type": "managed",
+        "sha256": "sha256:70b655543f856f60c8e058067ec4e7e3f7ad7a06e5dfee8ef90db91b17f2d71a"
+      },
+      {
+        "path": "assets/pt/cards/small_ddos.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f2a10a5cb3a76f74ad19da98e843396fce3e1328"
+      },
+      {
+        "path": "assets/pt/cards/sniffer.webp",
+        "type": "managed",
+        "sha256": "sha256:8bb5e837d4229728aea5a170116f009b032f7f3607eb7316365300bdfe14f58f"
+      },
+      {
+        "path": "assets/pt/cards/sniffer.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "38adff29b0b6ba765277e75c2fc7cd73c5f80be3"
+      },
+      {
+        "path": "assets/pt/cards/social_engineering.webp",
+        "type": "managed",
+        "sha256": "sha256:6a6290fcf67058f5adda93b1bd333ca033db42e702fcb0bcd76d62fd4538ae37"
+      },
+      {
+        "path": "assets/pt/cards/social_engineering.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "9bbd2ed0ecfa1cc0599155136b0fc1dea646f2a3"
+      },
+      {
+        "path": "assets/pt/cards/supply_chain.webp",
+        "type": "managed",
+        "sha256": "sha256:fd8f5ee99dee901c779cd733e45a5395f6ba4051330dc0f3adb3d0e3760aeb61"
+      },
+      {
+        "path": "assets/pt/cards/supply_chain.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "ed27b6837575163fcc2b064ab9fe8072e44e3722"
+      },
+      {
+        "path": "assets/pt/cards/test_bench.webp",
+        "type": "managed",
+        "sha256": "sha256:03b5091d981a664fe199e714cba2d4a655f119e9237c26a6044ce631327d814c"
+      },
+      {
+        "path": "assets/pt/cards/test_bench.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "3c0ae38dda82dd682e66dd978afb687f47804e84"
+      },
+      {
+        "path": "assets/pt/cards/threat_feed.webp",
+        "type": "managed",
+        "sha256": "sha256:776ea634769ba8aefdd13211f3d7aa5b598d7d899416d80ed107d36cefd75ac0"
+      },
+      {
+        "path": "assets/pt/cards/threat_feed.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "7e154f513aa4aa67dc7c60eaeef68545abfde24e"
+      },
+      {
+        "path": "assets/pt/cards/throttle.webp",
+        "type": "managed",
+        "sha256": "sha256:21ac7fababfc60662d7df3a8947a3c14d93cd8d024e9df3e3267e08691519665"
+      },
+      {
+        "path": "assets/pt/cards/throttle.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "f073fa6d605d37c40eafdc371198d3fc85a12580"
+      },
+      {
+        "path": "assets/pt/cards/vpn_tunnel.webp",
+        "type": "managed",
+        "sha256": "sha256:4c2fe9bd517ac41554939ec9c27d307bbe3114c848cce0e5e59750d4c2ab629a"
+      },
+      {
+        "path": "assets/pt/cards/vpn_tunnel.webp.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "2416f0d162fbd70419a686c11127a5816248554b"
       },
       {
         "path": "assets/pt/splash.png",
@@ -1914,7 +2431,7 @@
         "path": "scripts/pt/pt_card_view.gd",
         "type": "file",
         "mode": "100644",
-        "object": "0db67ac1523ed773c1f8810887bb57187d212505"
+        "object": "73b51b42a4cefe4c55dd6d065f0d96b941dd3f30"
       },
       {
         "path": "scripts/pt/pt_card_view.gd.uid",
@@ -2046,7 +2563,7 @@
         "path": "scripts/pt/pt_theme.gd",
         "type": "file",
         "mode": "100644",
-        "object": "50def0d0413a03e724959adcfa4e88ebbb099376"
+        "object": "47fb0734cdf072449b9ce6a47152cece218bd012"
       },
       {
         "path": "scripts/pt/pt_theme.gd.uid",
@@ -2459,7 +2976,7 @@
     ]
   },
   "build": {
-    "snapshotId": "sha256:e482c8f0a6de806d529b8fc992f5b6c25cf059c8eda2dc1ce77018883f0e55d5",
+    "snapshotId": "sha256:e84a81fd869dfa9b977edcbda162fe3f5aceae94fb55bea401b6a03d95ea39de",
     "toolchain": {
       "engineVersion": "4.7.2.stable.official.ed1daf0bf",
       "engineDigest": "sha256:8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
@@ -2472,21 +2989,21 @@
     "profile": "release",
     "export": {
       "profile": "release",
-      "snapshotId": "sha256:e482c8f0a6de806d529b8fc992f5b6c25cf059c8eda2dc1ce77018883f0e55d5",
+      "snapshotId": "sha256:e84a81fd869dfa9b977edcbda162fe3f5aceae94fb55bea401b6a03d95ea39de",
       "files": {
         "THIRD_PARTY_NOTICES.txt": "sha256:889699801d4b21f0cf9646c9a53aeadbcbeb07a7cd26ed9e15f564d63e4c0afb",
         "index.apple-touch-icon.png": "sha256:2ed6dcbe6b49df519e940272f055209929e41770eb1cc7bd0238eece845f7b09",
         "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
         "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-        "index.html": "sha256:a024a996790ad6afa4c051b77dd3a89a2426e7544f2c2622210648aeee961093",
+        "index.html": "sha256:46dd64f2f6e271a754970fac106c7499115958c5efcc842970e60e496dd4dd50",
         "index.icon.png": "sha256:aaeb23fe6ffda9836624443f18863c448c56ff0bdea72e39981b05ab30f63aa6",
         "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
-        "index.pck": "sha256:14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702",
+        "index.pck": "sha256:9c10fb673a416bafbbe7d5265ddb2feade9cad01a4e143e0b5fc90f875e3e404",
         "index.png": "sha256:b32fa2ba9b8e35f91bcb29d94a0afbf95bf45b055f455ad0ac3f73181ade19d1",
         "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
         "open-source-licenses.html": "sha256:991cfdad42bc1a9b2298cdab75bc25f641a65e4a6da89f2a74daf2c191977bcf"
       },
-      "digest": "sha256:e0b13d461e5ece33bc0bf52e0e4a26be1609fe045ce4ed587c763e1c03d0dc19"
+      "digest": "sha256:5d38c6b71ad0740c953dbc353f5a815ce374a04b2976151a8066cf8e6774b695"
     }
   },
   "artifacts": {
@@ -2495,8 +3012,8 @@
       "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
     "pck": {
-      "path": "/manus-storage/game/sha256/14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702.pck",
-      "sha256": "sha256:14b0256722f0e414cca2202269462a9ad4f95aed7741191e5af0c8c794c2b702"
+      "path": "/manus-storage/game/sha256/9c10fb673a416bafbbe7d5265ddb2feade9cad01a4e143e0b5fc90f875e3e404.pck",
+      "sha256": "sha256:9c10fb673a416bafbbe7d5265ddb2feade9cad01a4e143e0b5fc90f875e3e404"
     }
   },
   "files": {
@@ -2505,7 +3022,7 @@
     "index.apple-touch-icon.png": "sha256:2ed6dcbe6b49df519e940272f055209929e41770eb1cc7bd0238eece845f7b09",
     "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "sha256:8e776821a0348a61a3811bbaa35594a557a4c3e702a80e4281540e0daaabc68a",
+    "index.html": "sha256:f6f37b818dd2105bdbf213b0e5e2b9df1d7bd2778b49d7d0e8d7e33aaccfdf8d",
     "index.icon.png": "sha256:aaeb23fe6ffda9836624443f18863c448c56ff0bdea72e39981b05ab30f63aa6",
     "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
     "index.png": "sha256:b32fa2ba9b8e35f91bcb29d94a0afbf95bf45b055f455ad0ac3f73181ade19d1",
