@@ -111,7 +111,7 @@ Then open <http://localhost:8000>. Keep every generated file in `dist/` together
 
 ## Continuous integration and releases
 
-The workflow in [`.github/workflows/game-ci.yml`](.github/workflows/game-ci.yml) runs on pull requests to `main`, pushes to `main`, version-tag pushes, and manual dispatch. It installs Godot 4.7.2 and the Web export templates, imports the project, runs `npm test`, exports the Web build, and uploads a downloadable build artifact that is retained for 14 days.
+The workflow in [`.github/workflows/game-ci.yml`](.github/workflows/game-ci.yml) runs on pull requests to `main`, pushes to `main`, version-tag pushes, and manual dispatch. It installs Godot 4.7.2 and the Web export templates, imports the project, runs `npm test`, exports the Web build, and uploads a downloadable build artifact that is retained for 14 days. After a successful `main` run, it also writes a behavioral-coverage snapshot to [`coverage/latest.json`](coverage/latest.json).
 
 Push a version tag such as `v0.1.0` to run the same checks and export, then create a GitHub Release with `PacketTactics-Web.zip` attached if they pass:
 
@@ -122,6 +122,16 @@ git push origin v0.1.0
 
 A version tag is the release switch; a push to `main` does not publish a release. The workflow does not configure or deploy GitHub Pages.
 
+## Live status dashboard
+
+The read-only dashboard is in [`dashboard/`](dashboard/). From the repository root, run:
+
+```sh
+python3 -m http.server 8000
+```
+
+Open <http://localhost:8000/dashboard/>. It polls the public GitHub Actions API once per minute and loads the latest passing test snapshot from the repository. It needs an internet connection but no GitHub token or login. The coverage panel reports deterministic behavioral exercise (cards, setup counts, and deck-exhaustion outcomes); **GDScript source-line coverage is not instrumented**.
+
 ## Project layout
 
 - `scenes/` — Godot scenes and the game entry point.
@@ -130,6 +140,9 @@ A version tag is the release switch; a push to `main` does not publish a release
 - `assets/template/fonts/` — UI fonts and the license notices required for redistribution. Unrelated starter-game media is excluded.
 - `test/pt_smoke_test.gd` — fast checks for artwork mappings and initial state.
 - `test/pt_engine_test.gd` — deterministic AI match simulations.
+- `tools/generate_coverage_report.mjs` — converts passing test output into the coverage snapshot.
+- `dashboard/` — live, read-only CI/CD and behavioral-coverage status page.
+- `coverage/latest.json` — latest passing `main` coverage snapshot, refreshed by CI.
 - `.github/workflows/game-ci.yml` — automated tests, Web export, and tag-based releases.
 
 ## License and notices

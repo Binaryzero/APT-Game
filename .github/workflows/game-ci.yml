@@ -20,6 +20,8 @@ jobs:
     name: Test and export Web build
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    permissions:
+      contents: write
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -43,7 +45,12 @@ jobs:
           npm --version
 
       - name: Run setup and artwork smoke tests plus AI simulation suite
-        run: npm test
+        run: |
+          set -o pipefail
+          npm test 2>&1 | tee test-run.log
+
+      - name: Generate behavioral coverage snapshot
+        run: node tools/generate_coverage_report.mjs test-run.log coverage/latest.json
 
       - name: Export playable Web build
         run: npm run export:web
@@ -63,6 +70,24 @@ jobs:
             PacketTactics-Web.zip
           if-no-files-found: error
           retention-days: 14
+
+      - name: Publish passing coverage snapshot to main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
+          if [ "$(git rev-parse origin/main)" != "${GITHUB_SHA}" ]; then
+            echo "main advanced since this run; leaving the newer workflow to publish coverage"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add coverage/latest.json
+          if git diff --cached --quiet; then
+            echo "Coverage snapshot is unchanged"
+          else
+            git commit -m "Update behavioral coverage snapshot [skip ci]"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
 
   publish-release:
     name: Publish tagged game release

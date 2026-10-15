@@ -147,9 +147,16 @@ func _rps_check() -> void:
 
 func _coverage() -> void:
 	var missing: Array = []
+	var available := 0
+	var tested := 0
 	for k: String in Defs.DEFS:
 		var d: Dictionary = Defs.DEFS[k]
-		if int(d.copies) > 0 and not played.has(d.name):
-			missing.append(d.name)
+		if int(d.copies) > 0:
+			available += 1
+			if not played.has(d.name):
+				missing.append(d.name)
+			else:
+				tested += 1
+	print("PT_CARD_COVERAGE ", JSON.stringify({"tested": tested, "available": available, "missing": missing}))
 	print("PT_NEVER_PLAYED ", missing)
 	_check(missing.is_empty(), "deck cards were not exercised by the deterministic match suite: %s" % ", ".join(missing))
