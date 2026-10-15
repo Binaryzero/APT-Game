@@ -121,6 +121,3 @@ node_modules/
 /assets/template/fonts/EmberpanSansSC.otf
 
 !site/**
-
-# Subset OFL fonts restore from assets.lock.json.
-/assets/template/fonts/**/*.woff2

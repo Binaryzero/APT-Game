@@ -1,9 +1,10 @@
 {
-  "name": "game-trading-card",
+  "name": "packet-tactics",
   "private": true,
   "type": "module",
   "scripts": {
     "export": "mkdir -p dist && godot --headless --path . --export-release Web dist/index.html",
+    "export:web": "node -e \"require('node:fs').mkdirSync('dist',{recursive:true})\" && godot --headless --path . --export-release Web dist/index.html",
     "dev": "node scripts/manus/runtime-command.cjs ./server.mjs",
     "build": "node scripts/manus/runtime-command.cjs ./build.mjs",
     "preview:build": "node scripts/manus/runtime-command.cjs ./preview-build.mjs",
@@ -11,6 +12,9 @@
     "doctor": "node scripts/manus/runtime-command.cjs ./doctor.mjs",
     "check": "node scripts/manus/runtime-command.cjs ./verify.mjs",
     "inspect": "node scripts/manus/runtime-command.cjs ./inspect-file.mjs",
-    "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs"
+    "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs",
+    "test:smoke": "godot --headless --path . --script res://test/pt_smoke_test.gd",
+    "test:engine": "godot --headless --path . --script res://test/pt_engine_test.gd",
+    "test": "godot --headless --editor --path . --import && npm run test:smoke && npm run test:engine"
   }
 }

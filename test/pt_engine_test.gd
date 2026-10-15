@@ -152,3 +152,4 @@ func _coverage() -> void:
 		if int(d.copies) > 0 and not played.has(d.name):
 			missing.append(d.name)
 	print("PT_NEVER_PLAYED ", missing)
+	_check(missing.is_empty(), "deck cards were not exercised by the deterministic match suite: %s" % ", ".join(missing))
