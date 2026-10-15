@@ -3,10 +3,10 @@
   "kind": "behavioral-test-coverage",
   "metadata": {
     "repository": "Binaryzero/APT-Game",
-    "generatedAt": "2026-10-15T18:51:12.886Z",
-    "testedCommit": "991ea4e0e9c8027a13eaffaafdbee07042d29d51",
+    "generatedAt": "2026-10-15T20:33:36.073Z",
+    "testedCommit": "fd03a402c984ececc1126c97ee91cff8f832f63c",
     "branch": "main",
-    "workflowRun": "https://github.com/Binaryzero/APT-Game/actions/runs/38788958164"
+    "workflowRun": "https://github.com/Binaryzero/APT-Game/actions/runs/38802852108"
   },
   "coverage": {
     "model": "behavioral exercise; not source-line coverage",
