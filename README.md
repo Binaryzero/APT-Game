@@ -120,17 +120,19 @@ git tag v0.1.0
 git push origin v0.1.0
 ```
 
-A version tag is the release switch; a push to `main` does not publish a release. The workflow does not configure or deploy GitHub Pages.
+A version tag is the release switch for downloadable game releases. Every successful push to `main` also deploys the dashboard to GitHub Pages after the game tests and Web export pass.
 
 ## Live status dashboard
 
-The read-only dashboard is in [`dashboard/`](dashboard/). From the repository root, run:
+The read-only dashboard is in [`dashboard/`](dashboard/) and is permanently hosted at <https://binaryzero.github.io/APT-Game/>. Every successful push to `main` publishes the dashboard automatically; its live CI and coverage panels read the public GitHub Actions API and latest passing coverage snapshot. It requires no login or GitHub token.
+
+To run it locally from the repository root instead, use:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Open <http://localhost:8000/dashboard/>. It polls the public GitHub Actions API once per minute and loads the latest passing test snapshot from the repository. It needs an internet connection but no GitHub token or login. The coverage panel reports deterministic behavioral exercise (cards, setup counts, and deck-exhaustion outcomes); **GDScript source-line coverage is not instrumented**.
+Open <http://localhost:8000/dashboard/>. It polls the public GitHub Actions API once per minute and loads the latest passing test snapshot from the repository. The coverage panel reports deterministic behavioral exercise (cards, setup counts, and deck-exhaustion outcomes); **GDScript source-line coverage is not instrumented**.
 
 ## Project layout
 
