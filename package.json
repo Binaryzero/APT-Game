@@ -14,7 +14,8 @@
     "inspect": "node scripts/manus/runtime-command.cjs ./inspect-file.mjs",
     "assets:report": "node scripts/manus/runtime-command.cjs ./asset-provenance.mjs",
     "test:smoke": "godot --headless --path . --script res://test/pt_smoke_test.gd",
+    "test:ui": "godot --headless --path . --script res://test/pt_ui_interaction_test.gd",
     "test:engine": "godot --headless --path . --script res://test/pt_engine_test.gd",
-    "test": "godot --headless --editor --path . --import && npm run test:smoke && npm run test:engine"
+    "test": "godot --headless --editor --path . --import && npm run test:smoke && npm run test:ui && npm run test:engine"
   }
 }

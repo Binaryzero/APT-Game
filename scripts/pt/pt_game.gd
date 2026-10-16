@@ -448,6 +448,10 @@ func _refresh_hand() -> void:
 				v.selected = (card == selected_card)
 				raised = v.selected
 				v.dim = (card != selected_card)
+			"pick", "pick_player":
+				v.selected = (card == selected_card)
+				raised = v.selected
+				v.dim = (card != selected_card)
 			"discard":
 				v.selected = discard_sel.has(card)
 				raised = v.selected
@@ -881,55 +885,32 @@ func h_main(e: RefCounted, p: Dictionary, first: bool) -> Dictionary:
 
 func _play_flow(e: RefCounted, p: Dictionary, card: RefCounted, gen: int) -> Variant:
 	var current: RefCounted = card
+	selected_card = current
+	mode = "selected"
+	_hand_dirty = true
+	_inspect(current)
+	var targets := {}
 	while true:
-		selected_card = current
-		mode = "selected"
-		_hand_dirty = true
-		_inspect(current)
-		var needs: bool = not e.spec_for(current).is_empty()
-		var verb := "PLAY" if current.type() != "zd" else "PLAY 0DAY"
-		_set_prompt("%s: %s" % [current.title(), "you will choose targets next." if needs else "ready to play."], [
-			{"text": "%s  %s" % [verb, current.title().to_upper()], "value": {"t": "go"}, "accent": T.GREEN},
-			{"text": "CANCEL", "value": {"t": "cancel"}, "accent": T.WARN},
-		])
-		var v: Variant = await decided
+		var s: Dictionary = e.next_spec(current, targets)
+		if s.is_empty():
+			break
+		var ch: Array = e.choices_for(p, current, s, targets)
+		if ch.is_empty():
+			if s.get("optional", false):
+				targets[s.id] = null
+				continue
+			_toast("No valid target.", T.WARN)
+			_clear_highlights()
+			return null
+		var pick: Variant = await _target_pick(e, s, ch)
 		if gen != _gen:
 			return null
-		if v == null or not (v is Dictionary):
-			continue
-		match String(v.t):
-			"cancel":
-				return null
-			"card":
-				current = v.card
-				continue
-			"go":
-				var targets := {}
-				var ok := true
-				while true:
-					var s: Dictionary = e.next_spec(current, targets)
-					if s.is_empty():
-						break
-					var ch: Array = e.choices_for(p, current, s, targets)
-					if ch.is_empty():
-						if s.get("optional", false):
-							targets[s.id] = null
-							continue
-						_toast("No valid target.", T.WARN)
-						ok = false
-						break
-					var pick: Variant = await _target_pick(e, s, ch)
-					if gen != _gen:
-						return null
-					if pick == null or pick.has("cancel"):
-						ok = false
-						break
-					targets[s.id] = null if pick.has("skip") else (pick.seat if pick.has("seat") else pick.card)
-				_clear_highlights()
-				if not ok:
-					continue
-				return {"kind": "zd" if current.type() == "zd" else "play", "card": current, "targets": targets}
-	return null
+		if pick == null or pick.has("cancel"):
+			_clear_highlights()
+			return null
+		targets[s.id] = null if pick.has("skip") else (pick.seat if pick.has("seat") else pick.card)
+	_clear_highlights()
+	return {"kind": "zd" if current.type() == "zd" else "play", "card": current, "targets": targets}
 
 func _target_pick(e: RefCounted, s: Dictionary, ch: Array) -> Variant:
 	var btns: Array = [{"text": "CANCEL", "value": {"cancel": true}, "accent": T.WARN}]

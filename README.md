@@ -84,12 +84,13 @@ No npm packages need to be installed. After installing Godot and letting it impo
 npm test
 ```
 
-This imports the project, checks starting state for two-, three-, and four-player matches, verifies that card definitions resolve to valid illustrations, and runs 122 complete deterministic AI matches plus 48 forced deck-exhaustion scenarios. The simulation checks card conservation, unique card IDs, server and attachment placement, deterministic replays, card coverage, and deck-exhaustion outcomes.
+This imports the project, checks starting state for two-, three-, and four-player matches, verifies that card definitions resolve to valid illustrations, confirms targeted cards go straight from hand selection to board targeting, and runs 122 complete deterministic AI matches plus 48 forced deck-exhaustion scenarios. The simulation checks card conservation, unique card IDs, server and attachment placement, deterministic replays, card coverage, and deck-exhaustion outcomes.
 
 Run either test layer on its own with:
 
 ```sh
 npm run test:smoke
+npm run test:ui
 npm run test:engine
 ```
 
