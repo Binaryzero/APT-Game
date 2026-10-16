@@ -67,11 +67,11 @@ const CARD_ART := {
 	"test_bench": preload("res://assets/pt/cards/test_bench.webp"),
 	"threat_feed": preload("res://assets/pt/cards/threat_feed.webp"),
 	"throttle": preload("res://assets/pt/cards/throttle.webp"),
-	"vpn_tunnel": preload("res://assets/pt/cards/vpn_tunnel.webp"),	
-	"cache_layer": preload("res://assets/pt/cards/cloud_storage.webp"),
-	"firewall": preload("res://assets/pt/cards/antivirus.webp"),
-	"password_manager": preload("res://assets/pt/cards/vpn_tunnel.webp"),
-	"remote_root": preload("res://assets/pt/cards/small_ddos.webp"),
+	"vpn_tunnel": preload("res://assets/pt/cards/vpn_tunnel.webp"),
+	"cache_layer": preload("res://assets/pt/cards/cache_layer.webp"),
+	"firewall": preload("res://assets/pt/cards/firewall.webp"),
+	"password_manager": preload("res://assets/pt/cards/password_manager.webp"),
+	"remote_root": preload("res://assets/pt/cards/remote_root.webp"),
 }
 
 static func font(kind: String) -> Font:
