@@ -8,12 +8,14 @@ const SlotView := preload("res://scripts/pt/pt_slot_view.gd")
 signal card_picked(card: RefCounted)
 signal card_hovered(card: RefCounted)
 signal header_picked(seat: int)
+signal server_placement_picked(seat: int)
 
 var engine: RefCounted = null
 var seat := 0
 var is_self := false
 var highlights: Dictionary = {}
 var player_highlight := Color(0, 0, 0, 0)
+var placement_active := false
 var _pulse := 0.0
 var _slots_root: Control
 var _dirty := true
@@ -39,6 +41,12 @@ func set_highlights(h: Dictionary, ph: Color) -> void:
 	player_highlight = ph
 	_dirty = true
 
+func set_placement_active(active: bool) -> void:
+	if placement_active == active:
+		return
+	placement_active = active
+	_dirty = true
+
 func _process(delta: float) -> void:
 	_pulse += delta * 4.0
 	if player_highlight.a > 0.0:
@@ -62,14 +70,25 @@ func _rebuild() -> void:
 	var s_w := (size.x - 16.0) / (n * (SlotView.W + 6.0))
 	var sc := clampf(minf(s_h, s_w), 0.6, 1.5)
 	var x := 8.0
+	var slot_y := header_h + 2.0 + maxf(0.0, (avail_h - SlotView.TOTAL_H * sc) * 0.5)
 	for slot: Dictionary in p.net:
 		var v := SlotView.new()
 		v.setup(slot, sc, highlights)
-		v.position = Vector2(x, header_h + 2.0 + maxf(0.0, (avail_h - SlotView.TOTAL_H * sc) * 0.5))
+		v.position = Vector2(x, slot_y)
 		v.picked.connect(func(c: RefCounted) -> void: card_picked.emit(c))
 		v.hovered.connect(func(c: RefCounted) -> void: card_hovered.emit(c))
 		_slots_root.add_child(v)
 		x += (SlotView.W + 6.0) * sc
+	if placement_active and is_self and p.net.size() < 9:
+		var add_server := Button.new()
+		add_server.text = "+ ADD\nSERVER"
+		add_server.position = Vector2(x, slot_y)
+		add_server.size = Vector2(SlotView.W * sc, SlotView.TOTAL_H * sc)
+		add_server.custom_minimum_size = add_server.size
+		add_server.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		T.style_button(add_server, T.GREEN, 11)
+		add_server.pressed.connect(func() -> void: server_placement_picked.emit(seat))
+		_slots_root.add_child(add_server)
 
 func _gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:

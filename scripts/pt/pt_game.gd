@@ -324,6 +324,7 @@ func _build_panels() -> void:
 		pnl.card_picked.connect(_on_net_card)
 		pnl.card_hovered.connect(_inspect)
 		pnl.header_picked.connect(_on_header_picked)
+		pnl.server_placement_picked.connect(_on_server_placement)
 		game_root.add_child(pnl)
 		panels.append(pnl)
 	game_root.move_child(stack_root, -1)
@@ -444,7 +445,7 @@ func _refresh_hand() -> void:
 						v.glow = T.GREEN
 					elif card.type() != "zd":
 						v.dim = true
-			"selected":
+			"selected", "place_server":
 				v.selected = (card == selected_card)
 				raised = v.selected
 				v.dim = (card != selected_card)
@@ -545,6 +546,14 @@ func _on_net_card(card: RefCounted) -> void:
 			decided.emit({"card": card})
 		else:
 			_toast("Not a valid target for this effect.", T.WARN)
+
+func _on_server_placement(seat: int) -> void:
+	if mode == "place_server" and seat == actor:
+		decided.emit({"place_server": true})
+
+func _set_server_placement(seat: int, active: bool) -> void:
+	for pnl in panels:
+		pnl.set_placement_active(active and pnl.seat == seat)
 
 func _apply_highlights(cards: Array, players_hl: Array = []) -> void:
 	var hl := {}
@@ -889,6 +898,19 @@ func _play_flow(e: RefCounted, p: Dictionary, card: RefCounted, gen: int) -> Var
 	mode = "selected"
 	_hand_dirty = true
 	_inspect(current)
+	if current.type() == "prod" or current.type() == "stage":
+		mode = "place_server"
+		_set_server_placement(int(p.seat), true)
+		_set_prompt("Click + ADD SERVER in your Network to place %s." % current.title(), [
+			{"text": "CANCEL", "value": {"cancel": true}, "accent": T.WARN},
+		])
+		var placement: Variant = await decided
+		_set_server_placement(int(p.seat), false)
+		if gen != _gen:
+			return null
+		if placement == null or not (placement is Dictionary) or not placement.get("place_server", false):
+			return null
+		return {"kind": "play", "card": current, "targets": {}}
 	var targets := {}
 	while true:
 		var s: Dictionary = e.next_spec(current, targets)

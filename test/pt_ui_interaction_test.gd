@@ -39,6 +39,7 @@ func _run() -> void:
 	ui.viewer = 0
 	ui.actor = 0
 	ui._gen = 1
+	ui._build_panels()
 
 	var player: Dictionary = engine.players[0]
 	var software: RefCounted = Card.new(1000, "antivirus", Defs.DEFS["antivirus"])
@@ -69,6 +70,29 @@ func _run() -> void:
 		_check(result.get("kind") == "play", "selected Software should return a play action")
 		_check(result.get("card") == software, "the original selected hand card should be played")
 		_check(result.get("targets", {}).get("srv") == choices[0], "the clicked board card should become the target")
+
+	var server: RefCounted = Card.new(1001, "auth_server", Defs.DEFS["auth_server"])
+	player.hand.append(server)
+	_check(engine.can_play(player, server), "fixture Server card should be playable")
+	flow_done = false
+	flow_result = null
+	call_deferred("_run_flow", ui, engine, player, server, ui._gen)
+	await process_frame
+	_check(ui.mode == "place_server", "selecting a Server should enter board placement mode")
+	var add_server: Button = null
+	for child in ui.panels[0]._slots_root.get_children():
+		if child is Button and child.text == "+ ADD\nSERVER":
+			add_server = child
+	_check(add_server != null, "the player's network should show a clickable empty Server slot")
+	if add_server != null:
+		add_server.emit_signal("pressed")
+	while not flow_done:
+		await process_frame
+	var server_result: Variant = flow_result
+	_check(server_result is Dictionary, "clicking the empty network slot should finish Server placement")
+	if server_result is Dictionary:
+		_check(server_result.get("card") == server, "the selected Server should be the card placed")
+		_check(server_result.get("kind") == "play", "Server placement should return a play action")
 
 	ui.queue_free()
 	await process_frame
