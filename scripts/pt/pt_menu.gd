@@ -32,26 +32,37 @@ func _ready() -> void:
 	shade.color = Color(0.01, 0.03, 0.05, 0.55)
 	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(shade)
-	var title := T.make_label("PACKET TACTICS", 66, T.CYAN, "title")
+	var title := T.make_label("PACKET TACTICS", 48, T.CYAN, "title")
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	title.position = Vector2(0, 34)
-	title.size = Vector2(1280, 80)
+	title.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	title.offset_top = 48.0
+	title.offset_bottom = 122.0
 	add_child(title)
-	var sub := T.make_label("BUILD YOUR NETWORK.  INSTALL.  EXPLOIT.  ANSWER WITH A 0DAY.", 15, T.GREEN, "bold")
+	var sub := T.make_label("BUILD YOUR NETWORK.  INSTALL.  EXPLOIT.  ANSWER WITH A 0DAY.", 13, T.GREEN, "bold")
 	sub.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	sub.position = Vector2(0, 112)
-	sub.size = Vector2(1280, 24)
+	sub.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	sub.offset_top = 132.0
+	sub.offset_bottom = 156.0
 	add_child(sub)
 	var panel := PanelContainer.new()
-	panel.position = Vector2(340, 160)
-	panel.size = Vector2(600, 440)
-	panel.add_theme_stylebox_override("panel", T.box(Color(T.PANEL, 0.94), T.CYAN, 2, 14))
+	panel.anchor_left = 0.5
+	panel.anchor_right = 0.5
+	panel.anchor_top = 0.5
+	panel.anchor_bottom = 0.5
+	panel.offset_left = -300.0
+	panel.offset_right = 300.0
+	panel.offset_top = -212.0
+	panel.offset_bottom = 212.0
+	var sb := T.box(Color(T.PANEL, 0.94), T.CYAN, 2, 14)
+	sb.content_margin_left = 24.0
+	sb.content_margin_right = 24.0
+	sb.content_margin_top = 24.0
+	sb.content_margin_bottom = 24.0
+	panel.add_theme_stylebox_override("panel", sb)
 	add_child(panel)
 	var box := VBoxContainer.new()
-	box.position = Vector2(372, 178)
-	box.size = Vector2(536, 404)
 	box.add_theme_constant_override("separation", 10)
-	add_child(box)
+	panel.add_child(box)
 	box.add_child(_section_label("MODE"))
 	_mode_btns = _segment(box, [["VS AI OPPONENTS", "ai"], ["HOT SEAT (SAME DEVICE)", "hot"]], mode, func(v: Variant) -> void:
 		mode = String(v)
@@ -67,9 +78,9 @@ func _ready() -> void:
 	_name_edit = LineEdit.new()
 	_name_edit.text = "OPERATOR"
 	_name_edit.max_length = 14
-	_name_edit.custom_minimum_size = Vector2(0, 36)
+	_name_edit.custom_minimum_size = Vector2(0, 34)
 	_name_edit.add_theme_font_override("font", T.font("bold"))
-	_name_edit.add_theme_font_size_override("font_size", 16)
+	_name_edit.add_theme_font_size_override("font_size", 14)
 	_name_edit.add_theme_stylebox_override("normal", T.box(Color(0, 0, 0, 0.5), T.CYAN_DIM, 1, 6))
 	_name_edit.add_theme_stylebox_override("focus", T.box(Color(0, 0, 0, 0.5), T.GREEN, 2, 6))
 	box.add_child(_name_edit)
@@ -78,8 +89,8 @@ func _ready() -> void:
 	box.add_child(spacer)
 	var start := Button.new()
 	start.text = "START GAME"
-	start.custom_minimum_size = Vector2(0, 48)
-	T.style_button(start, T.GREEN, 20)
+	start.custom_minimum_size = Vector2(0, 44)
+	T.style_button(start, T.GREEN, 18)
 	start.pressed.connect(_on_start)
 	box.add_child(start)
 	var row := HBoxContainer.new()
@@ -87,23 +98,24 @@ func _ready() -> void:
 	box.add_child(row)
 	var how := Button.new()
 	how.text = "HOW TO PLAY  /  CARD CODEX"
-	how.custom_minimum_size = Vector2(0, 38)
+	how.custom_minimum_size = Vector2(0, 34)
 	how.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	T.style_button(how, T.CYAN, 14)
+	T.style_button(how, T.CYAN, 13)
 	how.pressed.connect(func() -> void: rules_requested.emit())
 	row.add_child(how)
 	_resume_btn = Button.new()
 	_resume_btn.text = "RESUME GAME"
-	_resume_btn.custom_minimum_size = Vector2(0, 38)
+	_resume_btn.custom_minimum_size = Vector2(0, 34)
 	_resume_btn.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	T.style_button(_resume_btn, T.WARN, 14)
+	T.style_button(_resume_btn, T.WARN, 13)
 	_resume_btn.pressed.connect(func() -> void: resume_requested.emit())
 	_resume_btn.visible = false
 	row.add_child(_resume_btn)
 	var foot := T.make_label("An original card game inspired by network security. Hands are private. First to the server goal wins.", 12, T.TEXT_DIM)
 	foot.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	foot.position = Vector2(0, 640)
-	foot.size = Vector2(1280, 20)
+	foot.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE)
+	foot.offset_top = -38.0
+	foot.offset_bottom = -18.0
 	add_child(foot)
 	_refresh_counts()
 
@@ -122,9 +134,9 @@ func _segment(parent: Control, options: Array, current: Variant, on_change: Call
 		var b := Button.new()
 		b.text = String(opt[0])
 		b.toggle_mode = true
-		b.custom_minimum_size = Vector2(0, 38)
+		b.custom_minimum_size = Vector2(0, 34)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		T.style_button(b, T.CYAN, 14)
+		T.style_button(b, T.CYAN, 13)
 		b.add_theme_stylebox_override("pressed", T.box(Color(T.GREEN, 0.28), T.GREEN, 2, 6))
 		b.add_theme_color_override("font_pressed_color", Color.WHITE)
 		b.button_pressed = opt[1] == current
@@ -154,9 +166,9 @@ func _refresh_counts() -> void:
 		var b := Button.new()
 		b.text = String(opt[0])
 		b.toggle_mode = true
-		b.custom_minimum_size = Vector2(0, 38)
+		b.custom_minimum_size = Vector2(0, 34)
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		T.style_button(b, T.CYAN, 14)
+		T.style_button(b, T.CYAN, 13)
 		b.add_theme_stylebox_override("pressed", T.box(Color(T.GREEN, 0.28), T.GREEN, 2, 6))
 		b.add_theme_color_override("font_pressed_color", Color.WHITE)
 		b.button_pressed = int(opt[1]) == count

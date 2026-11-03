@@ -68,7 +68,7 @@ func _rebuild() -> void:
 	var n: int = maxi(engine.win_target, p.net.size())
 	var s_h := avail_h / SlotView.TOTAL_H
 	var s_w := (size.x - 16.0) / (n * (SlotView.W + 6.0))
-	var sc := clampf(minf(s_h, s_w), 0.6, 1.5)
+	var sc := clampf(minf(s_h, s_w), 0.5, 2.25)
 	var x := 8.0
 	var slot_y := header_h + 2.0 + maxf(0.0, (avail_h - SlotView.TOTAL_H * sc) * 0.5)
 	for slot: Dictionary in p.net:

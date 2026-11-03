@@ -113,7 +113,7 @@ static func box(fill: Color, border: Color = Color(0, 0, 0, 0), bw := 1, radius 
 	sb.set_corner_radius_all(radius)
 	return sb
 
-static func style_button(b: Button, accent: Color = CYAN, font_size := 15) -> void:
+static func style_button(b: Button, accent: Color = CYAN, font_size := 13) -> void:
 	b.add_theme_font_override("font", font("bold"))
 	b.add_theme_font_size_override("font_size", font_size)
 	b.add_theme_color_override("font_color", TEXT)
@@ -128,7 +128,7 @@ static func style_button(b: Button, accent: Color = CYAN, font_size := 15) -> vo
 	b.focus_mode = Control.FOCUS_NONE
 	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 
-static func make_label(text: String, size := 14, color: Color = TEXT, kind := "regular") -> Label:
+static func make_label(text: String, size := 13, color: Color = TEXT, kind := "regular") -> Label:
 	var l := Label.new()
 	l.text = text
 	l.add_theme_font_override("font", font(kind))
@@ -138,16 +138,21 @@ static func make_label(text: String, size := 14, color: Color = TEXT, kind := "r
 	return l
 
 ## Shrinks a font size until `text` fits `width` on a single line.
+## Never returns below FONT_FLOOR: unreadable text truncates instead.
+const FONT_FLOOR := 9
+
 static func fit_size(f: Font, text: String, width: float, start: int, minimum: int) -> int:
+	var floor_ := maxi(FONT_FLOOR, minimum)
 	var size := start
-	while size > minimum and f.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > width:
+	while size > floor_ and f.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > width:
 		size -= 1
 	return size
 
 ## Largest font size (<= start) at which wrapped `text` fits in a box.
 static func fit_block(f: Font, text: String, width: float, height: float, start: int, minimum: int) -> int:
+	var floor_ := maxi(FONT_FLOOR, minimum)
 	var size := start
-	while size > minimum:
+	while size > floor_:
 		var sz := f.get_multiline_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, width, size)
 		if sz.y <= height:
 			break
