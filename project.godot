@@ -10,29 +10,16 @@ config_version=5
 
 [application]
 
-boot_splash/image="res://assets/pt/splash.png"
-boot_splash/show_image=true
-boot_splash/fullsize=true
-boot_splash/use_filter=true
-boot_splash/bg_color=Color(0.0157, 0.0314, 0.0471, 1)
-
-
 config/name="Packet Tactics"
-config/icon="res://assets/share/favicon.png"
 run/main_scene="res://scenes/boot.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.0157, 0.0314, 0.0471, 1)
+boot_splash/image="res://assets/pt/splash.png"
+config/icon="res://assets/share/favicon.png"
 
 [audio]
 
 default_bus_layout="res://default_bus_layout.tres"
-
-[autoload]
-
-RuntimeTuning="*res://scripts/runtime_tweak_controls.gd"
-
-TuningBridge="*res://scripts/manus/preview/tuning_adapter.gd"
-
-ManusFontTheme="*res://autoload/manus_font_theme.gd"
 
 [display]
 
@@ -43,21 +30,12 @@ window/size/window_height_override=720
 window/stretch/mode="canvas_items"
 window/handheld/orientation=1
 
-[gui]
+[editor]
 
-
-[leaderboard]
-
-api_base_url=""
-api_fallback_urls=PackedStringArray()
-enable_in_headless=false
-request_timeout_seconds=20.0
+import/use_multiple_threads=false
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 environment/defaults/default_clear_color=Color(0.0157, 0.0314, 0.0471, 1)
-
-[editor]
-import/use_multiple_threads=false

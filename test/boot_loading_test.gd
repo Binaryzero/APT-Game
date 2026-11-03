@@ -1,5 +1,8 @@
 extends SceneTree
 
+const L10N := preload("res://scripts/localization.gd")
+const GameUI := preload("res://scripts/pt/pt_game.gd")
+
 func _initialize() -> void:
 	call_deferred("_run")
 
@@ -16,24 +19,24 @@ func _run() -> void:
 		if capture_dir.is_empty():
 			capture_dir = ProjectSettings.globalize_path("res://captures")
 		DirAccess.make_dir_recursive_absolute(capture_dir)
-		var capture_path := capture_dir.path_join("game-loading-" + EmberpanL10n.current_locale() + ".png")
+		var capture_path := capture_dir.path_join("game-loading-" + L10N.current_locale() + ".png")
 		if root.get_texture().get_image().save_png(capture_path) != OK:
 			push_error("[BOOT_LOADING_FAIL] unable to save loading screenshot")
 			quit(1)
 			return
 	for i in range(5):
 		await process_frame
-	if not boot.retry_button.visible or boot.loading or boot.status_label.text != EmberpanL10n.t("loading.failed"):
+	if not boot.retry_button.visible or boot.loading or boot.status_label.text != L10N.t("loading.failed"):
 		push_error("[BOOT_LOADING_FAIL] failed loads must stop and expose retry")
 		quit(1)
 		return
-	boot.target_scene = "res://scenes/card_game.tscn"
+	boot.target_scene = "res://scenes/packet_tactics.tscn"
 	boot.retry_button.pressed.emit()
 	var deadline := Time.get_ticks_msec() + 15000
 	while is_instance_valid(boot) and Time.get_ticks_msec() < deadline:
 		await process_frame
-	if current_scene == null or not current_scene is EmberpanCardGame or current_scene.screen_name != "title":
-		push_error("[BOOT_LOADING_FAIL] retry did not transition to the game title")
+	if current_scene == null or not current_scene is GameUI:
+		push_error("[BOOT_LOADING_FAIL] retry did not transition to the game")
 		quit(1)
 		return
 	await create_timer(0.15).timeout
