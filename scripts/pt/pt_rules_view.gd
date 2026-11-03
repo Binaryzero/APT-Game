@@ -38,25 +38,25 @@ func _ready() -> void:
 	_title = T.make_label("FIELD MANUAL", 20, T.CYAN, "title")
 	_panel.add_child(_title)
 	_tab_rules = Button.new()
+	T.style_button(_tab_rules, T.CYAN, 13)
+	_panel.add_child(_tab_rules)
 	_tab_rules.text = "RULES"
 	_tab_rules.toggle_mode = true
 	_tab_rules.size = Vector2(110, 30)
-	T.style_button(_tab_rules, T.CYAN, 13)
 	_tab_rules.pressed.connect(func() -> void: _show_tab("rules"))
-	_panel.add_child(_tab_rules)
 	_tab_codex = Button.new()
+	T.style_button(_tab_codex, T.GREEN, 13)
+	_panel.add_child(_tab_codex)
 	_tab_codex.text = "CARD CODEX"
 	_tab_codex.toggle_mode = true
 	_tab_codex.size = Vector2(140, 30)
-	T.style_button(_tab_codex, T.GREEN, 13)
 	_tab_codex.pressed.connect(func() -> void: _show_tab("codex"))
-	_panel.add_child(_tab_codex)
 	_close = Button.new()
+	T.style_button(_close, T.WARN, 13)
+	_panel.add_child(_close)
 	_close.text = "CLOSE"
 	_close.size = Vector2(100, 30)
-	T.style_button(_close, T.WARN, 13)
 	_close.pressed.connect(func() -> void: closed.emit())
-	_panel.add_child(_close)
 	# rules tab
 	_rules_scroll = ScrollContainer.new()
 	_rules_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -109,11 +109,11 @@ func _relayout_codex() -> void:
 		return
 	var w: float = _codex_root.size.x
 	var h: float = _codex_root.size.y
-	_preview.position = Vector2(w - 252.0, 6.0)
-	_codex_tip.position = Vector2(w - 250.0, 372.0)
+	_preview.position = Vector2(w - 224.0, 6.0)
+	_codex_tip.position = Vector2(w - 222.0, _preview.size.y + 14.0)
 	_codex_scroll.position = Vector2.ZERO
-	_codex_scroll.size = Vector2(w - 252.0 - 16.0, h)
-	_codex_grid.columns = clampi(int((_codex_scroll.size.x + 10.0) / 166.0), 1, 8)
+	_codex_scroll.size = Vector2(w - 224.0 - 16.0, h)
+	_codex_grid.columns = clampi(int((_codex_scroll.size.x + 10.0) / 150.0), 1, 9)
 
 func _show_tab(tab: String) -> void:
 	_tab_rules.button_pressed = tab == "rules"
@@ -128,7 +128,7 @@ func _build_codex() -> void:
 	_codex_built = true
 	_preview = CardView.new()
 	var sample := Card.new(0, "staging_start", Defs.DEFS["staging_start"])
-	_preview.setup(sample, 252)
+	_preview.setup(sample, 224)
 	_preview.show_flavor = true
 	_preview.interactive = false
 	_codex_root.add_child(_preview)
@@ -149,7 +149,7 @@ func _build_codex() -> void:
 				continue
 			var c := Card.new(0, key, d)
 			var v := CardView.new()
-			v.setup(c, 156)
+			v.setup(c, 140)
 			v.interactive = false
 			v.mouse_filter = Control.MOUSE_FILTER_STOP
 			var copies: int = int(d.get("copies", 0))

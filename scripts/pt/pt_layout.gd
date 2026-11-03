@@ -4,12 +4,12 @@ extends RefCounted
 ## (min(window/DESIGN)) and grows the design viewport along the excess axis, so element
 ## sizes stay in design pixels while only regions and positions recompute from the viewport.
 
-const DESIGN := Vector2(1280.0, 720.0)
+const DESIGN := Vector2(1600.0, 900.0)
 const TOP_H := 30.0
 const PROMPT_H := 34.0
-const HAND_H := 206.0
+const HAND_H := 200.0
 const SIDE_W := 368.0
-const MAIN_W := 884.0
+const MAIN_W := 1000.0
 const MARGIN := 8.0
 
 ## Region geometry for the table screen from a design-viewport size (always >= 1280x720).

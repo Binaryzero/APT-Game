@@ -138,11 +138,11 @@ func _build_game_ui() -> void:
 	deck_label = T.make_label("DECK 0", 13, T.TEXT, "bold")
 	game_root.add_child(deck_label)
 	discard_btn = Button.new()
+	T.style_button(discard_btn, T.TEXT_DIM, 12)
+	game_root.add_child(discard_btn)
 	discard_btn.text = "DISCARD 0"
 	discard_btn.size = Vector2(104, 24)
-	T.style_button(discard_btn, T.TEXT_DIM, 12)
 	discard_btn.pressed.connect(_show_discard_pile)
-	game_root.add_child(discard_btn)
 	phase_label = RichTextLabel.new()
 	phase_label.bbcode_enabled = true
 	phase_label.scroll_active = false
@@ -155,22 +155,22 @@ func _build_game_ui() -> void:
 	phase_label.add_theme_font_size_override("bold_font_size", 13)
 	game_root.add_child(phase_label)
 	speed_btn = Button.new()
-	speed_btn.size = Vector2(110, 24)
 	T.style_button(speed_btn, T.CYAN, 12)
-	speed_btn.pressed.connect(_cycle_speed)
 	game_root.add_child(speed_btn)
+	speed_btn.size = Vector2(110, 24)
+	speed_btn.pressed.connect(_cycle_speed)
 	rules_btn = Button.new()
+	T.style_button(rules_btn, T.GREEN, 12)
+	game_root.add_child(rules_btn)
 	rules_btn.text = "RULES"
 	rules_btn.size = Vector2(76, 24)
-	T.style_button(rules_btn, T.GREEN, 12)
 	rules_btn.pressed.connect(func() -> void: _open_rules("rules"))
-	game_root.add_child(rules_btn)
 	menu_btn = Button.new()
+	T.style_button(menu_btn, T.WARN, 12)
+	game_root.add_child(menu_btn)
 	menu_btn.text = "MENU"
 	menu_btn.size = Vector2(76, 24)
-	T.style_button(menu_btn, T.WARN, 12)
 	menu_btn.pressed.connect(_open_menu)
-	game_root.add_child(menu_btn)
 	_update_speed_label()
 	# prompt bar
 	prompt_bar = Panel.new()
@@ -190,7 +190,7 @@ func _build_game_ui() -> void:
 	game_root.add_child(hand_root)
 	# sidebar
 	inspect_view = CardView.new()
-	inspect_view.setup(Card.new(0, "staging_start", Defs.DEFS["staging_start"]), 244)
+	inspect_view.setup(Card.new(0, "staging_start", Defs.DEFS["staging_start"]), 216)
 	inspect_view.show_flavor = true
 	inspect_view.interactive = false
 	inspect_view.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -449,13 +449,13 @@ func _set_prompt(text: String, buttons: Array) -> void:
 		old.queue_free()
 	for def_btn in buttons:
 		var b := Button.new()
+		T.style_button(b, def_btn.get("accent", T.CYAN), 13)
+		prompt_buttons.add_child(b)
 		b.text = String(def_btn.text)
 		b.custom_minimum_size = Vector2(0, 26)
-		T.style_button(b, def_btn.get("accent", T.CYAN), 13)
 		b.disabled = bool(def_btn.get("disabled", false))
 		var val: Variant = def_btn.value
 		b.pressed.connect(func() -> void: decided.emit(val))
-		prompt_buttons.add_child(b)
 
 func _refresh_hand() -> void:
 	for c in hand_root.get_children():
@@ -466,7 +466,7 @@ func _refresh_hand() -> void:
 	var n: int = p.hand.size()
 	if n == 0:
 		return
-	var cw := 128.0 if n <= 8 else (116.0 if n <= 11 else 104.0)
+	var cw := 112.0 if n <= 8 else (102.0 if n <= 11 else 94.0)
 	var ch := cw * CardView.DESIGN.y / CardView.DESIGN.x
 	var step := cw + 8.0
 	if n > 1:
@@ -654,7 +654,7 @@ func _rebuild_stack() -> void:
 		return
 	stack_root.visible = true
 	var n: int = engine.stack.size()
-	var cw := 96.0
+	var cw := 88.0
 	var ch := cw * CardView.DESIGN.y / CardView.DESIGN.x
 	var w := minf(main_w - 40.0, n * (cw + 12.0) + 28.0)
 	var h := ch + 54.0
@@ -732,26 +732,26 @@ func _show_discard_pile() -> void:
 	t.position = Vector2(26, 12)
 	panel.add_child(t)
 	var close := Button.new()
+	T.style_button(close, T.WARN)
+	panel.add_child(close)
 	close.text = "CLOSE"
 	close.size = Vector2(100, 30)
 	close.position = Vector2(pw - 52.0 - 100.0, 10)
-	T.style_button(close, T.WARN)
 	close.pressed.connect(func() -> void: ov.queue_free())
-	panel.add_child(close)
 	var scroll := ScrollContainer.new()
 	scroll.position = Vector2(26, 54)
 	scroll.size = Vector2(pw - 52.0, ph - 54.0 - 26.0)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	panel.add_child(scroll)
 	var grid := GridContainer.new()
-	grid.columns = clampi(int((pw - 52.0) / 126.0), 4, 8)
+	grid.columns = clampi(int((pw - 52.0) / 118.0), 4, 9)
 	grid.add_theme_constant_override("h_separation", 8)
 	grid.add_theme_constant_override("v_separation", 8)
 	scroll.add_child(grid)
 	var count := 0
 	for i in range(engine.discard.size() - 1, -1, -1):
 		var v := CardView.new()
-		v.setup(engine.discard[i], 118)
+		v.setup(engine.discard[i], 110)
 		v.interactive = false
 		grid.add_child(v)
 		count += 1
@@ -821,31 +821,31 @@ func _show_game_over(res: Dictionary) -> void:
 		yy += 26.0
 	var btn_y := ph - 66.0
 	var again := Button.new()
+	T.style_button(again, T.GREEN, 15)
+	panel.add_child(again)
 	again.text = "PLAY AGAIN"
 	again.position = Vector2(pw * 0.5 - 270.0, btn_y)
 	again.size = Vector2(170, 42)
-	T.style_button(again, T.GREEN, 15)
 	again.pressed.connect(func() -> void:
 		var c := cfg.duplicate()
 		c.seed = int(Time.get_ticks_usec() % 2000000000)
 		_start_game(c))
-	panel.add_child(again)
 	var board := Button.new()
+	T.style_button(board, T.CYAN, 15)
+	panel.add_child(board)
 	board.text = "VIEW BOARD"
 	board.position = Vector2(pw * 0.5 - 85.0, btn_y)
 	board.size = Vector2(170, 42)
-	T.style_button(board, T.CYAN, 15)
 	board.pressed.connect(func() -> void: ov.queue_free())
-	panel.add_child(board)
 	var back := Button.new()
+	T.style_button(back, T.WARN, 15)
+	panel.add_child(back)
 	back.text = "MAIN MENU"
 	back.position = Vector2(pw * 0.5 + 100.0, btn_y)
 	back.size = Vector2(170, 42)
-	T.style_button(back, T.WARN, 15)
 	back.pressed.connect(func() -> void:
 		ov.queue_free()
 		_open_menu())
-	panel.add_child(back)
 	_overlay_panels.append({"panel": panel, "w": pw, "h": ph})
 	overlay_root.add_child(ov)
 

@@ -47,7 +47,9 @@ There are no autoloads; all modules are preloaded explicitly.
 
 ### UI scaling
 
-The UI is built in code on a 1280×720 design grid. The project stretches with `canvas_items` + aspect **`expand`** + HiDPI on and opens maximized: Godot keeps a uniform element scale and grows the *design viewport* along the excess axis (1920×1200 window → 1280×800 viewport; 3440×1440 → 1720×720), so element sizes stay in design pixels and there are no letterbox bars. `scripts/pt/pt_layout.gd` (`PtLayout.metrics()`) is the single source of region geometry — each screen recomputes positions from the live viewport in an `_apply_layout()`/`_relayout()` connected to `size_changed`. Keep new UI code in design pixels and derive positions from `PtLayout`, never from absolute 1280×720 coordinates.
+The UI is built in code on a 1600×900 design grid. The project stretches with `canvas_items` + aspect **`expand`** + HiDPI on and opens maximized: Godot keeps a uniform element scale and grows the *design viewport* along the excess axis, so element sizes stay in design pixels and there are no letterbox bars. `scripts/pt/pt_layout.gd` (`PtLayout.metrics()`) is the single source of region geometry — each screen recomputes positions from the live viewport in an `_apply_layout()`/`_relayout()` connected to `size_changed`. Keep new UI code in design pixels and derive positions from `PtLayout`, never from absolute design-grid coordinates.
+
+**Godot gotcha:** a `Button` whose `text` is set before it enters the tree gets its height clamped to the minimum computed with the default theme font (~31px), overriding any later `.size`/`custom_minimum_size` — it never shrinks back. Construct absolutely-positioned buttons as `style_button → add_child → text → size`. (Container-managed buttons are safe as long as their container-enforced size exceeds ~31px.)
 
 When changing engine behavior, keep `test/pt_engine_test.gd` green: it asserts card conservation, unique card IDs, placement rules, deterministic replays, card coverage, and deck-exhaustion outcomes.
 

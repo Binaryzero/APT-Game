@@ -49,6 +49,8 @@ func _ready() -> void:
 	panel.anchor_right = 0.5
 	panel.anchor_top = 0.5
 	panel.anchor_bottom = 0.5
+	panel.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	panel.grow_vertical = Control.GROW_DIRECTION_BOTH
 	panel.offset_left = -300.0
 	panel.offset_right = 300.0
 	panel.offset_top = -212.0

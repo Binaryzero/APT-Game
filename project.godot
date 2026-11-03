@@ -23,8 +23,8 @@ default_bus_layout="res://default_bus_layout.tres"
 
 [display]
 
-window/size/viewport_width=1280
-window/size/viewport_height=720
+window/size/viewport_width=1600
+window/size/viewport_height=900
 window/size/mode=2
 window/size/window_width_override=1280
 window/size/window_height_override=720
