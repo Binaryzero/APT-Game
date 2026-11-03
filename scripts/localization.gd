@@ -15,9 +15,8 @@ const UI_FONT_PATH := "res://assets/template/fonts/ui_regular.tres"
 const UI_FONT_RESOURCE: Font = preload("res://assets/template/fonts/ui_regular.tres")
 ## Buttons use Figtree SemiBold (light Latin tracking) with Noto Sans SC Medium for Chinese.
 const BUTTON_FONT_RESOURCE: Font = preload("res://assets/template/fonts/display/card_button.tres")
-## Display faces: ManusCC0 titles/numbers, Cinzel headings/names, and Noto Serif SC Chinese titles/headings/names.
+## Display faces: ManusCC0 titles/numbers, Cinzel names, and Noto Serif SC Chinese names.
 const TITLE_FONT_RESOURCE: Font = preload("res://assets/template/fonts/display/card_title.tres")
-const HEADING_FONT_RESOURCE: Font = preload("res://assets/template/fonts/display/card_heading.tres")
 const NAME_FONT_RESOURCE: Font = preload("res://assets/template/fonts/display/card_name.tres")
 const NUMBER_FONT_RESOURCE: Font = preload("res://assets/template/fonts/display/card_number.tres")
 
