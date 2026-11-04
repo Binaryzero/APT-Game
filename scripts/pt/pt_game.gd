@@ -12,16 +12,17 @@ const HumanBrain := preload("res://scripts/pt/pt_human.gd")
 const MenuScript := preload("res://scripts/pt/pt_menu.gd")
 const RulesView := preload("res://scripts/pt/pt_rules_view.gd")
 const Sfx := preload("res://scripts/pt/pt_sfx.gd")
+const PtLayout := preload("res://scripts/pt/pt_layout.gd")
 
 signal decided(value: Variant)
 
-const MAIN_X := 8.0
-const MAIN_W := 884.0
-const PANELS_Y := 40.0
-const PANELS_H := 426.0
-const PROMPT_Y := 470.0
-const HAND_Y := 514.0
-const SIDE_X := 904.0
+var main_x := 8.0
+var main_w := 884.0
+var panels_y := 40.0
+var panels_h := 426.0
+var prompt_y := 470.0
+var hand_y := 514.0
+var side_x := 904.0
 const SPEEDS := [1.0, 0.5, 0.12]
 const SPEED_NAMES := ["NORMAL", "FAST", "TURBO"]
 
@@ -59,17 +60,26 @@ var phase_label: RichTextLabel
 var deck_label: Label
 var discard_btn: Button
 var speed_btn: Button
+var rules_btn: Button
+var menu_btn: Button
 var menu: Control
 var rules_view: Control
 var overlay_root: Control
-var curtain: Control
 var sfx: Node
+var _top_panel: Control
+var _title_label: Label
+var prompt_bar: Control
+var _log_panel: Control
+var _log_title: Label
+var _last_vp := Vector2.ZERO
+var _overlay_panels: Array = []
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	sfx = Sfx.new()
 	add_child(sfx)
 	_build_game_ui()
+	_apply_layout()
 	menu = MenuScript.new()
 	menu.process_mode = Node.PROCESS_MODE_ALWAYS
 	menu.start_requested.connect(_on_start_requested)
@@ -85,6 +95,7 @@ func _ready() -> void:
 	overlay_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	overlay_root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(overlay_root)
+	get_viewport().size_changed.connect(_apply_layout)
 	game_root.visible = false
 	var args := OS.get_cmdline_user_args()
 	if args.has("--autostart"):
@@ -118,32 +129,25 @@ func _build_game_ui() -> void:
 	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	game_root.add_child(shade)
-	# top bar
-	var top := Panel.new()
-	top.position = Vector2(0, 0)
-	top.size = Vector2(1280, 36)
-	top.add_theme_stylebox_override("panel", T.box(Color(0.01, 0.04, 0.06, 0.92), T.LINE, 1, 0))
-	game_root.add_child(top)
-	var title := T.make_label("PACKET TACTICS", 18, T.CYAN, "title")
-	title.position = Vector2(12, 5)
-	game_root.add_child(title)
+	# top bar (positions come from _apply_layout)
+	_top_panel = Panel.new()
+	_top_panel.add_theme_stylebox_override("panel", T.box(Color(0.01, 0.04, 0.06, 0.92), T.LINE, 1, 0))
+	game_root.add_child(_top_panel)
+	_title_label = T.make_label("PACKET TACTICS", 16, T.CYAN, "title")
+	game_root.add_child(_title_label)
 	deck_label = T.make_label("DECK 0", 13, T.TEXT, "bold")
-	deck_label.position = Vector2(210, 9)
 	game_root.add_child(deck_label)
 	discard_btn = Button.new()
-	discard_btn.text = "DISCARD 0"
-	discard_btn.position = Vector2(290, 5)
-	discard_btn.size = Vector2(104, 26)
 	T.style_button(discard_btn, T.TEXT_DIM, 12)
-	discard_btn.pressed.connect(_show_discard_pile)
 	game_root.add_child(discard_btn)
+	discard_btn.text = "DISCARD 0"
+	discard_btn.size = Vector2(104, 24)
+	discard_btn.pressed.connect(_show_discard_pile)
 	phase_label = RichTextLabel.new()
 	phase_label.bbcode_enabled = true
 	phase_label.scroll_active = false
 	phase_label.fit_content = false
 	phase_label.autowrap_mode = TextServer.AUTOWRAP_OFF
-	phase_label.position = Vector2(410, 8)
-	phase_label.size = Vector2(560, 24)
 	phase_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	phase_label.add_theme_font_override("normal_font", T.font("bold"))
 	phase_label.add_theme_font_override("bold_font", T.font("bold"))
@@ -151,76 +155,58 @@ func _build_game_ui() -> void:
 	phase_label.add_theme_font_size_override("bold_font_size", 13)
 	game_root.add_child(phase_label)
 	speed_btn = Button.new()
-	speed_btn.position = Vector2(992, 5)
-	speed_btn.size = Vector2(110, 26)
 	T.style_button(speed_btn, T.CYAN, 12)
-	speed_btn.pressed.connect(_cycle_speed)
 	game_root.add_child(speed_btn)
-	var rules_btn := Button.new()
-	rules_btn.text = "RULES"
-	rules_btn.position = Vector2(1108, 5)
-	rules_btn.size = Vector2(76, 26)
+	speed_btn.size = Vector2(110, 24)
+	speed_btn.pressed.connect(_cycle_speed)
+	rules_btn = Button.new()
 	T.style_button(rules_btn, T.GREEN, 12)
-	rules_btn.pressed.connect(func() -> void: _open_rules("rules"))
 	game_root.add_child(rules_btn)
-	var menu_btn := Button.new()
-	menu_btn.text = "MENU"
-	menu_btn.position = Vector2(1190, 5)
-	menu_btn.size = Vector2(76, 26)
+	rules_btn.text = "RULES"
+	rules_btn.size = Vector2(76, 24)
+	rules_btn.pressed.connect(func() -> void: _open_rules("rules"))
+	menu_btn = Button.new()
 	T.style_button(menu_btn, T.WARN, 12)
-	menu_btn.pressed.connect(_open_menu)
 	game_root.add_child(menu_btn)
+	menu_btn.text = "MENU"
+	menu_btn.size = Vector2(76, 24)
+	menu_btn.pressed.connect(_open_menu)
 	_update_speed_label()
 	# prompt bar
-	var bar := Panel.new()
-	bar.position = Vector2(MAIN_X, PROMPT_Y)
-	bar.size = Vector2(MAIN_W, 40)
-	bar.add_theme_stylebox_override("panel", T.box(Color(0.02, 0.07, 0.1, 0.95), T.CYAN_DIM, 1, 8))
-	game_root.add_child(bar)
-	prompt_label = T.make_label("", 14, T.TEXT, "bold")
-	prompt_label.position = Vector2(MAIN_X + 12, PROMPT_Y + 3)
-	prompt_label.size = Vector2(480, 34)
+	prompt_bar = Panel.new()
+	prompt_bar.add_theme_stylebox_override("panel", T.box(Color(0.02, 0.07, 0.1, 0.95), T.CYAN_DIM, 1, 8))
+	game_root.add_child(prompt_bar)
+	prompt_label = T.make_label("", 13, T.TEXT, "bold")
 	prompt_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	prompt_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	game_root.add_child(prompt_label)
 	prompt_buttons = HBoxContainer.new()
-	prompt_buttons.position = Vector2(MAIN_X + 496, PROMPT_Y + 4)
-	prompt_buttons.size = Vector2(MAIN_W - 504, 32)
 	prompt_buttons.alignment = BoxContainer.ALIGNMENT_END
 	prompt_buttons.add_theme_constant_override("separation", 6)
 	game_root.add_child(prompt_buttons)
 	# hand
 	hand_root = Control.new()
-	hand_root.position = Vector2(MAIN_X, HAND_Y)
-	hand_root.size = Vector2(MAIN_W, 206)
 	hand_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	game_root.add_child(hand_root)
 	# sidebar
 	inspect_view = CardView.new()
-	inspect_view.setup(Card.new(0, "staging_start", Defs.DEFS["staging_start"]), 244)
+	inspect_view.setup(Card.new(0, "staging_start", Defs.DEFS["staging_start"]), 216)
 	inspect_view.show_flavor = true
 	inspect_view.interactive = false
 	inspect_view.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	inspect_view.position = Vector2(SIDE_X + 62, 44)
 	game_root.add_child(inspect_view)
 	inspect_caption = T.make_label("", 12, T.TEXT_DIM, "bold")
-	inspect_caption.position = Vector2(SIDE_X, 44 + 342)
-	inspect_caption.size = Vector2(368, 18)
+	inspect_caption.size = Vector2(PtLayout.SIDE_W, 18)
 	inspect_caption.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	game_root.add_child(inspect_caption)
-	var log_panel := Panel.new()
-	log_panel.position = Vector2(SIDE_X, 412)
-	log_panel.size = Vector2(368, 300)
-	log_panel.add_theme_stylebox_override("panel", T.box(Color(0.01, 0.04, 0.06, 0.92), T.LINE, 1, 8))
-	game_root.add_child(log_panel)
-	var log_title := T.make_label("EVENT LOG", 11, T.CYAN, "bold")
-	log_title.position = Vector2(SIDE_X + 10, 416)
-	game_root.add_child(log_title)
+	_log_panel = Panel.new()
+	_log_panel.add_theme_stylebox_override("panel", T.box(Color(0.01, 0.04, 0.06, 0.92), T.LINE, 1, 8))
+	game_root.add_child(_log_panel)
+	_log_title = T.make_label("EVENT LOG", 11, T.CYAN, "bold")
+	game_root.add_child(_log_title)
 	log_view = RichTextLabel.new()
 	log_view.bbcode_enabled = true
 	log_view.scroll_following = true
-	log_view.position = Vector2(SIDE_X + 6, 434)
-	log_view.size = Vector2(356, 274)
 	log_view.add_theme_font_override("normal_font", T.font("regular"))
 	log_view.add_theme_font_override("bold_font", T.font("bold"))
 	log_view.add_theme_font_size_override("normal_font_size", 12)
@@ -231,14 +217,68 @@ func _build_game_ui() -> void:
 	stack_root.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	stack_root.visible = false
 	game_root.add_child(stack_root)
-	toast_label = T.make_label("", 16, Color.WHITE, "bold")
+	toast_label = T.make_label("", 15, Color.WHITE, "bold")
 	toast_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	toast_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	toast_label.position = Vector2(MAIN_X + 142, PANELS_Y + PANELS_H - 34)
-	toast_label.size = Vector2(600, 30)
+	toast_label.size = Vector2(600, 28)
 	toast_label.add_theme_stylebox_override("normal", T.box(Color(0, 0, 0, 0.82), T.CYAN, 1, 8))
 	toast_label.modulate.a = 0.0
 	game_root.add_child(toast_label)
+
+## Recomputes every region from the live viewport. Godot's "expand" stretch keeps element
+## sizes in design pixels and grows the viewport along the excess axis, so only positions
+## and region heights change here.
+func _apply_layout() -> void:
+	var vp := get_viewport_rect().size
+	if vp == _last_vp:
+		return
+	_last_vp = vp
+	var l: Dictionary = PtLayout.metrics(vp)
+	main_x = l.main_x
+	main_w = l.main_w
+	panels_y = l.panels_y
+	panels_h = l.panels_h
+	prompt_y = l.prompt_y
+	hand_y = l.hand_y
+	side_x = l.side_x
+	_top_panel.position = Vector2.ZERO
+	_top_panel.size = Vector2(vp.x, PtLayout.TOP_H)
+	_title_label.position = Vector2(12, 5)
+	deck_label.position = Vector2(210, 7)
+	discard_btn.position = Vector2(290, 3)
+	phase_label.position = Vector2(410, 6)
+	menu_btn.position = Vector2(vp.x - 8.0 - 76.0, 3)
+	rules_btn.position = Vector2(menu_btn.position.x - 10.0 - 76.0, 3)
+	speed_btn.position = Vector2(rules_btn.position.x - 10.0 - 110.0, 3)
+	phase_label.size = Vector2(maxf(60.0, speed_btn.position.x - 10.0 - 410.0), 20)
+	prompt_bar.position = Vector2(main_x, prompt_y)
+	prompt_bar.size = Vector2(main_w, PtLayout.PROMPT_H)
+	prompt_label.position = Vector2(main_x + 12.0, prompt_y + 2.0)
+	prompt_label.size = Vector2(480.0, PtLayout.PROMPT_H - 4.0)
+	prompt_buttons.position = Vector2(main_x + 496.0, prompt_y + 3.0)
+	prompt_buttons.size = Vector2(main_w - 504.0, PtLayout.PROMPT_H - 6.0)
+	hand_root.position = Vector2(main_x, hand_y)
+	hand_root.size = Vector2(main_w, PtLayout.HAND_H)
+	var ins_y := PtLayout.TOP_H + 14.0
+	inspect_view.position = Vector2(side_x + 62.0, ins_y)
+	var cap_y := ins_y + inspect_view.size.y + 6.0
+	inspect_caption.position = Vector2(side_x, cap_y)
+	var log_y := cap_y + 26.0
+	_log_panel.position = Vector2(side_x, log_y)
+	_log_panel.size = Vector2(PtLayout.SIDE_W, vp.y - PtLayout.MARGIN - log_y)
+	_log_title.position = Vector2(side_x + 10.0, log_y + 4.0)
+	log_view.position = Vector2(side_x + 6.0, log_y + 22.0)
+	log_view.size = Vector2(PtLayout.SIDE_W - 12.0, _log_panel.size.y - 26.0)
+	toast_label.position = Vector2(main_x + (main_w - 600.0) * 0.5, panels_y + panels_h - 34.0)
+	_layout_panels()
+	if engine != null and viewer >= 0:
+		_refresh_hand()
+	if engine != null and stack_root.visible and not engine.stack.is_empty():
+		_rebuild_stack()
+	_overlay_panels = _overlay_panels.filter(func(e: Dictionary) -> bool: return is_instance_valid(e.panel))
+	for e: Dictionary in _overlay_panels:
+		var pnl: Control = e.panel
+		pnl.position = PtLayout.centered(vp, e.w, e.h)
 
 # ------------------------------------------------------------- game setup
 
@@ -342,11 +382,11 @@ func _layout_panels() -> void:
 		order.append((layout_base + k) % n)
 	order.append(layout_base)
 	var gap := 6.0
-	var h := (PANELS_H - gap * (n - 1)) / n
+	var h := (panels_h - gap * (n - 1)) / n
 	for i in n:
 		var pnl: Control = panels[order[i]]
-		pnl.position = Vector2(MAIN_X, PANELS_Y + i * (h + gap))
-		pnl.size = Vector2(MAIN_W, h)
+		pnl.position = Vector2(main_x, panels_y + i * (h + gap))
+		pnl.size = Vector2(main_w, h)
 		pnl.is_self = (order[i] == viewer)
 		pnl.mark_dirty()
 
@@ -409,13 +449,13 @@ func _set_prompt(text: String, buttons: Array) -> void:
 		old.queue_free()
 	for def_btn in buttons:
 		var b := Button.new()
-		b.text = String(def_btn.text)
-		b.custom_minimum_size = Vector2(0, 30)
 		T.style_button(b, def_btn.get("accent", T.CYAN), 13)
+		prompt_buttons.add_child(b)
+		b.text = String(def_btn.text)
+		b.custom_minimum_size = Vector2(0, 26)
 		b.disabled = bool(def_btn.get("disabled", false))
 		var val: Variant = def_btn.value
 		b.pressed.connect(func() -> void: decided.emit(val))
-		prompt_buttons.add_child(b)
 
 func _refresh_hand() -> void:
 	for c in hand_root.get_children():
@@ -426,13 +466,13 @@ func _refresh_hand() -> void:
 	var n: int = p.hand.size()
 	if n == 0:
 		return
-	var cw := 128.0 if n <= 8 else (116.0 if n <= 11 else 104.0)
+	var cw := 112.0 if n <= 8 else (102.0 if n <= 11 else 94.0)
 	var ch := cw * CardView.DESIGN.y / CardView.DESIGN.x
 	var step := cw + 8.0
 	if n > 1:
-		step = minf(step, (MAIN_W - 16.0 - cw) / (n - 1))
+		step = minf(step, (main_w - 16.0 - cw) / (n - 1))
 	var total := step * (n - 1) + cw
-	var x0 := (MAIN_W - total) * 0.5
+	var x0 := (main_w - total) * 0.5
 	for i in n:
 		var card: RefCounted = p.hand[i]
 		var v := CardView.new()
@@ -614,11 +654,11 @@ func _rebuild_stack() -> void:
 		return
 	stack_root.visible = true
 	var n: int = engine.stack.size()
-	var cw := 96.0
+	var cw := 88.0
 	var ch := cw * CardView.DESIGN.y / CardView.DESIGN.x
-	var w := minf(MAIN_W - 40.0, n * (cw + 12.0) + 28.0)
+	var w := minf(main_w - 40.0, n * (cw + 12.0) + 28.0)
 	var h := ch + 54.0
-	var origin := Vector2(MAIN_X + (MAIN_W - w) * 0.5, PANELS_Y + (PANELS_H - h) * 0.5 - 20.0)
+	var origin := Vector2(main_x + (main_w - w) * 0.5, panels_y + (panels_h - h) * 0.5 - 20.0)
 	var bgp := Panel.new()
 	bgp.position = origin
 	bgp.size = Vector2(w, h)
@@ -674,46 +714,50 @@ func _show_discard_pile() -> void:
 	if engine == null or engine.discard.is_empty():
 		_toast("The discard pile is empty.", T.TEXT_DIM)
 		return
+	var vp := get_viewport_rect().size
 	var ov := Control.new()
 	ov.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var dim := ColorRect.new()
 	dim.color = Color(0, 0.01, 0.02, 0.85)
 	dim.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	ov.add_child(dim)
+	var pw := minf(1060.0, vp.x - 120.0)
+	var ph := minf(620.0, vp.y - 100.0)
 	var panel := Panel.new()
-	panel.position = Vector2(110, 50)
-	panel.size = Vector2(1060, 620)
+	panel.size = Vector2(pw, ph)
+	panel.position = PtLayout.centered(vp, pw, ph)
 	panel.add_theme_stylebox_override("panel", T.box(Color(T.PANEL, 0.98), T.CYAN, 2, 12))
 	ov.add_child(panel)
-	var t := T.make_label("DISCARD PILE (%d cards, newest first)" % engine.discard.size(), 20, T.CYAN, "title")
-	t.position = Vector2(136, 62)
-	ov.add_child(t)
+	var t := T.make_label("DISCARD PILE (%d cards, newest first)" % engine.discard.size(), 18, T.CYAN, "title")
+	t.position = Vector2(26, 12)
+	panel.add_child(t)
 	var close := Button.new()
-	close.text = "CLOSE"
-	close.position = Vector2(1040, 60)
-	close.size = Vector2(110, 32)
 	T.style_button(close, T.WARN)
+	panel.add_child(close)
+	close.text = "CLOSE"
+	close.size = Vector2(100, 30)
+	close.position = Vector2(pw - 52.0 - 100.0, 10)
 	close.pressed.connect(func() -> void: ov.queue_free())
-	ov.add_child(close)
 	var scroll := ScrollContainer.new()
-	scroll.position = Vector2(130, 104)
-	scroll.size = Vector2(1020, 550)
+	scroll.position = Vector2(26, 54)
+	scroll.size = Vector2(pw - 52.0, ph - 54.0 - 26.0)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
-	ov.add_child(scroll)
+	panel.add_child(scroll)
 	var grid := GridContainer.new()
-	grid.columns = 8
+	grid.columns = clampi(int((pw - 52.0) / 118.0), 4, 9)
 	grid.add_theme_constant_override("h_separation", 8)
 	grid.add_theme_constant_override("v_separation", 8)
 	scroll.add_child(grid)
 	var count := 0
 	for i in range(engine.discard.size() - 1, -1, -1):
 		var v := CardView.new()
-		v.setup(engine.discard[i], 118)
+		v.setup(engine.discard[i], 110)
 		v.interactive = false
 		grid.add_child(v)
 		count += 1
 		if count >= 96:
 			break
+	_overlay_panels.append({"panel": panel, "w": pw, "h": ph})
 	overlay_root.add_child(ov)
 
 # --------------------------------------------------------- game over
@@ -734,70 +778,75 @@ func _show_game_over(res: Dictionary) -> void:
 	sfx.play("win" if (human_win or cfg.mode != "ai") else "lose")
 	var headline := "NETWORK SECURED" if human_win else ("BREACHED" if cfg.mode == "ai" else "%s WINS" % engine.pname(winner))
 	var col: Color = T.GREEN if (human_win or cfg.mode != "ai") else T.RED
+	var vp := get_viewport_rect().size
 	var ov := Control.new()
 	ov.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var dim := ColorRect.new()
 	dim.color = Color(0, 0.01, 0.02, 0.78)
 	dim.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	ov.add_child(dim)
+	var pw := minf(640.0, vp.x - 80.0)
+	var ph := minf(440.0, vp.y - 80.0)
 	var panel := Panel.new()
-	panel.position = Vector2(320, 120)
-	panel.size = Vector2(640, 440)
+	panel.size = Vector2(pw, ph)
+	panel.position = PtLayout.centered(vp, pw, ph)
 	panel.add_theme_stylebox_override("panel", T.box(Color(T.PANEL, 0.97), col, 3, 14))
 	ov.add_child(panel)
-	var h := T.make_label(headline, 44, col, "title")
-	h.position = Vector2(320, 140)
-	h.size = Vector2(640, 60)
+	var h := T.make_label(headline, 40, col, "title")
+	h.position = Vector2(20, 18)
+	h.size = Vector2(pw - 40, 60)
 	h.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	ov.add_child(h)
-	var sub := T.make_label("%s wins. %s" % [engine.pname(winner), res.reason], 16, T.TEXT, "bold")
-	sub.position = Vector2(350, 210)
-	sub.size = Vector2(580, 50)
+	panel.add_child(h)
+	var sub := T.make_label("%s wins. %s" % [engine.pname(winner), res.reason], 15, T.TEXT, "bold")
+	sub.position = Vector2(30, 86)
+	sub.size = Vector2(pw - 60, 50)
 	sub.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	sub.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	ov.add_child(sub)
-	var yy := 276.0
-	var cols := [370.0, 590.0, 690.0, 790.0]
+	panel.add_child(sub)
+	var yy := 156.0
+	var cols := [30.0, pw - 260.0, pw - 160.0, pw - 70.0]
 	var heads := ["PLAYER", "SERVERS", "MALWARE", "SOFTWARE"]
 	for i in 4:
-		var hl := T.make_label(heads[i], 13, T.TEXT_DIM, "bold")
+		var hl := T.make_label(heads[i], 12, T.TEXT_DIM, "bold")
 		hl.position = Vector2(cols[i], yy)
-		ov.add_child(hl)
+		panel.add_child(hl)
 	yy += 28.0
 	for row: Dictionary in res.standings:
 		var win_row: bool = int(row.seat) == winner
 		var vals := [engine.pname(int(row.seat)), str(int(row.servers)), str(int(row.malware)), str(int(row.software))]
 		for i in 4:
-			var cl := T.make_label(String(vals[i]), 16, T.GREEN if win_row else T.TEXT, "bold")
+			var cl := T.make_label(String(vals[i]), 15, T.GREEN if win_row else T.TEXT, "bold")
 			cl.position = Vector2(cols[i], yy)
-			ov.add_child(cl)
+			panel.add_child(cl)
 		yy += 26.0
+	var btn_y := ph - 66.0
 	var again := Button.new()
+	T.style_button(again, T.GREEN, 15)
+	panel.add_child(again)
 	again.text = "PLAY AGAIN"
-	again.position = Vector2(350, 470)
-	again.size = Vector2(180, 44)
-	T.style_button(again, T.GREEN, 17)
+	again.position = Vector2(pw * 0.5 - 270.0, btn_y)
+	again.size = Vector2(170, 42)
 	again.pressed.connect(func() -> void:
 		var c := cfg.duplicate()
 		c.seed = int(Time.get_ticks_usec() % 2000000000)
 		_start_game(c))
-	ov.add_child(again)
 	var board := Button.new()
+	T.style_button(board, T.CYAN, 15)
+	panel.add_child(board)
 	board.text = "VIEW BOARD"
-	board.position = Vector2(550, 470)
-	board.size = Vector2(170, 44)
-	T.style_button(board, T.CYAN, 17)
+	board.position = Vector2(pw * 0.5 - 85.0, btn_y)
+	board.size = Vector2(170, 42)
 	board.pressed.connect(func() -> void: ov.queue_free())
-	ov.add_child(board)
 	var back := Button.new()
+	T.style_button(back, T.WARN, 15)
+	panel.add_child(back)
 	back.text = "MAIN MENU"
-	back.position = Vector2(740, 470)
-	back.size = Vector2(170, 44)
-	T.style_button(back, T.WARN, 17)
+	back.position = Vector2(pw * 0.5 + 100.0, btn_y)
+	back.size = Vector2(170, 42)
 	back.pressed.connect(func() -> void:
 		ov.queue_free()
 		_open_menu())
-	ov.add_child(back)
+	_overlay_panels.append({"panel": panel, "w": pw, "h": ph})
 	overlay_root.add_child(ov)
 
 # ================================================================ HUMAN INPUT
@@ -820,26 +869,35 @@ func _ensure_viewer(seat: int) -> void:
 	bgc.color = Color(0.01, 0.03, 0.05, 1.0)
 	bgc.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	cv.add_child(bgc)
-	var t1 := T.make_label("PASS THE DEVICE TO", 22, T.TEXT_DIM, "bold")
-	t1.position = Vector2(0, 230)
-	t1.size = Vector2(1280, 30)
+	var t1 := T.make_label("PASS THE DEVICE TO", 20, T.TEXT_DIM, "bold")
+	t1.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	t1.offset_top = 230.0
+	t1.offset_bottom = 262.0
 	t1.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	cv.add_child(t1)
-	var t2 := T.make_label(engine.pname(seat), 72, T.CYAN, "title")
-	t2.position = Vector2(0, 264)
-	t2.size = Vector2(1280, 90)
+	var t2 := T.make_label(engine.pname(seat), 64, T.CYAN, "title")
+	t2.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	t2.offset_top = 268.0
+	t2.offset_bottom = 352.0
 	t2.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	cv.add_child(t2)
-	var t3 := T.make_label("Everyone else look away - this player's hand is private.", 16, T.TEXT_DIM)
-	t3.position = Vector2(0, 360)
-	t3.size = Vector2(1280, 24)
+	var t3 := T.make_label("Everyone else look away - this player's hand is private.", 15, T.TEXT_DIM)
+	t3.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	t3.offset_top = 360.0
+	t3.offset_bottom = 384.0
 	t3.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	cv.add_child(t3)
 	var go := Button.new()
 	go.text = "I AM %s - SHOW MY HAND" % engine.pname(seat)
-	go.position = Vector2(440, 410)
-	go.size = Vector2(400, 54)
-	T.style_button(go, T.GREEN, 18)
+	go.anchor_left = 0.5
+	go.anchor_right = 0.5
+	go.anchor_top = 0.5
+	go.anchor_bottom = 0.5
+	go.offset_left = -210.0
+	go.offset_right = 210.0
+	go.offset_top = 23.0
+	go.offset_bottom = 77.0
+	T.style_button(go, T.GREEN, 17)
 	go.pressed.connect(func() -> void: decided.emit({"t": "ready"}))
 	cv.add_child(go)
 	overlay_root.add_child(cv)
@@ -1039,6 +1097,7 @@ func h_pick_card(e: RefCounted, p: Dictionary, cands: Array, _purpose: String, p
 	return v.card
 
 func _modal(title: String, body: String, buttons: Array, accent: Color = T.CYAN) -> Variant:
+	var vp := get_viewport_rect().size
 	var ov := Control.new()
 	ov.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	ov.mouse_filter = Control.MOUSE_FILTER_STOP
@@ -1046,34 +1105,37 @@ func _modal(title: String, body: String, buttons: Array, accent: Color = T.CYAN)
 	dim.color = Color(0, 0.01, 0.02, 0.6)
 	dim.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	ov.add_child(dim)
+	var pw := minf(600.0, vp.x - 80.0)
+	var ph := 220.0
 	var panel := Panel.new()
-	panel.position = Vector2(340, 240)
-	panel.size = Vector2(600, 220)
+	panel.size = Vector2(pw, ph)
+	panel.position = PtLayout.centered(vp, pw, ph)
 	panel.add_theme_stylebox_override("panel", T.box(Color(T.PANEL, 0.98), accent, 2, 12))
 	ov.add_child(panel)
-	var t := T.make_label(title, 22, accent, "title")
-	t.position = Vector2(360, 254)
-	t.size = Vector2(560, 30)
-	ov.add_child(t)
-	var b := T.make_label(body, 16, T.TEXT)
-	b.position = Vector2(360, 292)
-	b.size = Vector2(560, 80)
+	var t := T.make_label(title, 20, accent, "title")
+	t.position = Vector2(20, 14)
+	t.size = Vector2(pw - 40, 30)
+	panel.add_child(t)
+	var b := T.make_label(body, 14, T.TEXT)
+	b.position = Vector2(20, 52)
+	b.size = Vector2(pw - 40, 80)
 	b.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	ov.add_child(b)
+	panel.add_child(b)
 	var row := HBoxContainer.new()
-	row.position = Vector2(360, 390)
-	row.size = Vector2(560, 48)
+	row.position = Vector2(20, 150)
+	row.size = Vector2(pw - 40, 48)
 	row.alignment = BoxContainer.ALIGNMENT_CENTER
 	row.add_theme_constant_override("separation", 12)
-	ov.add_child(row)
+	panel.add_child(row)
 	for def_btn in buttons:
 		var btn := Button.new()
 		btn.text = String(def_btn.text)
-		btn.custom_minimum_size = Vector2(150, 44)
-		T.style_button(btn, def_btn.get("accent", T.CYAN), 16)
+		btn.custom_minimum_size = Vector2(140, 42)
+		T.style_button(btn, def_btn.get("accent", T.CYAN), 14)
 		var val: Variant = def_btn.value
 		btn.pressed.connect(func() -> void: decided.emit(val))
 		row.add_child(btn)
+	_overlay_panels.append({"panel": panel, "w": pw, "h": ph})
 	overlay_root.add_child(ov)
 	var v: Variant = await decided
 	ov.queue_free()
